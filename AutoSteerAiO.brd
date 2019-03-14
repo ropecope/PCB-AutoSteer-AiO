@@ -202,16 +202,6 @@
 <text x="41.91" y="48.5775" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center">.1uF</text>
 <text x="64.77" y="21.59" size="0.8128" layer="25" font="vector" ratio="12" rot="R270" align="center">3V</text>
 <text x="64.77" y="34.29" size="0.8128" layer="25" font="vector" ratio="12" rot="R270" align="center">GND</text>
-<wire x1="42.545" y1="95.885" x2="38.735" y2="95.885" width="0.254" layer="21"/>
-<wire x1="42.545" y1="95.885" x2="41.275" y2="96.52" width="0.254" layer="21"/>
-<wire x1="42.545" y1="95.885" x2="41.275" y2="95.25" width="0.254" layer="21"/>
-<wire x1="38.735" y1="95.885" x2="38.735" y2="92.075" width="0.254" layer="21"/>
-<wire x1="38.735" y1="92.075" x2="39.37" y2="93.345" width="0.254" layer="21"/>
-<wire x1="38.735" y1="92.075" x2="38.1" y2="93.345" width="0.254" layer="21"/>
-<text x="43.815" y="95.885" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center">X</text>
-<text x="38.735" y="90.805" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center">Y</text>
-<text x="37.465" y="97.155" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center">Z</text>
-<circle x="38.735" y="95.885" radius="0.635" width="0.1524" layer="21"/>
 <text x="59.69" y="41.275" size="1.016" layer="25" font="vector" ratio="12" rot="R270" align="center">330</text>
 <text x="62.23" y="41.275" size="1.016" layer="25" font="vector" ratio="12" rot="R270" align="center">330</text>
 <text x="59.69" y="112.395" size="1.6764" layer="25" font="vector" ratio="14" rot="R180" align="center">GND</text>
@@ -8915,8 +8905,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="RESET" library="SparkFun-Connectors" package="1X02" value="RESET" x="22.225" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.225" y="73.66" size="1.016" layer="25" font="vector" ratio="14" align="center"/>
 </element>
-<element name="U$8" library="#Logo" package="SATELIT-MALI" value="SATELIT-MALI" x="40.005" y="106.68" smashed="yes"/>
-<element name="U$5" library="#Logo" package="TRAKTOR-MALI" value="TRAKTOR-MALI" x="38.735" y="101.6" smashed="yes"/>
+<element name="U$8" library="#Logo" package="SATELIT-MALI" value="SATELIT-MALI" x="40.005" y="104.14" smashed="yes"/>
+<element name="U$5" library="#Logo" package="TRAKTOR-MALI" value="TRAKTOR-MALI" x="38.735" y="99.06" smashed="yes"/>
 <element name="U$6" library="#Holes" package="4.2MM-6MM" value="4.2MM-6MM" x="12.7" y="116.84" smashed="yes"/>
 <element name="U$7" library="#Holes" package="4.2MM-6MM" value="4.2MM-6MM" x="12.7" y="17.78" smashed="yes"/>
 <element name="U$9" library="#Holes" package="4.2MM-6MM" value="4.2MM-6MM" x="116.84" y="17.78" smashed="yes"/>
@@ -8982,9 +8972,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J4" library="Header and Connector" package="2600-05" value="5 Ways" x="117.475" y="60.96" smashed="yes" rot="R90">
 <attribute name="CYTRON-PC" value="CN-2600PS-05" x="117.475" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESC" value="2600 PCB Connector" x="117.475" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL" value="" x="120.396" y="59.563" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
-<attribute name="LABEL" value="" x="120.396" y="59.563" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="117.475" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LABEL" value="" x="120.396" y="59.563" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
+<attribute name="LABEL" value="" x="120.396" y="59.563" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="REMARK" value="Related Product: CN-2510H-05 (2510 Connector Housing)" x="117.475" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="5 Ways" x="119.507" y="59.69" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
