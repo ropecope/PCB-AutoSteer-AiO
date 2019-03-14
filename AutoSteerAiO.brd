@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
@@ -184,6 +185,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZDk3Nzk4" projecturn="a.cGVyc29uYWw6dWUyZDk3Nzk4IzIwMTgwNzIyMTQwOTg3ODUx" f3durn="urn:adsk.wipprod:dm.lineage:566Xzj7eRbameYF5caTV8A" pcbguid="3492af74-b251-4642-a6ee-0bc8a12cf614" lastpulledtime="" lastsyncedchangeguid="4630503f-dc40-f462-8e95-616fe4f50e5f"/>
 <plain>
 <text x="106.66" y="8.15" size="1.6764" layer="25" font="vector" ratio="10" rot="R180"></text>
 <text x="81.28" y="116.205" size="1.9304" layer="25" font="vector" ratio="14" rot="R180" align="center">AutoSteer With Power Supply</text>
@@ -333,9 +335,9 @@ SWITCH</text>
 <wire x1="7.62" y1="119.38" x2="10.16" y2="121.92" width="0" layer="20"/>
 </plain>
 <libraries>
-<library name="#Arduino">
+<library name="#Arduino" urn="urn:adsk.eagle:library:7115587">
 <packages>
-<package name="ARDUINO-NANO">
+<package name="ARDUINO-NANO" urn="urn:adsk.eagle:footprint:6657590/6" library_version="2">
 <pad name="A0" x="10.16" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
 <pad name="A1" x="12.7" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
 <pad name="A2" x="15.24" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
@@ -442,8 +444,15 @@ SWITCH</text>
 <text x="38.608" y="15.367" size="0.381" layer="21" rot="SR180">D1TX</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="ARDUINO-NANO" urn="urn:adsk.eagle:package:8959896/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="ARDUINO-NANO"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
-<library name="SparkFun-Connectors">
+<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
 &lt;br&gt;
@@ -458,7 +467,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="1X03">
+<package name="1X03" urn="urn:adsk.eagle:footprint:37678/1" library_version="1">
 <description>&lt;h3&gt;Plated Through Hole - 3 Pin&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:3&lt;/li&gt;
@@ -496,7 +505,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X02">
+<package name="1X02" urn="urn:adsk.eagle:footprint:37654/1" library_version="1">
 <description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:2&lt;/li&gt;
@@ -526,7 +535,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X04">
+<package name="1X04" urn="urn:adsk.eagle:footprint:37702/1" library_version="1">
 <description>&lt;h3&gt;Plated Through Hole - 4 Pin&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
@@ -572,7 +581,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X01">
+<package name="1X01" urn="urn:adsk.eagle:footprint:37642/1" library_version="1">
 <description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:1&lt;/li&gt;
@@ -595,18 +604,79 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="1X03" urn="urn:adsk.eagle:package:38063/1" type="box" library_version="1">
+<description>Plated Through Hole - 3 Pin
+Specifications:
+Pin count:3
+Pin pitch:0.1"
+
+Example device(s):
+CONN_03
+</description>
+<packageinstances>
+<packageinstance name="1X03"/>
+</packageinstances>
+</package3d>
+<package3d name="1X02" urn="urn:adsk.eagle:package:38039/1" type="box" library_version="1">
+<description>Plated Through Hole
+Specifications:
+Pin count:2
+Pin pitch:0.1"
+
+Example device(s):
+CONN_02
+</description>
+<packageinstances>
+<packageinstance name="1X02"/>
+</packageinstances>
+</package3d>
+<package3d name="1X04" urn="urn:adsk.eagle:package:38085/1" type="box" library_version="1">
+<description>Plated Through Hole - 4 Pin
+Specifications:
+Pin count:4
+Pin pitch:0.1"
+
+Example device(s):
+CONN_04
+</description>
+<packageinstances>
+<packageinstance name="1X04"/>
+</packageinstances>
+</package3d>
+<package3d name="1X01" urn="urn:adsk.eagle:package:38028/1" type="box" library_version="1">
+<description>Plated Through Hole
+Specifications:
+Pin count:1
+Pin pitch:0.1"
+
+Example device(s):
+CONN_01
+</description>
+<packageinstances>
+<packageinstance name="1X01"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
-<library name="#Holes">
+<library name="#Holes" urn="urn:adsk.eagle:library:7295050">
 <packages>
-<package name="4.2MM-6MM">
+<package name="4.2MM-6MM" urn="urn:adsk.eagle:footprint:7295053/3" library_version="3">
 <circle x="0" y="0" radius="3.4" width="0.2032" layer="21"/>
 <circle x="0" y="0" radius="3.4" width="0.254" layer="42"/>
 <circle x="0" y="0" radius="3.4" width="0.254" layer="41"/>
 <pad name="P$1" x="0" y="0" drill="4.2" diameter="6"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="4.2MM-6MM" urn="urn:adsk.eagle:package:7295057/3" type="box" library_version="3">
+<packageinstances>
+<packageinstance name="4.2MM-6MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
-<library name="resistor">
+<library name="resistor" urn="urn:adsk.eagle:library:348">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
 &lt;ul&gt;
@@ -1676,7 +1746,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/table&gt;
 &lt;/BODY&gt;&lt;/HTML&gt;</description>
 <packages>
-<package name="0207/7">
+<package name="0207/7" urn="urn:adsk.eagle:footprint:22996/1" library_version="2">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0207, grid 7.5 mm</description>
 <wire x1="-3.81" y1="0" x2="-3.429" y2="0" width="0.6096" layer="51"/>
@@ -1704,7 +1774,7 @@ type 0207, grid 7.5 mm</description>
 <rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
 <rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
 </package>
-<package name="C050-024X044">
+<package name="C050-024X044" urn="urn:adsk.eagle:footprint:23147/1" library_version="2">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5 mm, outline 2.4 x 4.4 mm</description>
 <wire x1="-2.159" y1="-0.635" x2="-2.159" y2="0.635" width="0.1524" layer="51"/>
@@ -1729,10 +1799,26 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <rectangle x1="-2.54" y1="-0.381" x2="-2.159" y2="0.381" layer="51"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="0207/7" urn="urn:adsk.eagle:package:23493/2" type="model" library_version="3">
+<description>RESISTOR
+type 0207, grid 7.5 mm</description>
+<packageinstances>
+<packageinstance name="0207/7"/>
+</packageinstances>
+</package3d>
+<package3d name="C050-024X044" urn="urn:adsk.eagle:package:23643/1" type="box" library_version="2">
+<description>CAPACITOR
+grid 5 mm, outline 2.4 x 4.4 mm</description>
+<packageinstances>
+<packageinstance name="C050-024X044"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
-<library name="#Logo">
+<library name="#Logo" urn="urn:adsk.eagle:library:8978129">
 <packages>
-<package name="SATELIT-MALI">
+<package name="SATELIT-MALI" urn="urn:adsk.eagle:footprint:8978131/1" library_version="1">
 <wire x1="-1.5194" y1="2.1397" x2="-1.5088" y2="2.13165" width="0.001" layer="21" curve="11.36"/>
 <wire x1="-1.51515" y1="2.14425" x2="-1.52365" y2="2.1351" width="0.001" layer="21" curve="180"/>
 <wire x1="-1.51205" y1="2.12635" x2="-1.50555" y2="2.137" width="0.001" layer="21" curve="180"/>
@@ -6466,7 +6552,7 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <wire x1="-1.06985" y1="0.2023" x2="-1.0682" y2="0.2147" width="0.001" layer="21" curve="180"/>
 <wire x1="-1.11915" y1="0.2214" x2="-1.12075" y2="0.209" width="0.001" layer="21" curve="180"/>
 </package>
-<package name="TRAKTOR-MALI">
+<package name="TRAKTOR-MALI" urn="urn:adsk.eagle:footprint:8978130/1" library_version="1">
 <wire x1="-1.3798" y1="1.83275" x2="-1.42535" y2="1.78675" width="0.0762" layer="21"/>
 <wire x1="-1.42535" y1="1.78675" x2="-1.4477" y2="1.72185" width="0" layer="21" curve="23.59"/>
 <wire x1="-1.4477" y1="1.72185" x2="-1.4559" y2="1.59825" width="0" layer="21" curve="6.8"/>
@@ -7020,6 +7106,18 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <wire x1="0.906021875" y1="-0.14243125" x2="0.733321875" y2="-0.24378125" width="0.0762" layer="21" curve="21.78"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SATELIT-MALI" urn="urn:adsk.eagle:package:8978137/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SATELIT-MALI"/>
+</packageinstances>
+</package3d>
+<package3d name="TRAKTOR-MALI" urn="urn:adsk.eagle:package:8978136/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="TRAKTOR-MALI"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="MMA8452Q">
 <packages>
@@ -7039,7 +7137,7 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 </package>
 </packages>
 </library>
-<library name="rcl">
+<library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
 &lt;ul&gt;
@@ -8088,7 +8186,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
-<package name="0204/7">
+<package name="0204/7" urn="urn:adsk.eagle:footprint:22998/1" library_version="5">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0204, grid 7.5 mm</description>
 <wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
@@ -8117,8 +8215,17 @@ type 0204, grid 7.5 mm</description>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="0204/7" urn="urn:adsk.eagle:package:23498/2" type="model" library_version="7">
+<description>RESISTOR
+type 0204, grid 7.5 mm</description>
+<packageinstances>
+<packageinstance name="0204/7"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
-<library name="diode">
+<library name="diode" urn="urn:adsk.eagle:library:210">
 <description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
 Based on the following sources:
 &lt;ul&gt;
@@ -8129,7 +8236,7 @@ Based on the following sources:
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="DO41-10">
+<package name="DO41-10" urn="urn:adsk.eagle:footprint:43094/1" library_version="7">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
@@ -8154,12 +8261,21 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="DO41-10" urn="urn:adsk.eagle:package:43336/1" type="box" library_version="7">
+<description>DIODE
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+<packageinstances>
+<packageinstance name="DO41-10"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="#fuse">
 <description>&lt;b&gt;Fuses and Fuse Holders&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SH22,5">
+<package name="SH22,5" urn="urn:adsk.eagle:footprint:14030/1" locally_modified="yes">
 <description>&lt;b&gt;FUSE HOLDER&lt;/b&gt;&lt;p&gt; grid 22,5 mm, OGN0031 8201 Schurter (Buerklin)</description>
 <wire x1="-12.573" y1="-3.937" x2="12.573" y2="-3.937" width="0.1524" layer="21"/>
 <wire x1="12.573" y1="3.937" x2="-12.573" y2="3.937" width="0.1524" layer="21"/>
@@ -8232,18 +8348,26 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <rectangle x1="5.715" y1="-2.54" x2="10.541" y2="-2.032" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SH22,5" urn="urn:adsk.eagle:package:14059/1" locally_modified="yes" type="box">
+<description>FUSE HOLDER grid 22,5 mm, OGN0031 8201 Schurter (Buerklin)</description>
+<packageinstances>
+<packageinstance name="SH22,5"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
-<library name="wirepad">
+<library name="wirepad" urn="urn:adsk.eagle:library:412">
 <description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="4,16O1,6">
+<package name="4,16O1,6" urn="urn:adsk.eagle:footprint:30825/1" library_version="1">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
 <pad name="1" x="0" y="0" drill="1.6002" diameter="4.1656" shape="octagon"/>
 <text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
 <text x="-2.1" y="2.2" size="1.27" layer="25">&gt;NAME</text>
 </package>
-<package name="2,15/1,0">
+<package name="2,15/1,0" urn="urn:adsk.eagle:footprint:30813/1" library_version="1">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
 <wire x1="1.143" y1="-1.143" x2="1.143" y2="-0.635" width="0.1524" layer="21"/>
 <wire x1="1.143" y1="-1.143" x2="0.635" y2="-1.143" width="0.1524" layer="21"/>
@@ -8259,8 +8383,22 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <text x="0" y="1" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="4,16O1,6" urn="urn:adsk.eagle:package:30843/1" type="box" library_version="1">
+<description>THROUGH-HOLE PAD</description>
+<packageinstances>
+<packageinstance name="4,16O1,6"/>
+</packageinstances>
+</package3d>
+<package3d name="2,15/1,0" urn="urn:adsk.eagle:package:30831/1" type="box" library_version="1">
+<description>THROUGH-HOLE PAD</description>
+<packageinstances>
+<packageinstance name="2,15/1,0"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
-<library name="SparkFun-Capacitors">
+<library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
 <description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
 This library contains capacitors. 
 &lt;br&gt;
@@ -8275,7 +8413,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="CPOL-RADIAL-5MM-10MM">
+<package name="CPOL-RADIAL-5MM-10MM" urn="urn:adsk.eagle:footprint:37387/1" library_version="1">
 <description>5 mm spaced PTHs in 10 mm diameter silk ring</description>
 <wire x1="-1.905" y1="2.54" x2="-3.175" y2="2.54" width="0.2032" layer="21"/>
 <wire x1="3.175" y1="2.54" x2="1.905" y2="2.54" width="0.2032" layer="21"/>
@@ -8287,10 +8425,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="5.207" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="CPOL-RADIAL-5MM-10MM" urn="urn:adsk.eagle:package:37412/1" type="box" library_version="1">
+<description>5 mm spaced PTHs in 10 mm diameter silk ring</description>
+<packageinstances>
+<packageinstance name="CPOL-RADIAL-5MM-10MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
-<library name="adafruit">
+<library name="adafruit" urn="urn:adsk.eagle:library:420">
 <packages>
-<package name="LED5MM">
+<package name="LED5MM" urn="urn:adsk.eagle:footprint:6239892/1" library_version="2">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
 5 mm, round</description>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
@@ -8308,8 +8454,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="LED5MM" urn="urn:adsk.eagle:package:6240538/1" type="box" library_version="2">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+5 mm, round</description>
+<packageinstances>
+<packageinstance name="LED5MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
-<library name="relay">
+<library name="relay" urn="urn:adsk.eagle:library:339">
 <description>&lt;b&gt;Relays&lt;/b&gt;&lt;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Eichhoff
@@ -8324,7 +8479,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="CB1">
+<package name="CB1" urn="urn:adsk.eagle:footprint:24128/1" library_version="4">
 <description>&lt;b&gt;HIGH POWER AUTOMOTIVE RELAY&lt;/b&gt; NAiS&lt;p&gt;
 Source: http://www.mew-europe.com/..  en_ds_61202_0000.pdf</description>
 <wire x1="-12.4" y1="10.15" x2="-12.4" y2="-10.15" width="0.2032" layer="21"/>
@@ -8344,13 +8499,22 @@ Source: http://www.mew-europe.com/..  en_ds_61202_0000.pdf</description>
 <text x="-10.16" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="CB1" urn="urn:adsk.eagle:package:24437/1" type="box" library_version="4">
+<description>HIGH POWER AUTOMOTIVE RELAY NAiS
+Source: http://www.mew-europe.com/..  en_ds_61202_0000.pdf</description>
+<packageinstances>
+<packageinstance name="CB1"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
-<library name="optocoupler">
+<library name="optocoupler" urn="urn:adsk.eagle:library:320">
 <description>&lt;b&gt;Opto Couplers&lt;/b&gt;&lt;p&gt;
 Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="DIL06">
+<package name="DIL06" urn="urn:adsk.eagle:footprint:21857/1" library_version="2">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
 <wire x1="3.81" y1="2.921" x2="-3.81" y2="2.921" width="0.1524" layer="21"/>
 <wire x1="-3.81" y1="-2.921" x2="3.81" y2="-2.921" width="0.1524" layer="21"/>
@@ -8368,6 +8532,14 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <text x="-4.064" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="DIL06" urn="urn:adsk.eagle:package:21942/1" type="box" library_version="2">
+<description>Dual In Line Package</description>
+<packageinstances>
+<packageinstance name="DIL06"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="Header and Connector">
 <description>Headers and Connectors.</description>
@@ -8893,7 +9065,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </pass>
 </autorouter>
 <elements>
-<element name="PCB1" library="#Arduino" package="ARDUINO-NANO" value="ARDUINO NANO v3" x="47.625" y="19.685" smashed="yes" rot="R90">
+<element name="PCB1" library="#Arduino" library_urn="urn:adsk.eagle:library:7115587" package="ARDUINO-NANO" package3d_urn="urn:adsk.eagle:package:8959896/1" value="ARDUINO NANO v3" x="47.625" y="19.685" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="47.625" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="47.625" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="47.625" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8904,95 +9076,95 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="OC_NEWARK" value="unknown" x="81.28" y="36.195" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="83.82" y="36.195" size="1.27" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="WAS_D" library="SparkFun-Connectors" package="1X04" value="CONNECTOR 1x4 PINS" x="117.475" y="46.99" smashed="yes" rot="R270">
+<element name="WAS_D" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04" package3d_urn="urn:adsk.eagle:package:38085/1" value="CONNECTOR 1x4 PINS" x="117.475" y="46.99" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="117.475" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="117.475" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="117.475" y="49.53" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="117.475" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="CONN-09696" x="117.475" y="46.99" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="STEER-SWITCH" library="SparkFun-Connectors" package="1X03" value="CONNECTOR 1x3 PINS" x="12.7" y="55.245" smashed="yes" rot="R90">
+<element name="STEER-SWITCH" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="CONNECTOR 1x3 PINS" x="12.7" y="55.245" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="12.7" y="55.245" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="12.7" y="55.245" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="12.7" y="55.245" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RESET" library="SparkFun-Connectors" package="1X02" value="CONNECTOR 1x2 PINS" x="22.225" y="68.58" smashed="yes" rot="R90">
+<element name="RESET" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="CONNECTOR 1x2 PINS" x="22.225" y="68.58" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="22.225" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="22.225" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="22.225" y="73.66" size="1.016" layer="25" font="vector" ratio="14" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="22.225" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U$8" library="#Logo" package="SATELIT-MALI" value="SATELIT-MALI" x="40.005" y="104.14" smashed="yes">
+<element name="U$8" library="#Logo" library_urn="urn:adsk.eagle:library:8978129" package="SATELIT-MALI" package3d_urn="urn:adsk.eagle:package:8978137/1" value="SATELIT-MALI" x="40.005" y="104.14" smashed="yes">
 <attribute name="MF" value="" x="40.005" y="104.14" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="40.005" y="104.14" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="40.005" y="104.14" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$5" library="#Logo" package="TRAKTOR-MALI" value="TRAKTOR-MALI" x="38.735" y="99.06" smashed="yes">
+<element name="U$5" library="#Logo" library_urn="urn:adsk.eagle:library:8978129" package="TRAKTOR-MALI" package3d_urn="urn:adsk.eagle:package:8978136/1" value="TRAKTOR-MALI" x="38.735" y="99.06" smashed="yes">
 <attribute name="MF" value="" x="38.735" y="99.06" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="38.735" y="99.06" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="38.735" y="99.06" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$6" library="#Holes" package="4.2MM-6MM" value="4.2MM-6MM" x="12.7" y="116.84" smashed="yes">
+<element name="U$6" library="#Holes" library_urn="urn:adsk.eagle:library:7295050" package="4.2MM-6MM" package3d_urn="urn:adsk.eagle:package:7295057/3" value="4.2MM-6MM" x="12.7" y="116.84" smashed="yes">
 <attribute name="MF" value="" x="12.7" y="116.84" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="12.7" y="116.84" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="12.7" y="116.84" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$7" library="#Holes" package="4.2MM-6MM" value="4.2MM-6MM" x="12.7" y="17.78" smashed="yes">
+<element name="U$7" library="#Holes" library_urn="urn:adsk.eagle:library:7295050" package="4.2MM-6MM" package3d_urn="urn:adsk.eagle:package:7295057/3" value="4.2MM-6MM" x="12.7" y="17.78" smashed="yes">
 <attribute name="MF" value="" x="12.7" y="17.78" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="12.7" y="17.78" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="12.7" y="17.78" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$9" library="#Holes" package="4.2MM-6MM" value="4.2MM-6MM" x="116.84" y="17.78" smashed="yes">
+<element name="U$9" library="#Holes" library_urn="urn:adsk.eagle:library:7295050" package="4.2MM-6MM" package3d_urn="urn:adsk.eagle:package:7295057/3" value="4.2MM-6MM" x="116.84" y="17.78" smashed="yes">
 <attribute name="MF" value="" x="116.84" y="17.78" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="116.84" y="17.78" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="116.84" y="17.78" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$10" library="#Holes" package="4.2MM-6MM" value="4.2MM-6MM" x="116.84" y="116.84" smashed="yes">
+<element name="U$10" library="#Holes" library_urn="urn:adsk.eagle:library:7295050" package="4.2MM-6MM" package3d_urn="urn:adsk.eagle:package:7295057/3" value="4.2MM-6MM" x="116.84" y="116.84" smashed="yes">
 <attribute name="MF" value="" x="116.84" y="116.84" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="116.84" y="116.84" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="116.84" y="116.84" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C11" library="resistor" package="C050-024X044" value=".1uF" x="41.91" y="52.705" smashed="yes" rot="R270">
+<element name="C11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value=".1uF" x="41.91" y="52.705" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="41.91" y="52.705" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="41.91" y="52.705" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="41.91" y="57.15" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="41.91" y="52.705" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C12" library="resistor" package="C050-024X044" value=".1uF" x="64.135" y="18.415" smashed="yes">
+<element name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value=".1uF" x="64.135" y="18.415" smashed="yes">
 <attribute name="MF" value="" x="64.135" y="18.415" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="64.135" y="18.415" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="59.3725" y="18.415" size="1.016" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="64.135" y="18.415" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R8" library="resistor" package="0207/7" value="330" x="106.68" y="64.77" smashed="yes" rot="R180">
+<element name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="330" x="106.68" y="64.77" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="106.68" y="64.77" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="106.68" y="64.77" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="106.68" y="64.77" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="106.68" y="64.77" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="R10" library="resistor" package="0207/7" value="1k" x="101.6" y="39.37" smashed="yes" rot="R180">
+<element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k" x="101.6" y="39.37" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="101.6" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="101.6" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="101.6" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="101.6" y="39.37" size="1.016" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R11" library="resistor" package="0207/7" value="1k" x="101.6" y="41.91" smashed="yes" rot="R180">
+<element name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k" x="101.6" y="41.91" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="101.6" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="101.6" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="101.6" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="101.6" y="41.91" size="1.016" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R6" library="resistor" package="0207/7" value="330" x="59.69" y="41.275" smashed="yes" rot="R90">
+<element name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="330" x="59.69" y="41.275" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="59.69" y="41.275" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="59.69" y="41.275" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="59.69" y="41.275" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R7" library="resistor" package="0207/7" value="330" x="62.23" y="41.275" smashed="yes" rot="R90">
+<element name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="330" x="62.23" y="41.275" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="62.23" y="41.275" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="62.23" y="41.275" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="62.23" y="41.275" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R9" library="resistor" package="0207/7" value="330" x="102.87" y="62.23" smashed="yes" rot="R180">
+<element name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="330" x="102.87" y="62.23" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="102.87" y="62.23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="102.87" y="62.23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="102.87" y="62.23" size="1.778" layer="27" rot="R180" display="off"/>
@@ -9004,31 +9176,31 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="OC_NEWARK" value="unknown" x="66.675" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="55.88" y="27.94" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="IMP-SWITCH" library="SparkFun-Connectors" package="1X02" value="CONNECTOR 1x2 PINS" x="12.7" y="41.275" smashed="yes" rot="R90">
+<element name="IMP-SWITCH" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="CONNECTOR 1x2 PINS" x="12.7" y="41.275" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="12.7" y="41.275" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="12.7" y="41.275" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="12.7" y="41.275" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R1" library="resistor" package="0207/7" value="330" x="24.13" y="34.925" smashed="yes">
+<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="330" x="24.13" y="34.925" smashed="yes">
 <attribute name="MF" value="" x="24.13" y="34.925" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="24.13" y="34.925" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="24.13" y="34.925" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="24.13" y="34.925" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="R2" library="resistor" package="0207/7" value="330" x="24.13" y="50.165" smashed="yes">
+<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="330" x="24.13" y="50.165" smashed="yes">
 <attribute name="MF" value="" x="24.13" y="50.165" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="24.13" y="50.165" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="24.13" y="50.165" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="24.13" y="50.165" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="F1" library="#fuse" package="SH22,5" value="FUSE 2A" x="93.98" y="95.25" smashed="yes">
+<element name="F1" library="#fuse" package="SH22,5" package3d_urn="urn:adsk.eagle:package:14059/1" value="FUSE 2A" x="93.98" y="95.25" smashed="yes">
 <attribute name="MF" value="" x="93.98" y="95.25" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="93.98" y="95.25" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="93.98" y="95.25" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="93.98" y="95.25" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="93.98" y="95.25" size="1.016" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="C4" library="SparkFun-Capacitors" package="CPOL-RADIAL-5MM-10MM" value="1000uF 35V" x="74.93" y="78.74" smashed="yes">
+<element name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="CPOL-RADIAL-5MM-10MM" package3d_urn="urn:adsk.eagle:package:37412/1" value="1000uF 35V" x="74.93" y="78.74" smashed="yes">
 <attribute name="MF" value="" x="63.5" y="92.71" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="63.5" y="92.71" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="74.93" y="85.725" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
@@ -9036,28 +9208,28 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-09538" x="63.5" y="92.71" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="74.93" y="84.455" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="ON/OFF" library="SparkFun-Connectors" package="1X02" value="CONNECTOR 1x2 PINS" x="117.475" y="78.74" smashed="yes" rot="R270">
+<element name="ON/OFF" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="CONNECTOR 1x2 PINS" x="117.475" y="78.74" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="117.475" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="117.475" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="117.475" y="81.28" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="117.475" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="15V1" library="wirepad" package="4,16O1,6" value="WIREPAD4,16O1,6" x="76.2" y="107.95" smashed="yes" rot="R180">
+<element name="15V1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="4,16O1,6" package3d_urn="urn:adsk.eagle:package:30843/1" value="WIREPAD4,16O1,6" x="76.2" y="107.95" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="76.2" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="76.2" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="76.2" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="15V2" library="wirepad" package="4,16O1,6" value="WIREPAD4,16O1,6" x="71.12" y="107.95" smashed="yes" rot="R180">
+<element name="15V2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="4,16O1,6" package3d_urn="urn:adsk.eagle:package:30843/1" value="WIREPAD4,16O1,6" x="71.12" y="107.95" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="71.12" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="71.12" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="71.12" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="GND" library="wirepad" package="4,16O1,6" value="WIREPAD4,16O1,6" x="62.23" y="107.95" smashed="yes" rot="R180">
+<element name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="4,16O1,6" package3d_urn="urn:adsk.eagle:package:30843/1" value="WIREPAD4,16O1,6" x="62.23" y="107.95" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="62.23" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="62.23" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="62.23" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="GND30" library="wirepad" package="4,16O1,6" value="WIREPAD4,16O1,6" x="57.15" y="107.95" smashed="yes" rot="R180">
+<element name="GND30" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="4,16O1,6" package3d_urn="urn:adsk.eagle:package:30843/1" value="WIREPAD4,16O1,6" x="57.15" y="107.95" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="57.15" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="57.15" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="57.15" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
@@ -9074,32 +9246,32 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="REMARK" value="Related Product: CN-2510H-05 (2510 Connector Housing)" x="117.475" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="5 Ways" x="119.507" y="59.69" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="R19" library="resistor" package="0207/7" value="330" x="102.87" y="57.15" smashed="yes" rot="R180">
+<element name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="330" x="102.87" y="57.15" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="102.87" y="57.15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="102.87" y="57.15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="102.87" y="57.15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="102.87" y="57.15" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="R20" library="resistor" package="0207/7" value="330" x="106.68" y="59.69" smashed="yes" rot="R180">
+<element name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="330" x="106.68" y="59.69" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="106.68" y="59.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="106.68" y="59.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="106.68" y="59.69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="106.68" y="59.69" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="C13" library="resistor" package="C050-024X044" value=".1uF" x="95.25" y="31.115" smashed="yes" rot="R180">
+<element name="C13" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value=".1uF" x="95.25" y="31.115" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="95.25" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="95.25" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="93.6625" y="35.56" size="1.016" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="95.25" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="95.25" y="29.21" size="1.016" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="C14" library="resistor" package="C050-024X044" value=".1uF" x="95.25" y="33.655" smashed="yes" rot="R180">
+<element name="C14" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value=".1uF" x="95.25" y="33.655" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="95.25" y="33.655" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="95.25" y="33.655" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="96.8375" y="35.56" size="1.016" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="95.25" y="33.655" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D4" library="diode" package="DO41-10" value="1N4004" x="92.71" y="44.45" smashed="yes" rot="R90">
+<element name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4004" x="92.71" y="44.45" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="92.71" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="92.71" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="92.71" y="51.1175" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
@@ -9111,172 +9283,172 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="MPN" value="" x="53.467" y="94.742" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="53.467" y="94.742" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="AUTO-SWITCH" library="SparkFun-Connectors" package="1X03" value="CONNECTOR 1x3 PINS" x="12.7" y="24.765" smashed="yes" rot="R90">
+<element name="AUTO-SWITCH" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="CONNECTOR 1x3 PINS" x="12.7" y="24.765" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="12.7" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="12.7" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="12.7" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R3" library="resistor" package="0207/7" value="330" x="24.13" y="19.685" smashed="yes">
+<element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="330" x="24.13" y="19.685" smashed="yes">
 <attribute name="MF" value="" x="24.13" y="19.685" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="24.13" y="19.685" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="24.13" y="19.685" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="24.13" y="19.685" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="D2" library="diode" package="DO41-10" value="1N4004" x="22.86" y="92.075" smashed="yes" rot="R270">
+<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4004" x="22.86" y="92.075" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="22.86" y="92.075" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="22.86" y="92.075" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.955" y="92.075" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="22.86" y="92.075" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="24.765" y="92.075" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="D3" library="diode" package="DO41-10" value="1N4004" x="28.575" y="92.075" smashed="yes" rot="R90">
+<element name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4004" x="28.575" y="92.075" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="28.575" y="92.075" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="28.575" y="92.075" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="26.67" y="92.075" size="1.016" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="28.575" y="92.075" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="30.48" y="92.075" size="1.016" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R4" library="resistor" package="0207/7" value="330" x="101.6" y="44.45" smashed="yes" rot="R180">
+<element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="330" x="101.6" y="44.45" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="101.6" y="44.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="101.6" y="44.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="101.6" y="44.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="101.6" y="44.45" size="1.016" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="TO_SECTION" library="SparkFun-Connectors" package="1X02" value="CONNECTOR 1x2 PINS" x="117.475" y="55.245" smashed="yes" rot="R270">
+<element name="TO_SECTION" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="CONNECTOR 1x2 PINS" x="117.475" y="55.245" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="117.475" y="55.245" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="117.475" y="55.245" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="117.1575" y="57.785" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="117.475" y="55.245" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R5" library="resistor" package="0207/7" value="1K" x="106.68" y="26.035" smashed="yes">
+<element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k" x="106.68" y="26.035" smashed="yes">
 <attribute name="MF" value="" x="106.68" y="26.035" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="106.68" y="26.035" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="106.68" y="26.035" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="106.68" y="26.035" size="1.016" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R14" library="resistor" package="0207/7" value="1K" x="106.68" y="28.575" smashed="yes">
+<element name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k" x="106.68" y="28.575" smashed="yes">
 <attribute name="MF" value="" x="106.68" y="28.575" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="106.68" y="28.575" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="106.68" y="28.575" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="106.68" y="28.575" size="1.016" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="AUX_A/D" library="SparkFun-Connectors" package="1X04" value="CONNECTOR 1x4 PINS" x="117.475" y="26.035" smashed="yes" rot="R90">
+<element name="AUX_A/D" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04" package3d_urn="urn:adsk.eagle:package:38085/1" value="CONNECTOR 1x4 PINS" x="117.475" y="26.035" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="117.475" y="26.035" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="117.475" y="26.035" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="117.475" y="36.5125" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="117.475" y="26.035" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PROD_ID" value="CONN-09696" x="117.475" y="26.035" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C1" library="resistor" package="C050-024X044" value=".1uF" x="95.25" y="24.765" smashed="yes" rot="R180">
+<element name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value=".1uF" x="95.25" y="24.765" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="95.25" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="95.25" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="93.98" y="22.86" size="1.016" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="95.25" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C2" library="resistor" package="C050-024X044" value=".1uF" x="95.25" y="27.305" smashed="yes" rot="R180">
+<element name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value=".1uF" x="95.25" y="27.305" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="95.25" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="95.25" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="96.52" y="22.86" size="1.016" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="95.25" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED1" library="adafruit" package="LED5MM" value="LED" x="116.205" y="96.52" smashed="yes" rot="R180">
+<element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="LED5MM" package3d_urn="urn:adsk.eagle:package:6240538/1" value="LED" x="116.205" y="96.52" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="116.205" y="96.52" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="116.205" y="96.52" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="116.205" y="100.6475" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="116.205" y="96.52" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="113.0046" y="98.3234" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R16" library="resistor" package="0207/7" value="1K" x="113.665" y="87.63" smashed="yes" rot="R90">
+<element name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k" x="113.665" y="87.63" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="113.665" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="113.665" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="113.665" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="113.665" y="87.63" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="C3" library="resistor" package="C050-024X044" value="10uF" x="15.24" y="101.6" smashed="yes" rot="R180">
+<element name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="10uF" x="15.24" y="101.6" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="15.24" y="101.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="15.24" y="101.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.795" y="101.6" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="15.24" y="101.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="20.955" y="101.6" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="LED2" library="adafruit" package="LED5MM" value="LED" x="116.205" y="106.68" smashed="yes" rot="R180">
+<element name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="LED5MM" package3d_urn="urn:adsk.eagle:package:6240538/1" value="LED" x="116.205" y="106.68" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="116.205" y="106.68" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="116.205" y="106.68" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="116.205" y="110.8075" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="116.205" y="106.68" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="113.0046" y="108.4834" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R17" library="resistor" package="0207/7" value="1K" x="117.475" y="87.63" smashed="yes" rot="R90">
+<element name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k" x="117.475" y="87.63" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="117.475" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="117.475" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="117.475" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="117.475" y="87.63" size="1.016" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="+5V" library="wirepad" package="2,15/1,0" value="" x="12.7" y="71.755" smashed="yes" rot="R270">
+<element name="+5V" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="12.7" y="71.755" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="12.7" y="71.755" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="HEF4093BT,653" x="12.7" y="71.755" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="70R5288" x="12.7" y="71.755" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="13.7" y="71.755" size="0.0254" layer="27" rot="R270"/>
 </element>
-<element name="+5V1" library="wirepad" package="2,15/1,0" value="" x="12.7" y="78.105" smashed="yes" rot="R270">
+<element name="+5V1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="12.7" y="78.105" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="12.7" y="78.105" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="HEF4093BT,653" x="12.7" y="78.105" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="70R5288" x="12.7" y="78.105" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="13.7" y="78.105" size="0.0254" layer="27" rot="R270"/>
 </element>
-<element name="GND33" library="wirepad" package="2,15/1,0" value="" x="12.7" y="68.58" smashed="yes" rot="R270">
+<element name="GND33" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="12.7" y="68.58" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="12.7" y="68.58" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="HEF4093BT,653" x="12.7" y="68.58" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="70R5288" x="12.7" y="68.58" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="13.7" y="68.58" size="0.0254" layer="27" rot="R270"/>
 </element>
-<element name="GND34" library="wirepad" package="2,15/1,0" value="" x="12.7" y="74.93" smashed="yes" rot="R180">
+<element name="GND34" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="12.7" y="74.93" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="12.7" y="74.93" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="HEF4093BT,653" x="12.7" y="74.93" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="70R5288" x="12.7" y="74.93" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="12.7" y="73.93" size="0.0254" layer="27" rot="R180"/>
 </element>
-<element name="OK1" library="optocoupler" package="DIL06" value="4N33" x="24.13" y="57.785" smashed="yes" rot="R180">
+<element name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL06" package3d_urn="urn:adsk.eagle:package:21942/1" value="4N33" x="24.13" y="57.785" smashed="yes" rot="R180">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="35.56" y="45.085" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="4N33" x="35.56" y="45.085" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1469601" x="35.56" y="45.085" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="88K1390" x="35.56" y="45.085" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="24.13" y="57.785" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="K4" library="relay" package="CB1" value="CB1A-P-12V" x="93.98" y="78.74" smashed="yes" rot="R180">
+<element name="K4" library="relay" library_urn="urn:adsk.eagle:library:339" package="CB1" package3d_urn="urn:adsk.eagle:package:24437/1" value="CB1A-P-12V" x="93.98" y="78.74" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="93.98" y="78.74" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="93.98" y="78.74" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1270582" x="93.98" y="78.74" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="93.98" y="78.74" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="93.98" y="74.93" size="1.27" layer="25" font="vector" ratio="14" rot="R180" align="center"/>
 </element>
-<element name="OK2" library="optocoupler" package="DIL06" value="4N33" x="24.13" y="42.545" smashed="yes" rot="R180">
+<element name="OK2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL06" package3d_urn="urn:adsk.eagle:package:21942/1" value="4N33" x="24.13" y="42.545" smashed="yes" rot="R180">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="24.13" y="42.545" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="4N33" x="24.13" y="42.545" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1469601" x="24.13" y="42.545" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="88K1390" x="24.13" y="42.545" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="24.13" y="42.545" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="OK3" library="optocoupler" package="DIL06" value="4N33" x="24.13" y="27.305" smashed="yes" rot="R180">
+<element name="OK3" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL06" package3d_urn="urn:adsk.eagle:package:21942/1" value="4N33" x="24.13" y="27.305" smashed="yes" rot="R180">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="24.13" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="4N33" x="24.13" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1469601" x="24.13" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="88K1390" x="24.13" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="24.13" y="27.305" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="R12" library="resistor" package="0207/7" value="1k" x="17.78" y="57.785" smashed="yes" rot="R270">
+<element name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k" x="17.78" y="57.785" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="17.78" y="57.785" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="17.78" y="57.785" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="17.78" y="57.785" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="17.78" y="57.785" size="1.016" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R13" library="resistor" package="0207/7" value="1k" x="17.78" y="42.545" smashed="yes" rot="R270">
+<element name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k" x="17.78" y="42.545" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="17.78" y="42.545" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="17.78" y="42.545" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="17.78" y="42.545" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="17.78" y="42.545" size="1.016" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R18" library="resistor" package="0207/7" value="1k" x="17.78" y="27.305" smashed="yes" rot="R270">
+<element name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k" x="17.78" y="27.305" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="17.78" y="27.305" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="17.78" y="27.305" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="17.78" y="27.305" size="1.778" layer="27" rot="R270" display="off"/>
@@ -9296,14 +9468,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="MPN" value="" x="50.927" y="13.462" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="50.927" y="13.462" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D1" library="diode" package="DO41-10" value="1N4004" x="110.1725" y="75.565" smashed="yes" rot="R270">
+<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4004" x="110.1725" y="75.565" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="110.1725" y="75.565" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="110.1725" y="75.565" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="110.1725" y="82.55" size="1.016" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="110.1725" y="75.565" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="108.2675" y="75.565" size="1.016" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="C5" library="SparkFun-Capacitors" package="CPOL-RADIAL-5MM-10MM" value="1000uF 35V" x="22.86" y="109.22" smashed="yes" rot="R270">
+<element name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="CPOL-RADIAL-5MM-10MM" package3d_urn="urn:adsk.eagle:package:37412/1" value="1000uF 35V" x="22.86" y="109.22" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="22.86" y="109.22" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="22.86" y="109.22" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="22.86" y="116.205" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
@@ -9311,7 +9483,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-09538" x="22.86" y="109.22" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="22.86" y="115.062" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="INT" library="SparkFun-Connectors" package="1X01" value="CONNECTOR 1x1 PIN" x="22.225" y="76.2" smashed="yes">
+<element name="INT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01" package3d_urn="urn:adsk.eagle:package:38028/1" value="CONNECTOR 1x1 PIN" x="22.225" y="76.2" smashed="yes">
 <attribute name="MF" value="" x="22.225" y="76.2" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="22.225" y="76.2" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="22.225" y="78.74" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
@@ -9323,7 +9495,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="MPN" value="" x="53.467" y="16.002" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="53.467" y="16.002" size="1.778" layer="27" display="off"/>
 </element>
-<element name="L1" library="rcl" package="0204/7" value="10uH" x="81.28" y="58.42" smashed="yes">
+<element name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10uH" x="81.28" y="58.42" smashed="yes">
 <attribute name="MF" value="" x="81.28" y="35.56" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="81.28" y="35.56" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="81.28" y="35.56" size="1.778" layer="27" display="off"/>
@@ -9344,21 +9516,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="RS_PRICE-STOCK" value="" x="66.04" y="57.15" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="66.04" y="59.69" size="1.016" layer="25" font="vector" ratio="14" align="center"/>
 </element>
-<element name="C7" library="resistor" package="C050-024X044" value="22uF" x="74.93" y="55.88" smashed="yes" rot="R90">
+<element name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="22uF" x="74.93" y="55.88" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="74.93" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="74.93" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="74.93" y="59.69" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="74.93" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="74.93" y="52.07" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="C8" library="resistor" package="C050-024X044" value="22uF" x="87.63" y="55.88" smashed="yes" rot="R90">
+<element name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="22uF" x="87.63" y="55.88" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="87.63" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="87.63" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="87.63" y="59.69" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="87.63" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="87.63" y="52.07" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="C6" library="resistor" package="C050-024X044" value="10uF" x="57.15" y="55.88" smashed="yes" rot="R90">
+<element name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="10uF" x="57.15" y="55.88" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="57.15" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="57.15" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="57.15" y="59.69" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
@@ -9379,7 +9551,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="RS_PRICE-STOCK" value="" x="13.97" y="92.075" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="16.51" y="92.075" size="1.016" layer="25" font="vector" ratio="14" rot="R270" align="center"/>
 </element>
-<element name="C10" library="resistor" package="C050-024X044" value="22uF" x="15.24" y="82.55" smashed="yes" rot="R180">
+<element name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="22uF" x="15.24" y="82.55" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="15.24" y="82.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="15.24" y="82.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.16" y="82.55" size="1.016" layer="25" font="vector" ratio="12" align="center"/>
@@ -10468,6 +10640,26 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
