@@ -24432,7 +24432,7 @@ Source: &lt;a href="https://www.cui.com/product/resource/vx78-500.pdf"&gt; Datas
 </deviceset>
 </devicesets>
 </library>
-<library name="#Diy-modules" urn="urn:adsk.eagle:library:6657603">
+<library name="#Diy-modules">
 <description>&lt;b&gt;DIY Modules for Arduino, Raspberry Pi, CubieBoard etc.&lt;/b&gt;
 &lt;br&gt;&lt;br&gt;
 The library contains a list of symbols and footprints for popular, cheap and easy-to-use electronic modules.&lt;br&gt;
@@ -24450,10 +24450,17 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 &lt;a href="http://diymodules.org/eagle"&gt;&lt;img src="http://www.diymodules.org/img/diymodules-lbr-image.php?v=1.8.0" alt="DIYmodules.org"&gt;&lt;/a&gt;
 &lt;/center&gt;</description>
 <packages>
-<package name="ADC-4CH-ADS1115" urn="urn:adsk.eagle:footprint:6657848/4" library_version="4">
+<package name="ADC-4CH-ADS1115">
 <description>&lt;b&gt;4 Channel 16-Bit Analog-to-Digital Converter&lt;/b&gt; based on &lt;b&gt;ADS1115&lt;/b&gt; chip</description>
 <wire x1="-8.89" y1="14.224" x2="8.89" y2="14.224" width="0.127" layer="21"/>
 <wire x1="8.89" y1="-14.224" x2="-8.89" y2="-14.224" width="0.127" layer="21"/>
+<pad name="1" x="-6.35" y="11.43" drill="1" shape="square"/>
+<pad name="2" x="-6.35" y="8.89" drill="1"/>
+<pad name="3" x="-6.35" y="6.35" drill="1"/>
+<pad name="4" x="-6.35" y="3.81" drill="1"/>
+<pad name="5" x="-6.35" y="1.27" drill="1"/>
+<pad name="6" x="-6.35" y="-1.27" drill="1"/>
+<pad name="7" x="-6.35" y="-3.81" drill="1"/>
 <wire x1="-7.62" y1="-4.445" x2="-7.62" y2="-3.175" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-1.905" x2="-7.62" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="0.635" x2="-7.62" y2="1.905" width="0.127" layer="21"/>
@@ -24497,12 +24504,25 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <wire x1="-6.985" y1="7.62" x2="-7.62" y2="8.255" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="9.525" x2="-6.985" y2="10.16" width="0.127" layer="21"/>
 <wire x1="-6.985" y1="10.16" x2="-7.62" y2="10.795" width="0.127" layer="21"/>
+<text x="0" y="15.24" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<pad name="8" x="-6.35" y="-6.35" drill="1"/>
 <wire x1="-6.985" y1="-5.08" x2="-7.62" y2="-5.715" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-5.715" x2="-7.62" y2="-6.985" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-6.985" x2="-6.985" y2="-7.62" width="0.127" layer="21"/>
 <wire x1="-5.715" y1="-7.62" x2="-5.08" y2="-6.985" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="-6.985" x2="-5.08" y2="-5.715" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="-5.715" x2="-5.715" y2="-5.08" width="0.127" layer="21"/>
+<text x="-4.445" y="11.43" size="0.9144" layer="21" align="center-left">VDD</text>
+<text x="-4.445" y="8.89" size="0.9144" layer="21" align="center-left">GND</text>
+<text x="-4.445" y="6.35" size="0.9144" layer="21" align="center-left">SCL</text>
+<text x="-4.445" y="3.81" size="0.9144" layer="21" align="center-left">SDA</text>
+<text x="-4.445" y="1.27" size="0.9144" layer="21" ratio="10" align="center-left">ADDR</text>
+<text x="-4.445" y="-1.27" size="0.9144" layer="21" align="center-left">ALRT</text>
+<text x="-4.445" y="-3.81" size="0.9144" layer="21" align="center-left">A0</text>
+<text x="-4.445" y="-6.35" size="0.9144" layer="21" align="center-left">A1</text>
+<pad name="9" x="-6.35" y="-8.89" drill="1"/>
+<pad name="10" x="-6.35" y="-11.43" drill="1"/>
 <wire x1="-6.985" y1="-7.62" x2="-7.62" y2="-8.255" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-8.255" x2="-7.62" y2="-9.525" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-9.525" x2="-6.985" y2="-10.16" width="0.127" layer="21"/>
@@ -24516,46 +24536,24 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <wire x1="-5.715" y1="-10.16" x2="-5.08" y2="-9.525" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="-9.525" x2="-5.08" y2="-8.255" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="-8.255" x2="-5.715" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="8.89" y1="14.224" x2="8.89" y2="-14.224" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="14.224" x2="-8.89" y2="-14.224" width="0.127" layer="21"/>
-<pad name="1" x="-6.35" y="11.43" drill="1" shape="square"/>
-<pad name="2" x="-6.35" y="8.89" drill="1"/>
-<pad name="3" x="-6.35" y="6.35" drill="1"/>
-<pad name="4" x="-6.35" y="3.81" drill="1"/>
-<pad name="5" x="-6.35" y="1.27" drill="1"/>
-<pad name="6" x="-6.35" y="-1.27" drill="1"/>
-<pad name="7" x="-6.35" y="-3.81" drill="1"/>
-<pad name="8" x="-6.35" y="-6.35" drill="1"/>
-<pad name="9" x="-6.35" y="-8.89" drill="1"/>
-<pad name="10" x="-6.35" y="-11.43" drill="1"/>
-<text x="0" y="15.24" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-15.24" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<text x="-4.445" y="11.43" size="0.9144" layer="21" align="center-left">VDD</text>
-<text x="-4.445" y="8.89" size="0.9144" layer="21" align="center-left">GND</text>
-<text x="-4.445" y="6.35" size="0.9144" layer="21" align="center-left">SCL</text>
-<text x="-4.445" y="3.81" size="0.9144" layer="21" align="center-left">SDA</text>
-<text x="-4.445" y="1.27" size="0.8128" layer="21" ratio="10" rot="R90" align="center">ADDR</text>
-<text x="-4.445" y="-1.27" size="0.9144" layer="21" align="center-left">ALRT</text>
-<text x="-4.445" y="-3.81" size="0.9144" layer="21" align="center-left">A0</text>
-<text x="-4.445" y="-6.35" size="0.9144" layer="21" align="center-left">A1</text>
 <text x="-4.445" y="-8.89" size="0.9144" layer="21" align="center-left">A2</text>
 <text x="-4.445" y="-11.43" size="0.9144" layer="21" align="center-left">A3</text>
+<wire x1="8.89" y1="14.224" x2="8.89" y2="-14.224" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="14.224" x2="-8.89" y2="-14.224" width="0.127" layer="21"/>
 <hole x="6.604" y="11.43" drill="3.1"/>
 <hole x="6.604" y="-11.43" drill="3.1"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="ADC-4CH-ADS1115" urn="urn:adsk.eagle:package:6657959/4" type="box" library_version="4">
-<description>&lt;b&gt;4 Channel 16-Bit Analog-to-Digital Converter&lt;/b&gt; based on &lt;b&gt;ADS1115&lt;/b&gt; chip</description>
-<packageinstances>
-<packageinstance name="ADC-4CH-ADS1115"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="ADC-4CH-ADS1115" urn="urn:adsk.eagle:symbol:6657736/4" library_version="4">
+<symbol name="ADC-4CH-ADS1115">
 <description>&lt;b&gt;4 Channel 16-Bit Analog-to-Digital Converter&lt;/b&gt; based on &lt;b&gt;ADS1115&lt;/b&gt; chip</description>
 <pin name="VDD" x="-15.24" y="12.7" length="middle" direction="pwr"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<text x="-10.16" y="20.32" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="17.78" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="-15.24" y="10.16" length="middle" direction="pwr"/>
 <pin name="SCL" x="-15.24" y="7.62" length="middle"/>
 <pin name="SDA" x="-15.24" y="5.08" length="middle"/>
@@ -24565,16 +24563,10 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <pin name="A1" x="-15.24" y="-7.62" length="middle" direction="in"/>
 <pin name="A2" x="-15.24" y="-10.16" length="middle" direction="in"/>
 <pin name="A3" x="-15.24" y="-12.7" length="middle" direction="in"/>
-<wire x1="10.16" y1="15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<text x="-10.16" y="20.32" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="17.78" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ADC-4CH-ADS1115" urn="urn:adsk.eagle:component:6658067/4" library_version="4">
+<deviceset name="ADC-4CH-ADS1115">
 <description>&lt;b&gt;4 Channel 16-Bit Analog-to-Digital Converter&lt;/b&gt; based on &lt;b&gt;ADS1115&lt;/b&gt; chip
 &lt;p&gt;Arduino &lt;b&gt;ADS1115&lt;/b&gt; Getting Started Tutorial is available here:&lt;br /&gt;
 &lt;a href="http://henrysbench.capnfatz.com/henrys-bench/arduino-voltage-measurements/arduino-ads1115-module-getting-started-tutorial/"&gt;http://henrysbench.capnfatz.com/henrys-bench/arduino-voltage-measurements/arduino-ads1115-module-getting-started-tutorial/&lt;/a&gt;&lt;/p&gt;
@@ -24599,9 +24591,6 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <connect gate="G$1" pin="SDA" pad="4"/>
 <connect gate="G$1" pin="VDD" pad="1"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6657959/4"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -24625,7 +24614,7 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="ADS1115" library="#Diy-modules" library_urn="urn:adsk.eagle:library:6657603" deviceset="ADC-4CH-ADS1115" device="" package3d_urn="urn:adsk.eagle:package:6657959/4" value="ADS1115">
+<part name="ADS1115" library="#Diy-modules" deviceset="ADC-4CH-ADS1115" device="" value="ADS1115">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>

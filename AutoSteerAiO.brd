@@ -3,11 +3,11 @@
 <eagle version="9.3.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -315,7 +315,7 @@ SWITCH</text>
 <wire x1="46.355" y1="89.535" x2="46.355" y2="72.39" width="0.1524" layer="21"/>
 <wire x1="46.355" y1="72.39" x2="31.115" y2="72.39" width="0.1524" layer="21"/>
 <wire x1="31.115" y1="72.39" x2="31.115" y2="89.535" width="0.1524" layer="21"/>
-<text x="39.37" y="74.295" size="1.27" layer="21" font="vector" ratio="14" align="center">ENC28J60</text>
+<text x="39.37" y="75.565" size="1.27" layer="21" font="vector" ratio="14" align="center">ENC28J60</text>
 <text x="38.735" y="91.44" size="1.016" layer="21" font="vector" ratio="14" rot="SR180" align="center">HR911105A</text>
 <text x="9.525" y="78.74" size="0.8128" layer="25" font="vector" ratio="14" rot="R90" align="center">+5V</text>
 <text x="9.525" y="76.2" size="0.8128" layer="25" font="vector" ratio="14" rot="R90" align="center">GND</text>
@@ -346,6 +346,21 @@ SWITCH</text>
 <text x="15.875" y="32.385" size="0.7112" layer="25" font="vector" ratio="13" rot="R90" align="center">BLU</text>
 <text x="15.875" y="34.925" size="0.7112" layer="25" font="vector" ratio="13" rot="R90" align="center">BLK</text>
 <text x="15.875" y="37.465" size="0.7112" layer="25" font="vector" ratio="13" rot="R90" align="center">BRN</text>
+<wire x1="11.43" y1="65.405" x2="10.795" y2="65.405" width="0.0762" layer="21"/>
+<wire x1="11.43" y1="62.865" x2="10.795" y2="62.865" width="0.0762" layer="21"/>
+<wire x1="10.795" y1="65.405" x2="10.795" y2="64.77" width="0.0762" layer="21"/>
+<wire x1="10.795" y1="62.865" x2="10.795" y2="63.5" width="0.0762" layer="21"/>
+<wire x1="10.795" y1="63.5" x2="10.16" y2="64.135" width="0.0762" layer="21"/>
+<wire x1="11.43" y1="50.165" x2="10.795" y2="50.165" width="0.0762" layer="21"/>
+<wire x1="11.43" y1="47.625" x2="10.795" y2="47.625" width="0.0762" layer="21"/>
+<wire x1="10.795" y1="50.165" x2="10.795" y2="49.53" width="0.0762" layer="21"/>
+<wire x1="10.795" y1="47.625" x2="10.795" y2="48.26" width="0.0762" layer="21"/>
+<wire x1="10.795" y1="48.26" x2="10.16" y2="48.895" width="0.0762" layer="21"/>
+<wire x1="11.43" y1="34.925" x2="10.795" y2="34.925" width="0.0762" layer="21"/>
+<wire x1="11.43" y1="32.385" x2="10.795" y2="32.385" width="0.0762" layer="21"/>
+<wire x1="10.795" y1="34.925" x2="10.795" y2="34.29" width="0.0762" layer="21"/>
+<wire x1="10.795" y1="32.385" x2="10.795" y2="33.02" width="0.0762" layer="21"/>
+<wire x1="10.795" y1="33.02" x2="10.16" y2="33.655" width="0.0762" layer="21"/>
 </plain>
 <libraries>
 <library name="#Arduino" urn="urn:adsk.eagle:library:7115587">
@@ -9157,8 +9172,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J4" library="Header and Connector" package="2600-05" value="CONNECTOR 1x5 PINS" x="117.475" y="68.58" smashed="yes" rot="R90">
 <attribute name="CYTRON-PC" value="CN-2600PS-05" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESC" value="2600 PCB Connector" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL" value="" x="120.396" y="67.183" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="120.396" y="67.183" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
+<attribute name="LABEL" value="" x="120.396" y="67.183" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
@@ -9710,7 +9725,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="17.145" y="22.86" extent="1-16" drill="0.508"/>
 <via x="34.925" y="44.45" extent="1-16" drill="0.508"/>
 <via x="73.66" y="25.4" extent="1-16" drill="0.508"/>
-<via x="38.735" y="76.835" extent="1-16" drill="0.508"/>
+<via x="38.735" y="73.025" extent="1-16" drill="0.508"/>
 <contactref element="J4" pad="1"/>
 <contactref element="JP1" pad="1"/>
 <via x="99.695" y="105.41" extent="1-16" drill="2" diameter="4.5" shape="square"/>
@@ -9785,8 +9800,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="60.325" y="111.125" extent="1-16" drill="0.508"/>
 <via x="35.56" y="111.125" extent="1-16" drill="0.508"/>
 <via x="30.48" y="111.125" extent="1-16" drill="0.508"/>
-<via x="38.735" y="87.63" extent="1-16" drill="0.508"/>
-<via x="38.735" y="99.695" extent="1-16" drill="0.508"/>
+<via x="38.735" y="85.725" extent="1-16" drill="0.508"/>
 <wire x1="74.93" y1="62.23" x2="74.93" y2="60.96" width="2.032" layer="16"/>
 <wire x1="17.78" y1="106.68" x2="17.78" y2="88.9" width="0.8128" layer="16"/>
 <contactref element="MMA8542" pad="GND"/>
@@ -10399,29 +10413,29 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="A+5V">
 <contactref element="L1" pad="2"/>
 <contactref element="ADS1115" pad="1"/>
-<wire x1="85.09" y1="66.04" x2="83.82" y2="64.77" width="0.508" layer="1"/>
-<wire x1="83.82" y1="64.77" x2="83.82" y2="61.595" width="0.508" layer="1"/>
-<wire x1="83.82" y1="61.595" x2="77.47" y2="55.245" width="0.508" layer="1"/>
-<wire x1="74.93" y1="55.245" x2="77.47" y2="55.245" width="0.508" layer="1"/>
 <contactref element="C8" pad="2"/>
 <wire x1="87.63" y1="66.04" x2="85.09" y2="66.04" width="0.508" layer="1"/>
 <contactref element="D4" pad="A"/>
-<wire x1="92.71" y1="59.055" x2="92.71" y2="55.88" width="0.508" layer="1"/>
-<wire x1="92.71" y1="59.055" x2="88.9" y2="62.865" width="0.508" layer="1"/>
-<wire x1="87.63" y1="66.04" x2="88.9" y2="64.77" width="0.508" layer="1"/>
-<wire x1="88.9" y1="64.77" x2="88.9" y2="62.865" width="0.508" layer="1"/>
+<wire x1="92.71" y1="58.42" x2="92.71" y2="55.88" width="0.508" layer="1"/>
+<wire x1="92.71" y1="58.42" x2="87.63" y2="63.5" width="0.508" layer="1"/>
+<wire x1="87.63" y1="63.5" x2="87.63" y2="66.04" width="0.508" layer="1"/>
+<wire x1="74.93" y1="55.245" x2="81.915" y2="55.245" width="0.508" layer="1"/>
+<wire x1="81.915" y1="55.245" x2="85.09" y2="52.07" width="0.508" layer="1"/>
+<wire x1="85.09" y1="52.07" x2="90.17" y2="52.07" width="0.508" layer="1"/>
+<wire x1="92.71" y1="54.61" x2="92.71" y2="55.88" width="0.508" layer="1"/>
+<wire x1="92.71" y1="54.61" x2="90.17" y2="52.07" width="0.508" layer="1"/>
 </signal>
 <signal name="N$25">
 <contactref element="L1" pad="1"/>
 <contactref element="C7" pad="2"/>
 <contactref element="PS1" pad="3"/>
 <wire x1="77.47" y1="66.04" x2="74.93" y2="66.04" width="0.508" layer="1"/>
-<wire x1="26.9825" y1="95.25" x2="55.5975" y2="66.635" width="0.6096" layer="16"/>
-<wire x1="23.4265" y1="95.25" x2="26.9825" y2="95.25" width="0.6096" layer="16"/>
 <contactref element="C9" pad="+"/>
 <wire x1="74.93" y1="66.04" x2="74.335" y2="66.635" width="0.6096" layer="1"/>
 <wire x1="74.335" y1="66.635" x2="66.675" y2="66.635" width="0.6096" layer="1"/>
-<wire x1="55.5975" y1="66.635" x2="66.675" y2="66.635" width="0.6096" layer="16"/>
+<wire x1="52.745" y1="66.635" x2="66.675" y2="66.635" width="0.6096" layer="16"/>
+<wire x1="23.4265" y1="95.25" x2="52.0415" y2="66.635" width="0.6096" layer="16"/>
+<wire x1="52.0415" y1="66.635" x2="66.675" y2="66.635" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="OK1" pad="2"/>
