@@ -25890,7 +25890,7 @@ NANO</text>
 <label x="167.64" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LOW." class="0">
+<net name="HIGH." class="0">
 <segment>
 <pinref part="WAS_D" gate="G$1" pin="3"/>
 <wire x1="177.8" y1="241.3" x2="190.5" y2="241.3" width="0.1524" layer="91"/>
@@ -25902,7 +25902,7 @@ NANO</text>
 <junction x="190.5" y="241.3"/>
 </segment>
 </net>
-<net name="HIGH." class="0">
+<net name="LOW." class="0">
 <segment>
 <pinref part="WAS_D" gate="G$1" pin="4"/>
 <label x="177.8" y="243.84" size="1.778" layer="95"/>
@@ -26236,19 +26236,6 @@ NANO</text>
 </net>
 <net name="HIGH" class="0">
 <segment>
-<pinref part="ADS1115" gate="G$1" pin="A1"/>
-<wire x1="190.5" y1="284.48" x2="195.58" y2="284.48" width="0.1524" layer="91"/>
-<label x="198.12" y="284.48" size="1.778" layer="95" rot="R180" align="top-left"/>
-</segment>
-<segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="254" x2="236.22" y2="254" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="254" x2="236.22" y2="248.92" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="LOW" class="0">
-<segment>
 <pinref part="ADS1115" gate="G$1" pin="A0"/>
 <wire x1="190.5" y1="281.94" x2="195.58" y2="281.94" width="0.1524" layer="91"/>
 <label x="198.12" y="281.94" size="1.778" layer="95" rot="R180" align="top-left"/>
@@ -26259,6 +26246,21 @@ NANO</text>
 <wire x1="213.36" y1="250.19" x2="213.36" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="250.19" x2="228.6" y2="250.19" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="250.19" x2="228.6" y2="248.92" width="0.1524" layer="91"/>
+<label x="226.06" y="256.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LOW" class="0">
+<segment>
+<pinref part="ADS1115" gate="G$1" pin="A1"/>
+<wire x1="190.5" y1="284.48" x2="195.58" y2="284.48" width="0.1524" layer="91"/>
+<label x="198.12" y="284.48" size="1.778" layer="95" rot="R180" align="top-left"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="254" x2="236.22" y2="254" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="254" x2="236.22" y2="248.92" width="0.1524" layer="91"/>
+<label x="215.9" y="256.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$21" class="0">
