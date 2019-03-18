@@ -186,214 +186,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="#Arduino" urn="urn:adsk.eagle:library:7115587">
-<packages>
-<package name="ARDUINO-NANO" urn="urn:adsk.eagle:footprint:6657590/6" library_version="2">
-<pad name="A0" x="10.16" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="A1" x="12.7" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="A2" x="15.24" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="A3" x="17.78" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="A4" x="20.32" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="A5" x="22.86" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="REF" x="7.62" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="3V3" x="5.08" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="D13" x="2.54" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="5V" x="30.48" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="RST." x="33.02" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="GND." x="35.56" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="VIN" x="38.1" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="A7" x="27.94" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="A6" x="25.4" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="D9" x="10.16" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="D8" x="12.7" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="D7" x="15.24" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="D6" x="17.78" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="D5" x="20.32" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="D4" x="22.86" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="D10" x="7.62" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="D11" x="5.08" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="D12" x="2.54" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="GND" x="30.48" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="RST" x="33.02" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="RX1" x="35.56" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="TX1" x="38.1" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="D2" x="27.94" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<pad name="D3" x="25.4" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
-<rectangle x1="23.876" y1="1.016" x2="24.384" y2="1.524" layer="51"/>
-<rectangle x1="21.336" y1="1.016" x2="21.844" y2="1.524" layer="51"/>
-<rectangle x1="18.796" y1="1.016" x2="19.304" y2="1.524" layer="51"/>
-<rectangle x1="16.256" y1="1.016" x2="16.764" y2="1.524" layer="51"/>
-<rectangle x1="13.716" y1="1.016" x2="14.224" y2="1.524" layer="51"/>
-<rectangle x1="11.176" y1="1.016" x2="11.684" y2="1.524" layer="51"/>
-<rectangle x1="8.636" y1="1.016" x2="9.144" y2="1.524" layer="51"/>
-<rectangle x1="6.096" y1="1.016" x2="6.604" y2="1.524" layer="51"/>
-<rectangle x1="3.556" y1="1.016" x2="4.064" y2="1.524" layer="51"/>
-<rectangle x1="39.116" y1="1.016" x2="39.624" y2="1.524" layer="51"/>
-<rectangle x1="36.576" y1="1.016" x2="37.084" y2="1.524" layer="51"/>
-<rectangle x1="34.036" y1="1.016" x2="34.544" y2="1.524" layer="51"/>
-<rectangle x1="31.496" y1="1.016" x2="32.004" y2="1.524" layer="51"/>
-<rectangle x1="28.956" y1="1.016" x2="29.464" y2="1.524" layer="51"/>
-<rectangle x1="26.416" y1="1.016" x2="26.924" y2="1.524" layer="51"/>
-<rectangle x1="23.876" y1="16.256" x2="24.384" y2="16.764" layer="51"/>
-<rectangle x1="21.336" y1="16.256" x2="21.844" y2="16.764" layer="51"/>
-<rectangle x1="18.796" y1="16.256" x2="19.304" y2="16.764" layer="51"/>
-<rectangle x1="16.256" y1="16.256" x2="16.764" y2="16.764" layer="51"/>
-<rectangle x1="13.716" y1="16.256" x2="14.224" y2="16.764" layer="51"/>
-<rectangle x1="11.176" y1="16.256" x2="11.684" y2="16.764" layer="51"/>
-<rectangle x1="8.636" y1="16.256" x2="9.144" y2="16.764" layer="51"/>
-<rectangle x1="6.096" y1="16.256" x2="6.604" y2="16.764" layer="51"/>
-<rectangle x1="3.556" y1="16.256" x2="4.064" y2="16.764" layer="51"/>
-<rectangle x1="39.116" y1="16.256" x2="39.624" y2="16.764" layer="51"/>
-<rectangle x1="36.576" y1="16.256" x2="37.084" y2="16.764" layer="51"/>
-<rectangle x1="34.036" y1="16.256" x2="34.544" y2="16.764" layer="51"/>
-<rectangle x1="31.496" y1="16.256" x2="32.004" y2="16.764" layer="51"/>
-<rectangle x1="28.956" y1="16.256" x2="29.464" y2="16.764" layer="51"/>
-<rectangle x1="26.416" y1="16.256" x2="26.924" y2="16.764" layer="51"/>
-<hole x="40.64" y="16.51" drill="1.016"/>
-<hole x="40.64" y="1.27" drill="1.016"/>
-<hole x="0" y="16.51" drill="1.016"/>
-<hole x="0" y="1.27" drill="1.016"/>
-<wire x1="-3.1242" y1="5.9182" x2="6.0198" y2="5.9182" width="0.127" layer="21"/>
-<wire x1="6.0198" y1="5.9182" x2="6.0198" y2="11.8872" width="0.127" layer="21"/>
-<wire x1="6.0198" y1="11.8872" x2="-3.1242" y2="11.8872" width="0.127" layer="21"/>
-<wire x1="-3.1242" y1="11.8872" x2="-3.1242" y2="5.9182" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="17.78" x2="41.91" y2="17.78" width="0.127" layer="21"/>
-<wire x1="41.91" y1="17.78" x2="41.91" y2="0" width="0.127" layer="21"/>
-<wire x1="41.91" y1="0" x2="-1.27" y2="0" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="17.78" width="0.127" layer="21"/>
-<text x="20.32" y="10.16" size="1.27" layer="21" font="vector" align="center">Arduino</text>
-<text x="20.32" y="7.62" size="1.27" layer="21" font="vector" align="center">Nano</text>
-<text x="36.703" y="17.145" size="0.381" layer="21" rot="SR270">DORX</text>
-<text x="34.163" y="17.018" size="0.381" layer="21" rot="SR270">RST</text>
-<text x="31.623" y="17.018" size="0.381" layer="21" rot="SR270">GND</text>
-<text x="29.083" y="16.891" size="0.381" layer="21" rot="SR270">D2</text>
-<text x="26.543" y="16.891" size="0.381" layer="21" rot="SR270">D3</text>
-<text x="24.003" y="16.891" size="0.381" layer="21" rot="SR270">D4</text>
-<text x="21.463" y="16.891" size="0.381" layer="21" rot="SR270">D5</text>
-<text x="18.923" y="16.891" size="0.381" layer="21" rot="SR270">D6</text>
-<text x="16.383" y="16.891" size="0.381" layer="21" rot="SR270">D7</text>
-<text x="13.843" y="16.891" size="0.381" layer="21" rot="SR270">D8</text>
-<text x="11.303" y="16.891" size="0.381" layer="21" rot="SR270">D9</text>
-<text x="8.763" y="17.018" size="0.381" layer="21" rot="SR270">D10</text>
-<text x="6.223" y="17.018" size="0.381" layer="21" rot="SR270">D11</text>
-<text x="3.683" y="17.018" size="0.381" layer="21" rot="SR270">D12</text>
-<text x="36.703" y="1.778" size="0.381" layer="21" rot="SR270">GND</text>
-<text x="34.163" y="1.778" size="0.381" layer="21" rot="SR270">RST</text>
-<text x="31.623" y="1.778" size="0.381" layer="21" rot="SR270">+5V</text>
-<text x="11.303" y="1.524" size="0.381" layer="21" rot="SR270">A0</text>
-<text x="13.843" y="1.524" size="0.381" layer="21" rot="SR270">A1</text>
-<text x="16.383" y="1.524" size="0.381" layer="21" rot="SR270">A2</text>
-<text x="18.923" y="1.524" size="0.381" layer="21" rot="SR270">A3</text>
-<text x="21.463" y="1.524" size="0.381" layer="21" rot="SR270">A4</text>
-<text x="24.003" y="1.524" size="0.381" layer="21" rot="SR270">A5</text>
-<text x="26.543" y="1.524" size="0.381" layer="21" rot="SR270">A6</text>
-<text x="29.083" y="1.524" size="0.381" layer="21" rot="SR270">A7</text>
-<text x="8.763" y="1.905" size="0.381" layer="21" rot="SR270">AREF</text>
-<text x="6.223" y="1.778" size="0.381" layer="21" rot="SR270">3V3</text>
-<text x="3.683" y="1.778" size="0.381" layer="21" rot="SR270">D13</text>
-<text x="37.592" y="2.413" size="0.381" layer="21">VIN</text>
-<text x="38.608" y="15.367" size="0.381" layer="21" rot="SR180">D1TX</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="ARDUINO-NANO" urn="urn:adsk.eagle:package:8959896/1" type="box" library_version="2">
-<packageinstances>
-<packageinstance name="ARDUINO-NANO"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="ARDUINO-NANO" urn="urn:adsk.eagle:symbol:7115597/2" library_version="2">
-<description>Schematic symbol for representing an Arduino Nano v3.0 board in an EAGLE schematic.</description>
-<pin name="D12" x="-17.78" y="15.24" length="short" rot="R270"/>
-<pin name="D11" x="-15.24" y="15.24" length="short" rot="R270"/>
-<pin name="D10" x="-12.7" y="15.24" length="short" rot="R270"/>
-<pin name="D9" x="-10.16" y="15.24" length="short" rot="R270"/>
-<pin name="D8" x="-7.62" y="15.24" length="short" rot="R270"/>
-<pin name="D7" x="-5.08" y="15.24" length="short" rot="R270"/>
-<pin name="D6" x="-2.54" y="15.24" length="short" rot="R270"/>
-<pin name="D5" x="0" y="15.24" length="short" rot="R270"/>
-<pin name="D4" x="2.54" y="15.24" length="short" rot="R270"/>
-<pin name="D3" x="5.08" y="15.24" length="short" rot="R270"/>
-<pin name="D2" x="7.62" y="15.24" length="short" rot="R270"/>
-<pin name="GND" x="10.16" y="15.24" length="short" rot="R270"/>
-<pin name="RST" x="12.7" y="15.24" length="short" rot="R270"/>
-<pin name="RX0" x="15.24" y="15.24" length="short" rot="R270"/>
-<pin name="TX1" x="17.78" y="15.24" length="short" rot="R270"/>
-<pin name="5V" x="10.16" y="-17.78" length="short" rot="R90"/>
-<pin name="RST." x="12.7" y="-17.78" length="short" rot="R90"/>
-<pin name="GND." x="15.24" y="-17.78" length="short" rot="R90"/>
-<pin name="A5" x="2.54" y="-17.78" length="short" rot="R90"/>
-<pin name="A4" x="0" y="-17.78" length="short" rot="R90"/>
-<pin name="A3" x="-2.54" y="-17.78" length="short" rot="R90"/>
-<pin name="A2" x="-5.08" y="-17.78" length="short" rot="R90"/>
-<pin name="A1" x="-7.62" y="-17.78" length="short" rot="R90"/>
-<pin name="A0" x="-10.16" y="-17.78" length="short" rot="R90"/>
-<pin name="A6" x="5.08" y="-17.78" length="short" rot="R90"/>
-<pin name="A7" x="7.62" y="-17.78" length="short" rot="R90"/>
-<pin name="REF" x="-12.7" y="-17.78" length="short" rot="R90"/>
-<pin name="3V3" x="-15.24" y="-17.78" length="short" rot="R90"/>
-<pin name="D13" x="-17.78" y="-17.78" length="short" rot="R90"/>
-<pin name="VIN" x="17.78" y="-17.78" length="short" rot="R90"/>
-<wire x1="-20.32" y1="12.7" x2="20.32" y2="12.7" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-15.24" x2="-20.32" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="12.7" x2="-20.32" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="20.32" y1="12.7" x2="20.32" y2="-15.24" width="0.254" layer="94"/>
-<text x="0" y="-0.254" size="2.54" layer="94" align="center">ARDUINO</text>
-<text x="0" y="-3.048" size="2.54" layer="94" align="center">NANO</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ARDUINO-NANO" urn="urn:adsk.eagle:component:7115599/2" prefix="PCB" library_version="2">
-<description>Device for representing an Arduino Nano board with a footprint in an EAGLE design.</description>
-<gates>
-<gate name="G$1" symbol="ARDUINO-NANO" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="ARDUINO-NANO">
-<connects>
-<connect gate="G$1" pin="3V3" pad="3V3"/>
-<connect gate="G$1" pin="5V" pad="5V"/>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="A4" pad="A4"/>
-<connect gate="G$1" pin="A5" pad="A5"/>
-<connect gate="G$1" pin="A6" pad="A6"/>
-<connect gate="G$1" pin="A7" pad="A7"/>
-<connect gate="G$1" pin="D10" pad="D10"/>
-<connect gate="G$1" pin="D11" pad="D11"/>
-<connect gate="G$1" pin="D12" pad="D12"/>
-<connect gate="G$1" pin="D13" pad="D13"/>
-<connect gate="G$1" pin="D2" pad="D2"/>
-<connect gate="G$1" pin="D3" pad="D3"/>
-<connect gate="G$1" pin="D4" pad="D4"/>
-<connect gate="G$1" pin="D5" pad="D5"/>
-<connect gate="G$1" pin="D6" pad="D6"/>
-<connect gate="G$1" pin="D7" pad="D7"/>
-<connect gate="G$1" pin="D8" pad="D8"/>
-<connect gate="G$1" pin="D9" pad="D9"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GND." pad="GND."/>
-<connect gate="G$1" pin="REF" pad="REF"/>
-<connect gate="G$1" pin="RST" pad="RST"/>
-<connect gate="G$1" pin="RST." pad="RST."/>
-<connect gate="G$1" pin="RX0" pad="RX1"/>
-<connect gate="G$1" pin="TX1" pad="TX1"/>
-<connect gate="G$1" pin="VIN" pad="VIN"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8959896/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -24379,14 +24171,14 @@ Source: &lt;a href="https://www.cui.com/product/resource/vx78-500.pdf"&gt; Datas
 <wire x1="21.59" y1="13.97" x2="21.59" y2="0" width="0.127" layer="21"/>
 <wire x1="0.635" y1="13.97" x2="0" y2="13.97" width="0.127" layer="21"/>
 <wire x1="20.955" y1="13.97" x2="21.59" y2="13.97" width="0.127" layer="21"/>
-<text x="9.525" y="10.795" size="0.6096" layer="21" font="vector" rot="R180" align="center">SDA</text>
-<text x="12.065" y="10.795" size="0.6096" layer="21" font="vector" rot="R180" align="center">SCL</text>
-<text x="14.605" y="10.795" size="0.6096" layer="21" font="vector" rot="R180" align="center">GND</text>
-<text x="17.145" y="10.795" size="0.6096" layer="21" font="vector" rot="R180" align="center">3V3</text>
-<text x="19.685" y="10.795" size="0.6096" layer="21" font="vector" rot="R180" align="center">VIN</text>
-<text x="6.985" y="10.795" size="0.6096" layer="21" font="vector" rot="R180" align="center">SAO</text>
-<text x="1.905" y="10.795" size="0.6096" layer="21" font="vector" rot="R180" align="center">INT1</text>
-<text x="4.445" y="10.795" size="0.6096" layer="21" font="vector" rot="R180" align="center">INT2</text>
+<text x="9.525" y="10.795" size="0.6096" layer="21" font="vector" ratio="13" rot="R180" align="center">SDA</text>
+<text x="12.065" y="10.795" size="0.6096" layer="21" font="vector" ratio="13" rot="R180" align="center">SCL</text>
+<text x="14.605" y="10.795" size="0.6096" layer="21" font="vector" ratio="13" rot="R180" align="center">GND</text>
+<text x="17.145" y="10.795" size="0.6096" layer="21" font="vector" ratio="13" rot="R180" align="center">3V3</text>
+<text x="19.685" y="10.795" size="0.6096" layer="21" font="vector" ratio="13" rot="R180" align="center">VIN</text>
+<text x="6.985" y="10.795" size="0.6096" layer="21" font="vector" ratio="13" rot="R180" align="center">SAO</text>
+<text x="1.905" y="10.795" size="0.6096" layer="21" font="vector" ratio="13" rot="R180" align="center">INT1</text>
+<text x="4.445" y="10.795" size="0.6096" layer="21" font="vector" ratio="13" rot="R180" align="center">INT2</text>
 <text x="6.35" y="-1.27" size="1.27" layer="21" rot="R180">&gt;VALUE</text>
 <text x="21.59" y="-1.27" size="1.27" layer="21" rot="R180">&gt;NAME</text>
 </package>
@@ -24599,6 +24391,202 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 </deviceset>
 </devicesets>
 </library>
+<library name="#Arduino">
+<packages>
+<package name="ARDUINO-NANO" urn="urn:adsk.eagle:footprint:6657590/1" locally_modified="yes">
+<pad name="A0" x="10.16" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="A1" x="12.7" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="A2" x="15.24" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="A3" x="17.78" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="A4" x="20.32" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="A5" x="22.86" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="REF" x="7.62" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="3V3" x="5.08" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="D13" x="2.54" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="5V" x="30.48" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="RST." x="33.02" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="GND." x="35.56" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="VIN" x="38.1" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="A7" x="27.94" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="A6" x="25.4" y="1.27" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="D9" x="10.16" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="D8" x="12.7" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="D7" x="15.24" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="D6" x="17.78" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="D5" x="20.32" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="D4" x="22.86" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="D10" x="7.62" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="D11" x="5.08" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="D12" x="2.54" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="GND" x="30.48" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="RST" x="33.02" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="RX1" x="35.56" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="TX1" x="38.1" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="D2" x="27.94" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<pad name="D3" x="25.4" y="16.51" drill="1.016" diameter="1.778" rot="R90"/>
+<rectangle x1="23.876" y1="1.016" x2="24.384" y2="1.524" layer="51"/>
+<rectangle x1="21.336" y1="1.016" x2="21.844" y2="1.524" layer="51"/>
+<rectangle x1="18.796" y1="1.016" x2="19.304" y2="1.524" layer="51"/>
+<rectangle x1="16.256" y1="1.016" x2="16.764" y2="1.524" layer="51"/>
+<rectangle x1="13.716" y1="1.016" x2="14.224" y2="1.524" layer="51"/>
+<rectangle x1="11.176" y1="1.016" x2="11.684" y2="1.524" layer="51"/>
+<rectangle x1="8.636" y1="1.016" x2="9.144" y2="1.524" layer="51"/>
+<rectangle x1="6.096" y1="1.016" x2="6.604" y2="1.524" layer="51"/>
+<rectangle x1="3.556" y1="1.016" x2="4.064" y2="1.524" layer="51"/>
+<rectangle x1="39.116" y1="1.016" x2="39.624" y2="1.524" layer="51"/>
+<rectangle x1="36.576" y1="1.016" x2="37.084" y2="1.524" layer="51"/>
+<rectangle x1="34.036" y1="1.016" x2="34.544" y2="1.524" layer="51"/>
+<rectangle x1="31.496" y1="1.016" x2="32.004" y2="1.524" layer="51"/>
+<rectangle x1="28.956" y1="1.016" x2="29.464" y2="1.524" layer="51"/>
+<rectangle x1="26.416" y1="1.016" x2="26.924" y2="1.524" layer="51"/>
+<rectangle x1="23.876" y1="16.256" x2="24.384" y2="16.764" layer="51"/>
+<rectangle x1="21.336" y1="16.256" x2="21.844" y2="16.764" layer="51"/>
+<rectangle x1="18.796" y1="16.256" x2="19.304" y2="16.764" layer="51"/>
+<rectangle x1="16.256" y1="16.256" x2="16.764" y2="16.764" layer="51"/>
+<rectangle x1="13.716" y1="16.256" x2="14.224" y2="16.764" layer="51"/>
+<rectangle x1="11.176" y1="16.256" x2="11.684" y2="16.764" layer="51"/>
+<rectangle x1="8.636" y1="16.256" x2="9.144" y2="16.764" layer="51"/>
+<rectangle x1="6.096" y1="16.256" x2="6.604" y2="16.764" layer="51"/>
+<rectangle x1="3.556" y1="16.256" x2="4.064" y2="16.764" layer="51"/>
+<rectangle x1="39.116" y1="16.256" x2="39.624" y2="16.764" layer="51"/>
+<rectangle x1="36.576" y1="16.256" x2="37.084" y2="16.764" layer="51"/>
+<rectangle x1="34.036" y1="16.256" x2="34.544" y2="16.764" layer="51"/>
+<rectangle x1="31.496" y1="16.256" x2="32.004" y2="16.764" layer="51"/>
+<rectangle x1="28.956" y1="16.256" x2="29.464" y2="16.764" layer="51"/>
+<rectangle x1="26.416" y1="16.256" x2="26.924" y2="16.764" layer="51"/>
+<hole x="0" y="16.51" drill="1.016"/>
+<hole x="0" y="1.27" drill="1.016"/>
+<wire x1="-3.1242" y1="5.9182" x2="6.0198" y2="5.9182" width="0.127" layer="21"/>
+<wire x1="6.0198" y1="5.9182" x2="6.0198" y2="11.8872" width="0.127" layer="21"/>
+<wire x1="6.0198" y1="11.8872" x2="-3.1242" y2="11.8872" width="0.127" layer="21"/>
+<wire x1="-3.1242" y1="11.8872" x2="-3.1242" y2="5.9182" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="17.78" x2="41.91" y2="17.78" width="0.127" layer="21"/>
+<wire x1="41.91" y1="17.78" x2="41.91" y2="0" width="0.127" layer="21"/>
+<wire x1="41.91" y1="0" x2="-1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="17.78" width="0.127" layer="21"/>
+<text x="20.32" y="10.16" size="1.27" layer="21" font="vector" align="center">Arduino</text>
+<text x="20.32" y="7.62" size="1.27" layer="21" font="vector" align="center">Nano</text>
+<text x="36.703" y="17.145" size="0.381" layer="21" rot="SR270">DORX</text>
+<text x="34.163" y="17.018" size="0.381" layer="21" rot="SR270">RST</text>
+<text x="31.623" y="17.018" size="0.381" layer="21" rot="SR270">GND</text>
+<text x="29.083" y="16.891" size="0.381" layer="21" rot="SR270">D2</text>
+<text x="26.543" y="16.891" size="0.381" layer="21" rot="SR270">D3</text>
+<text x="24.003" y="16.891" size="0.381" layer="21" rot="SR270">D4</text>
+<text x="21.463" y="16.891" size="0.381" layer="21" rot="SR270">D5</text>
+<text x="18.923" y="16.891" size="0.381" layer="21" rot="SR270">D6</text>
+<text x="16.383" y="16.891" size="0.381" layer="21" rot="SR270">D7</text>
+<text x="13.843" y="16.891" size="0.381" layer="21" rot="SR270">D8</text>
+<text x="11.303" y="16.891" size="0.381" layer="21" rot="SR270">D9</text>
+<text x="8.763" y="17.018" size="0.381" layer="21" rot="SR270">D10</text>
+<text x="6.223" y="17.018" size="0.381" layer="21" rot="SR270">D11</text>
+<text x="3.683" y="17.018" size="0.381" layer="21" rot="SR270">D12</text>
+<text x="36.703" y="1.778" size="0.381" layer="21" rot="SR270">GND</text>
+<text x="34.163" y="1.778" size="0.381" layer="21" rot="SR270">RST</text>
+<text x="31.623" y="1.778" size="0.381" layer="21" rot="SR270">+5V</text>
+<text x="11.303" y="1.524" size="0.381" layer="21" rot="SR270">A0</text>
+<text x="13.843" y="1.524" size="0.381" layer="21" rot="SR270">A1</text>
+<text x="16.383" y="1.524" size="0.381" layer="21" rot="SR270">A2</text>
+<text x="18.923" y="1.524" size="0.381" layer="21" rot="SR270">A3</text>
+<text x="21.463" y="1.524" size="0.381" layer="21" rot="SR270">A4</text>
+<text x="24.003" y="1.524" size="0.381" layer="21" rot="SR270">A5</text>
+<text x="26.543" y="1.524" size="0.381" layer="21" rot="SR270">A6</text>
+<text x="29.083" y="1.524" size="0.381" layer="21" rot="SR270">A7</text>
+<text x="8.763" y="1.905" size="0.381" layer="21" rot="SR270">AREF</text>
+<text x="6.223" y="1.778" size="0.381" layer="21" rot="SR270">3V3</text>
+<text x="3.683" y="1.778" size="0.381" layer="21" rot="SR270">D13</text>
+<text x="39.243" y="1.778" size="0.381" layer="21" rot="SR270">VIN</text>
+<text x="39.243" y="17.018" size="0.381" layer="21" rot="SR270">D1TX</text>
+</package>
+</packages>
+<symbols>
+<symbol name="ARDUINO-NANO">
+<description>Schematic symbol for representing an Arduino Nano v3.0 board in an EAGLE schematic.</description>
+<pin name="D12" x="-17.78" y="15.24" length="short" rot="R270"/>
+<pin name="D11" x="-15.24" y="15.24" length="short" rot="R270"/>
+<pin name="D10" x="-12.7" y="15.24" length="short" rot="R270"/>
+<pin name="D9" x="-10.16" y="15.24" length="short" rot="R270"/>
+<pin name="D8" x="-7.62" y="15.24" length="short" rot="R270"/>
+<pin name="D7" x="-5.08" y="15.24" length="short" rot="R270"/>
+<pin name="D6" x="-2.54" y="15.24" length="short" rot="R270"/>
+<pin name="D5" x="0" y="15.24" length="short" rot="R270"/>
+<pin name="D4" x="2.54" y="15.24" length="short" rot="R270"/>
+<pin name="D3" x="5.08" y="15.24" length="short" rot="R270"/>
+<pin name="D2" x="7.62" y="15.24" length="short" rot="R270"/>
+<pin name="GND" x="10.16" y="15.24" length="short" rot="R270"/>
+<pin name="RST" x="12.7" y="15.24" length="short" rot="R270"/>
+<pin name="RX0" x="15.24" y="15.24" length="short" rot="R270"/>
+<pin name="TX1" x="17.78" y="15.24" length="short" rot="R270"/>
+<pin name="5V" x="10.16" y="-17.78" length="short" rot="R90"/>
+<pin name="RST." x="12.7" y="-17.78" length="short" rot="R90"/>
+<pin name="GND." x="15.24" y="-17.78" length="short" rot="R90"/>
+<pin name="A5" x="2.54" y="-17.78" length="short" rot="R90"/>
+<pin name="A4" x="0" y="-17.78" length="short" rot="R90"/>
+<pin name="A3" x="-2.54" y="-17.78" length="short" rot="R90"/>
+<pin name="A2" x="-5.08" y="-17.78" length="short" rot="R90"/>
+<pin name="A1" x="-7.62" y="-17.78" length="short" rot="R90"/>
+<pin name="A0" x="-10.16" y="-17.78" length="short" rot="R90"/>
+<pin name="A6" x="5.08" y="-17.78" length="short" rot="R90"/>
+<pin name="A7" x="7.62" y="-17.78" length="short" rot="R90"/>
+<pin name="REF" x="-12.7" y="-17.78" length="short" rot="R90"/>
+<pin name="3V3" x="-15.24" y="-17.78" length="short" rot="R90"/>
+<pin name="D13" x="-17.78" y="-17.78" length="short" rot="R90"/>
+<wire x1="-20.32" y1="12.7" x2="20.32" y2="12.7" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-15.24" x2="-20.32" y2="-15.24" width="0.254" layer="94"/>
+<text x="0" y="-0.254" size="2.54" layer="94" align="center">ARDUINO</text>
+<pin name="VIN" x="17.78" y="-17.78" length="short" rot="R90"/>
+<text x="0" y="-3.048" size="2.54" layer="94" align="center">NANO</text>
+<wire x1="-20.32" y1="12.7" x2="-20.32" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="20.32" y1="12.7" x2="20.32" y2="-15.24" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ARDUINO-NANO" prefix="PCB">
+<description>Device for representing an Arduino Nano board with a footprint in an EAGLE design.</description>
+<gates>
+<gate name="G$1" symbol="ARDUINO-NANO" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="ARDUINO-NANO">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="A7" pad="A7"/>
+<connect gate="G$1" pin="D10" pad="D10"/>
+<connect gate="G$1" pin="D11" pad="D11"/>
+<connect gate="G$1" pin="D12" pad="D12"/>
+<connect gate="G$1" pin="D13" pad="D13"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="D3" pad="D3"/>
+<connect gate="G$1" pin="D4" pad="D4"/>
+<connect gate="G$1" pin="D5" pad="D5"/>
+<connect gate="G$1" pin="D6" pad="D6"/>
+<connect gate="G$1" pin="D7" pad="D7"/>
+<connect gate="G$1" pin="D8" pad="D8"/>
+<connect gate="G$1" pin="D9" pad="D9"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND." pad="GND."/>
+<connect gate="G$1" pin="REF" pad="REF"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RST." pad="RST."/>
+<connect gate="G$1" pin="RX0" pad="RX1"/>
+<connect gate="G$1" pin="TX1" pad="TX1"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -24609,7 +24597,7 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 </class>
 </classes>
 <parts>
-<part name="PCB1" library="#Arduino" library_urn="urn:adsk.eagle:library:7115587" deviceset="ARDUINO-NANO" device="" package3d_urn="urn:adsk.eagle:package:8959896/1" value="ARDUINO NANO v3">
+<part name="PCB1" library="#Arduino" deviceset="ARDUINO-NANO" device="" value="ARDUINO NANO v3">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
