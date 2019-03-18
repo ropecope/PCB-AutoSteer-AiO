@@ -3,7 +3,7 @@
 <eagle version="9.3.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -266,8 +266,8 @@ SWITCH</text>
 <text x="113.03" y="33.655" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
 <text x="113.03" y="62.865" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">SCL</text>
 <text x="113.03" y="60.325" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">SDA</text>
-<text x="112.9665" y="92.71" size="0.6604" layer="25" font="vector" ratio="15" rot="R90" align="center">DIR1</text>
-<text x="112.9665" y="90.17" size="0.6604" layer="25" font="vector" ratio="15" rot="R90" align="center">PWM1</text>
+<text x="112.9665" y="92.71" size="0.6604" layer="25" font="vector" ratio="15" rot="R90" align="center">DIR</text>
+<text x="112.9665" y="90.17" size="0.6604" layer="25" font="vector" ratio="15" rot="R90" align="center">PWM</text>
 <text x="113.03" y="87.63" size="0.6604" layer="25" font="vector" ratio="15" rot="R90" align="center">NC</text>
 <text x="113.03" y="85.09" size="0.6604" layer="25" font="vector" ratio="15" rot="R90" align="center">GND</text>
 <text x="88.265" y="109.22" size="1.6764" layer="25" font="vector" ratio="14" rot="R180" align="center">BAT+</text>
@@ -286,11 +286,11 @@ SWITCH</text>
 <text x="9.525" y="34.925" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">D6</text>
 <text x="115.57" y="71.12" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">D9</text>
 <text x="115.57" y="73.66" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">NC</text>
-<text x="115.57" y="76.2" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">D4</text>
-<text x="115.57" y="78.74" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">D3</text>
+<text x="115.57" y="78.74" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">D4</text>
+<text x="115.57" y="76.2" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">D3</text>
 <text x="115.57" y="68.58" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
-<text x="115.57" y="92.71" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">D3</text>
-<text x="115.57" y="90.17" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">D4</text>
+<text x="115.57" y="90.17" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">D3</text>
+<text x="115.57" y="92.71" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">D4</text>
 <text x="115.57" y="87.63" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">NC</text>
 <text x="115.57" y="85.09" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
 <text x="115.57" y="62.865" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">A5</text>
@@ -9156,8 +9156,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J4" library="Header and Connector" package="2600-05" value="CONNECTOR 1x5 PINS" x="117.475" y="68.58" smashed="yes" rot="R90">
 <attribute name="CYTRON-PC" value="CN-2600PS-05" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESC" value="2600 PCB Connector" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL" value="" x="120.396" y="67.183" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="120.396" y="67.183" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
+<attribute name="LABEL" value="" x="120.396" y="67.183" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
