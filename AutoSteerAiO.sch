@@ -26418,9 +26418,9 @@ NANO</text>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="223.52" x2="213.36" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="223.52" x2="213.36" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="223.52" x2="203.2" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="223.52" x2="205.74" y2="223.52" width="0.1524" layer="91"/>
 <junction x="213.36" y="223.52"/>
-<label x="203.2" y="223.52" size="1.778" layer="95"/>
+<label x="205.74" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D2" class="0">
