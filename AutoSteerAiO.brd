@@ -3,7 +3,7 @@
 <eagle version="9.3.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -10348,8 +10348,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J4" library="Header and Connector" package="2600-05" value="CONNECTOR 1x5 PINS" x="117.475" y="68.58" smashed="yes" rot="R90">
 <attribute name="CYTRON-PC" value="CN-2600PS-05" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESC" value="2600 PCB Connector" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL" value="" x="120.396" y="67.183" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="120.396" y="67.183" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
+<attribute name="LABEL" value="" x="120.396" y="67.183" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="117.475" y="68.58" size="1.778" layer="27" rot="R90" display="off"/>
