@@ -23920,10 +23920,10 @@ Created by: Wai Weng&lt;br&gt;</description>
 <wire x1="-4.747509375" y1="42.2049" x2="-4.747509375" y2="0.4049" width="0" layer="21"/>
 <wire x1="40.752490625" y1="46.2049" x2="-0.747509375" y2="46.2049" width="0" layer="21"/>
 <wire x1="44.752490625" y1="0.4049" x2="44.752490625" y2="42.2049" width="0" layer="21"/>
-<circle x="0" y="40.005" radius="1.727384375" width="0.127" layer="21"/>
-<circle x="40.005" y="40.005" radius="1.727384375" width="0.127" layer="21"/>
-<circle x="40.005" y="0" radius="1.727384375" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.727384375" width="0.127" layer="21"/>
+<circle x="0" y="40.005" radius="1.79605" width="0.127" layer="21"/>
+<circle x="40.005" y="40.005" radius="1.79605" width="0.127" layer="21"/>
+<circle x="40.005" y="0" radius="1.79605" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.79605" width="0.127" layer="21"/>
 </package>
 <package name="MD13S">
 <description>13Amp DC Motor Driver (MD13S)&lt;br&gt;
@@ -23939,10 +23939,10 @@ Created by: Wai Weng</description>
 <wire x1="-2.54" y1="0" x2="-2.54" y2="3.683" width="0" layer="21"/>
 <wire x1="58.42" y1="27.94" x2="58.42" y2="12.827" width="0" layer="21"/>
 <wire x1="58.42" y1="0" x2="58.42" y2="13.843" width="0" layer="21"/>
-<circle x="0" y="27.94" radius="1.626390625" width="0.127" layer="21"/>
-<circle x="55.88" y="27.94" radius="1.626390625" width="0.127" layer="21"/>
-<circle x="55.88" y="0" radius="1.626390625" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.626390625" width="0.127" layer="21"/>
+<circle x="0" y="27.94" radius="1.79605" width="0.127" layer="21"/>
+<circle x="55.88" y="27.94" radius="1.79605" width="0.127" layer="21"/>
+<circle x="55.88" y="0" radius="1.79605" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.79605" width="0.127" layer="21"/>
 </package>
 <package name="MDD10A">
 <wire x1="81.620040625" y1="0.695459375" x2="79.25503125" y2="3.060459375" width="0" layer="21" curve="90"/>
@@ -23969,10 +23969,10 @@ Created by: Wai Weng</description>
 <wire x1="71.12" y1="0" x2="68.8975" y2="2.54" width="0" layer="21" curve="90"/>
 <wire x1="-2.54" y1="-31.242" x2="-2.54" y2="0" width="0" layer="21"/>
 <dimension x1="66.04" y1="34.925" x2="66.04" y2="34.925" x3="66.04" y3="34.925" textsize="1.27" layer="255" dtype="diameter"/>
-<circle x="0" y="0" radius="1.626390625" width="0.127" layer="21"/>
-<circle x="68.58" y="0" radius="1.626390625" width="0.127" layer="21"/>
-<circle x="68.58" y="-34.925" radius="1.626390625" width="0.127" layer="21"/>
-<circle x="0" y="-34.925" radius="1.626390625" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.79605" width="0.127" layer="21"/>
+<circle x="68.58" y="0" radius="1.79605" width="0.127" layer="21"/>
+<circle x="68.58" y="-34.925" radius="1.79605" width="0.127" layer="21"/>
+<circle x="0" y="-34.925" radius="1.79605" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>

@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -39,7 +39,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -1546,6 +1546,14 @@ SWITCH</text>
 <hole x="45.847" y="82.042" drill="3"/>
 <hole x="45.847" y="43.307" drill="3"/>
 <hole x="101.727" y="82.042" drill="3"/>
+<wire x1="1.2192" y1="84.2772" x2="11.4808" y2="84.2772" width="0.0762" layer="21"/>
+<wire x1="11.4808" y1="84.2772" x2="11.4808" y2="70.6628" width="0.0762" layer="21"/>
+<wire x1="11.4808" y1="70.6628" x2="1.2192" y2="70.6628" width="0.0762" layer="21"/>
+<wire x1="1.2192" y1="70.6628" x2="1.2192" y2="84.2772" width="0.0762" layer="21"/>
+<wire x1="11.7094" y1="84.2772" x2="21.971" y2="84.2772" width="0.0762" layer="21"/>
+<wire x1="21.971" y1="84.2772" x2="21.971" y2="70.6628" width="0.0762" layer="21"/>
+<wire x1="21.971" y1="70.6628" x2="11.7094" y2="70.6628" width="0.0762" layer="21"/>
+<wire x1="11.7094" y1="70.6628" x2="11.7094" y2="84.2772" width="0.0762" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
@@ -9610,10 +9618,10 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <wire x1="-4.747509375" y1="42.2049" x2="-4.747509375" y2="0.4049" width="0" layer="21"/>
 <wire x1="40.752490625" y1="46.2049" x2="-0.747509375" y2="46.2049" width="0" layer="21"/>
 <wire x1="44.752490625" y1="0.4049" x2="44.752490625" y2="42.2049" width="0" layer="21"/>
-<circle x="0" y="40.005" radius="1.727384375" width="0.127" layer="21"/>
-<circle x="40.005" y="40.005" radius="1.727384375" width="0.127" layer="21"/>
-<circle x="40.005" y="0" radius="1.727384375" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.727384375" width="0.127" layer="21"/>
+<circle x="0" y="40.005" radius="1.79605" width="0.127" layer="21"/>
+<circle x="40.005" y="40.005" radius="1.79605" width="0.127" layer="21"/>
+<circle x="40.005" y="0" radius="1.79605" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.79605" width="0.127" layer="21"/>
 </package>
 <package name="MD13S">
 <description>13Amp DC Motor Driver (MD13S)&lt;br&gt;
@@ -9629,10 +9637,10 @@ Created by: Wai Weng</description>
 <wire x1="-2.54" y1="0" x2="-2.54" y2="3.683" width="0" layer="21"/>
 <wire x1="58.42" y1="27.94" x2="58.42" y2="12.827" width="0" layer="21"/>
 <wire x1="58.42" y1="0" x2="58.42" y2="13.843" width="0" layer="21"/>
-<circle x="0" y="27.94" radius="1.626390625" width="0.127" layer="21"/>
-<circle x="55.88" y="27.94" radius="1.626390625" width="0.127" layer="21"/>
-<circle x="55.88" y="0" radius="1.626390625" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.626390625" width="0.127" layer="21"/>
+<circle x="0" y="27.94" radius="1.79605" width="0.127" layer="21"/>
+<circle x="55.88" y="27.94" radius="1.79605" width="0.127" layer="21"/>
+<circle x="55.88" y="0" radius="1.79605" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.79605" width="0.127" layer="21"/>
 </package>
 <package name="MDD10A">
 <wire x1="81.620040625" y1="0.695459375" x2="79.25503125" y2="3.060459375" width="0" layer="21" curve="90"/>
@@ -9659,10 +9667,10 @@ Created by: Wai Weng</description>
 <wire x1="71.12" y1="0" x2="68.8975" y2="2.54" width="0" layer="21" curve="90"/>
 <wire x1="-2.54" y1="-31.242" x2="-2.54" y2="0" width="0" layer="21"/>
 <dimension x1="66.04" y1="34.925" x2="66.04" y2="34.925" x3="66.04" y3="34.925" textsize="1.27" layer="255" dtype="diameter"/>
-<circle x="0" y="0" radius="1.626390625" width="0.127" layer="21"/>
-<circle x="68.58" y="0" radius="1.626390625" width="0.127" layer="21"/>
-<circle x="68.58" y="-34.925" radius="1.626390625" width="0.127" layer="21"/>
-<circle x="0" y="-34.925" radius="1.626390625" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.79605" width="0.127" layer="21"/>
+<circle x="68.58" y="0" radius="1.79605" width="0.127" layer="21"/>
+<circle x="68.58" y="-34.925" radius="1.79605" width="0.127" layer="21"/>
+<circle x="0" y="-34.925" radius="1.79605" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -11020,28 +11028,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="57.785" y="69.85"/>
 <vertex x="47.625" y="69.85"/>
 <vertex x="46.355" y="71.12"/>
-<vertex x="46.355" y="87.63"/>
-<vertex x="44.45" y="89.535"/>
-<vertex x="33.02" y="89.535"/>
-<vertex x="31.115" y="87.63"/>
-<vertex x="31.115" y="64.77"/>
-<vertex x="29.845" y="63.5"/>
-<vertex x="18.415" y="63.5"/>
-<vertex x="16.51" y="61.595"/>
-<vertex x="16.51" y="57.785"/>
-<vertex x="15.24" y="56.515"/>
-<vertex x="7.9375" y="56.515"/>
-<vertex x="7.9375" y="55.245"/>
-<vertex x="15.875" y="55.245"/>
-<vertex x="17.78" y="57.15"/>
-<vertex x="17.78" y="60.96"/>
-<vertex x="19.05" y="62.23"/>
-<vertex x="30.48" y="62.23"/>
-<vertex x="32.385" y="64.135"/>
-<vertex x="32.385" y="86.995"/>
-<vertex x="33.655" y="88.265"/>
-<vertex x="43.815" y="88.265"/>
-<vertex x="45.085" y="86.995"/>
+<vertex x="46.355" y="88.265"/>
+<vertex x="45.085" y="88.265"/>
 <vertex x="45.085" y="70.485"/>
 </polygon>
 <wire x1="112.395" y1="64.77" x2="112.395" y2="48.26" width="0.6096" layer="16"/>
@@ -11189,28 +11177,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="57.785" y="69.85"/>
 <vertex x="47.625" y="69.85"/>
 <vertex x="46.355" y="71.12"/>
-<vertex x="46.355" y="87.63"/>
-<vertex x="44.45" y="89.535"/>
-<vertex x="33.02" y="89.535"/>
-<vertex x="31.115" y="87.63"/>
-<vertex x="31.115" y="64.77"/>
-<vertex x="29.845" y="63.5"/>
-<vertex x="18.415" y="63.5"/>
-<vertex x="16.51" y="61.595"/>
-<vertex x="16.51" y="57.785"/>
-<vertex x="15.24" y="56.515"/>
-<vertex x="7.9375" y="56.515"/>
-<vertex x="7.9375" y="55.245"/>
-<vertex x="15.875" y="55.245"/>
-<vertex x="17.78" y="57.15"/>
-<vertex x="17.78" y="60.96"/>
-<vertex x="19.05" y="62.23"/>
-<vertex x="30.48" y="62.23"/>
-<vertex x="32.385" y="64.135"/>
-<vertex x="32.385" y="86.995"/>
-<vertex x="33.655" y="88.265"/>
-<vertex x="43.815" y="88.265"/>
-<vertex x="45.085" y="86.995"/>
+<vertex x="46.355" y="88.265"/>
+<vertex x="45.085" y="88.265"/>
 <vertex x="45.085" y="70.485"/>
 </polygon>
 <via x="2.54" y="8.89" extent="1-16" drill="0.508"/>
