@@ -3,11 +3,11 @@
 <eagle version="9.3.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -10341,8 +10341,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J4" library="Header and Connector" package="2600-05" value="CONNECTOR 1x5 PINS" x="109.855" y="48.26" smashed="yes" rot="R90">
 <attribute name="CYTRON-PC" value="CN-2600PS-05" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESC" value="2600 PCB Connector" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
+<attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
@@ -10654,7 +10654,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="MPN" value="" x="7.62" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="3.175" y="68.58" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="OC_NEWARK" value="unknown" x="7.62" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="12.3825" y="68.58" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="12.5095" y="68.58" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
 <element name="MMA8542" library="#MMA8542" package="MMA8452" value="MMA8542" x="42.545" y="24.13" smashed="yes">
 <attribute name="MF" value="" x="42.545" y="24.13" size="1.778" layer="27" display="off"/>
