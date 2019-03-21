@@ -1,7 +1,6 @@
 
 Exported from EAGLE with DesignLink
 
-Quantity	Value	Package	Order code	Manufacturer	Manuf. Code	Availability	Price (from)	Description
 
 1	ARDUINO NANO v3	ARDUINO-NANO									
 1	ADS1115	ADC-4CH-ADS1115
@@ -14,7 +13,7 @@ Quantity	Value	Package	Order code	Manufacturer	Manuf. Code	Availability	Price (f
 6	.1uF	C050-024X044						
 2	10uF	C050-024X044
 3	22uF	C050-024X044						
-4	1000uF 35V	CPOL-RADIAL-5MM-10MM																	
+4	1000uF 35V	CPOL-RADIAL-5MM-10MM
 4	1N4004	DO41-10
 9	330	0207/7						
 9	1k	0207/7
@@ -22,14 +21,12 @@ Quantity	Value	Package	Order code	Manufacturer	Manuf. Code	Availability	Price (f
 1	CB1A-P-12V	CB1						
 1	10uH	0204/7						
 2	LED	LED5MM												
-3	4N33	DIL06	88K1390	VISHAY/TELEFUNKEN	4N33	15230	0.194	VISHAY - 4N33 - OPTOCOUPLER, PHOTO DARLINGTON, 5300VRMS					
+3	4N33	DIL06	88K1390	VISHAY/TELEFUNKEN 4N33 15230 0.194 VISHAY - 4N33 - OPTOCOUPLER, PHOTO DARLINGTON, 5300VRMS
 1	VX7805-500	VX7805500						
-1	VX7805-1000	VX7805500	
-					
+1	VX7805-1000	VX7805500
 1	MMA8452Q	BREAKOUT_6PIN						
 or
-1	MMA8542	MMA8452	
-					
+1	MMA8542	MMA8452		
 1	MDD10A	MDD10A
 or						
 1	MD13S	MD13S

@@ -24879,23 +24879,23 @@ NANO</text>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+5V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="HEF4093BT,653"/>
-<attribute name="OC_NEWARK" value="70R5288"/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="+5V1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="HEF4093BT,653"/>
-<attribute name="OC_NEWARK" value="70R5288"/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="GND33" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="HEF4093BT,653"/>
-<attribute name="OC_NEWARK" value="70R5288"/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="GND34" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value="HEF4093BT,653"/>
-<attribute name="OC_NEWARK" value="70R5288"/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -25025,7 +25025,11 @@ NANO</text>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="U$3" library="#Motor Drivers" deviceset="MD10C" device=""/>
+<part name="U$3" library="#Motor Drivers" deviceset="MD10C" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="ATSAMD10C13A-SSNT"/>
+<attribute name="OC_NEWARK" value="90Y6375"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -25685,7 +25689,11 @@ NANO</text>
 <attribute name="MF" x="147.32" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="147.32" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$3" gate="G$1" x="144.78" y="139.7" smashed="yes"/>
+<instance part="U$3" gate="G$1" x="144.78" y="139.7" smashed="yes">
+<attribute name="OC_NEWARK" x="144.78" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="144.78" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="144.78" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
