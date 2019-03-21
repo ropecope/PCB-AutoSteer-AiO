@@ -25871,13 +25871,9 @@ NANO</text>
 <net name="HIGH." class="0">
 <segment>
 <pinref part="WAS_D" gate="G$1" pin="3"/>
-<wire x1="177.8" y1="241.3" x2="190.5" y2="241.3" width="0.1524" layer="91"/>
 <label x="177.8" y="241.3" size="1.778" layer="95"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="241.3" x2="203.2" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="248.92" x2="190.5" y2="241.3" width="0.1524" layer="91"/>
-<junction x="190.5" y="241.3"/>
+<wire x1="177.8" y1="241.3" x2="203.2" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LOW." class="0">
@@ -25886,8 +25882,12 @@ NANO</text>
 <label x="177.8" y="243.84" size="1.778" layer="95"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="243.84" x2="187.96" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="254" x2="187.96" y2="254" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="254" x2="190.5" y2="254" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="254" x2="187.96" y2="254" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="254" x2="187.96" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="248.92" x2="190.5" y2="254" width="0.1524" layer="91"/>
+<junction x="190.5" y="254"/>
 </segment>
 </net>
 <net name="GND" class="0">
