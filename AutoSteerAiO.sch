@@ -25091,7 +25091,11 @@ NANO</text>
 <attribute name="MPN" value="ATSAMD10C13A-SSNT"/>
 <attribute name="OC_NEWARK" value="90Y6375"/>
 </part>
-<part name="U1" library="#VX7805-1000" deviceset="VX7805-1000" device=""/>
+<part name="U1" library="#VX7805-1000" deviceset="VX7805-1000" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -25753,6 +25757,8 @@ NANO</text>
 <instance part="U1" gate="G$1" x="111.76" y="236.22" smashed="yes">
 <attribute name="NAME" x="99.0437" y="244.612709375" size="1.78026875" layer="95"/>
 <attribute name="VALUE" x="99.023" y="226.0304" size="1.78318125" layer="96"/>
+<attribute name="OC_NEWARK" x="111.76" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="111.76" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
