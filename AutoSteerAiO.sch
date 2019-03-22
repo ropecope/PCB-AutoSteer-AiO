@@ -24493,7 +24493,7 @@ NANO</text>
 <wire x1="24.765" y1="7.62" x2="41.91" y2="7.62" width="0.1524" layer="21"/>
 <wire x1="41.91" y1="8.89" x2="41.91" y2="7.62" width="0.1524" layer="21"/>
 <wire x1="41.91" y1="-8.89" x2="41.91" y2="-7.62" width="0.1524" layer="21"/>
-<text x="29.21" y="0" size="1.27" layer="21" font="vector" ratio="14" rot="R270" align="center">ENC28J60</text>
+<text x="39.37" y="0" size="1.27" layer="21" font="vector" ratio="14" rot="R270" align="center">ENC28J60</text>
 <wire x1="41.91" y1="-7.62" x2="45.72" y2="-7.62" width="0.1524" layer="21"/>
 </package>
 </packages>
