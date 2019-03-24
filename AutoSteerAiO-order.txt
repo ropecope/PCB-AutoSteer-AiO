@@ -1,7 +1,6 @@
 
 Exported from EAGLE with DesignLink
 
-
 1	ARDUINO NANO v3	ARDUINO-NANO									
 1	ADS1115	ADC-4CH-ADS1115
 2	CONNECTOR 1x1 PIN	1X01
@@ -26,9 +25,9 @@ Exported from EAGLE with DesignLink
 3	4N33	                DIL06 (88K1390 VISHAY/TELEFUNKEN 4N33 15230 0.194 VISHAY - 4N33 - OPTOCOUPLER, PHOTO DARLINGTON, 5300VRMS)
 1	VX7805-500	        VX7805500						
 1	VX7805-1000	        VX7805-1000
-1	MMA8452Q	        BREAKOUT_6PIN - SparkFun						
+1	MMA8452Q	        BREAKOUT_6PIN - SparkFun-3v3						
 or
-1	MMA8542	                MMA8452		
+1	MMA8542	                MMA8452-5v	
 1	MDD10A	                MDD10A
 or						
 1	MD13S	MD13S
