@@ -8,13 +8,12 @@ Exported from EAGLE with DesignLink
 2x	CONNECTOR 1x4 PINS	1X04										
 1x	CONNECTOR 1x4 PINS	2600-04
 1x	CONNECTOR 1x5 PINS	2600-05								
-6x	0.1uF 10V	        C050-024X044						
+6x	0.1uF 10V               C050-024X044						
 2x	10uF 35V                C050-024X044
 3x	22uF 10V	        C050-024X044						
 2x	1000uF 35V	        CPOL-RADIAL-Pitch:5MM-Ø10MM
-2x      1000uF 16V              CPOL-RADIAL-Pitch:5MM-Ø10MM
-4x	1N4004	                DO41-10
-1x       10uH	                0204/7
+4x      1N4004	                DO41-10
+1x      10uH	                0204/7
 9x	330	                0207/7						
 9x	1k	                0207/7
 1x	47R	                0207/7													
