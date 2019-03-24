@@ -1,4 +1,3 @@
-
 Exported from EAGLE with DesignLink
 
 1	ARDUINO NANO v3	ARDUINO-NANO									
