@@ -3,7 +3,7 @@
 <eagle version="9.3.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -10583,8 +10583,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J4" library="Header and Connector" package="2600-05" value="CONNECTOR 1x5 PINS" x="109.855" y="48.26" smashed="yes" rot="R90">
 <attribute name="CYTRON-PC" value="CN-2600PS-05" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESC" value="2600 PCB Connector" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
+<attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
@@ -11795,10 +11795,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="PS1" pad="3"/>
 <wire x1="15.5525" y1="74.93" x2="15.5525" y2="68.585" width="0.8128" layer="1"/>
 <wire x1="15.5525" y1="68.585" x2="15.5575" y2="68.58" width="0.8128" layer="1"/>
-<wire x1="15.5575" y1="68.58" x2="20.67175" y2="63.46575" width="0.6096" layer="16"/>
-<wire x1="20.67175" y1="63.46575" x2="34.89075" y2="63.46575" width="0.6096" layer="16"/>
-<wire x1="34.89075" y1="63.46575" x2="55.1765" y2="43.18" width="0.6096" layer="16"/>
-<wire x1="55.1765" y1="43.18" x2="59.69" y2="43.18" width="0.6096" layer="16"/>
+<wire x1="15.5575" y1="68.58" x2="19.40175" y2="64.73575" width="0.6096" layer="16"/>
+<wire x1="19.40175" y1="64.73575" x2="34.89075" y2="64.73575" width="0.6096" layer="16"/>
+<wire x1="34.89075" y1="64.73575" x2="56.4465" y2="43.18" width="0.6096" layer="16"/>
+<wire x1="56.4465" y1="43.18" x2="59.69" y2="43.18" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="OK1" pad="2"/>
