@@ -1,35 +1,35 @@
-1x ARDUINO NANO v3	ARDUINO-NANO									
-1x ADS1115	        ADC-4CH-ADS1115
-2x CONNECTOR 1x1 PIN	1X01
-4x CONNECTOR 1x2 PINS	1X02							
-3x CONNECTOR 1x3 PINS	1X03						
-2x CONNECTOR 1x4 PINS	1X04										
-1x CONNECTOR 1x4 PINS	2600-04
-1x CONNECTOR 1x5 PINS	2600-05								
-6x 0.1uF 10V            C050-024X044						
-2x 10uF 35V             C050-024X044
-3x 22uF 10V	        C050-024X044						
-2x 1000uF 35V	        CPOL-RADIAL-Pitch:5MM-Ø10MM
-2x 1N4004	        DO41-10
-2x 1N5400	        DO-201
-1x 10uH	                0204/7
-9x 330	                0207/7						
-9x 1k	                0207/7
-1x 47R	                0207/7													
-1x CB1A-P-12V	        CB1													
-1x LED	                LED5MM-Red
-1x LED	                LED5MM-Blue											
-3x 4N33	                DIL06 (88K1390 VISHAY/TELEFUNKEN 4N33 15230 0.194 VISHAY - 4N33 - OPTOCOUPLER, PHOTO DARLINGTON, 5300VRMS)
-1x VX7805-500	        VX7805500						
-1x VX7805-1000	        VX7805-1000
-1x MMA8452Q	        BREAKOUT_6PIN - SparkFun-3v3						
+1x ARDUINO NANO v3  ARDUINO-NANO									
+1x ADS1115	    ADC-4CH-ADS1115
+2x CONNECTOR        1X01 PIN
+4x CONNECTOR        1X02 PINS							
+3x CONNECTOR        1X03 PINS						
+2x CONNECTOR        1X04 PINS										
+1x CONNECTOR        1X04 PINS 2600-04
+1x CONNECTOR        1X05 PINS 2600-05								
+7x 0.1uF 10V        C050-024X044						
+2x 10uF 35V         C050-024X044
+3x 22uF 10V	    C050-024X044						
+2x 1000uF 35V	    CPOL-RADIAL-Pitch:5MM-Ø10MM
+2x 1N4004	    DO41-10
+2x 1N5400	    DO-201
+1x 10uH	            0207/10
+9x 330	            0207/7						
+9x 1k	            0207/7
+1x 47R	            0207/7											
+1x CB1A-P-12V	    CB1											
+1x LED	            LED5MM-Red
+1x LED	            LED5MM-Blue										
+3x 4N33	            DIL06 (OPTOCOUPLER, PHOTO DARLINGTON, 5300VRMS)
+1x VX7805-500	    VX7805500						
+1x VX7805-1000	    VX7805-1000
+1x MMA8452Q	    BREAKOUT_6PIN - SparkFun-3v3						
 or
-1x MMA8542	        MMA8452-5v	
-1x MDD10A	        MDD10A
+1x MMA8542	    MMA8452-5v	
+1x MDD10A	    MDD10A
 or						
-1x MD13S	        MD13S
+1x MD13S	    MD13S
 or
-1x MD10c	        MD13S
+1x MD10c	    MD13S
 or						
-1x IBT2	                IBT2						
+1x IBT2	            IBT2						
 						
