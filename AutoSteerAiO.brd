@@ -251,7 +251,7 @@ SWITCH</text>
 <text x="1.905" y="64.77" size="0.8128" layer="25" font="vector" ratio="14" rot="SR270" align="center">+5V</text>
 <wire x1="3.7973" y1="60.6552" x2="6.3373" y2="60.6552" width="0.2032" layer="21"/>
 <wire x1="3.7973" y1="59.9948" x2="6.3373" y2="59.9948" width="0.2032" layer="21"/>
-<text x="63.1825" y="2.54" locked="yes" size="0.8128" layer="16" font="vector" rot="MR0" align="center">pcb layout Petar Starcev Srbija, Novi Sad</text>
+<text x="63.1825" y="2.54" locked="yes" size="0.8128" layer="16" font="vector" rot="MR0" align="center">pcb layout Petar Starcev Serbia, Novi Sad</text>
 <text x="109.22" y="60.96" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center">MDD10A</text>
 <text x="105.41" y="15.875" size="0.6604" layer="25" font="vector" ratio="15" rot="R270" align="center">AUX2</text>
 <text x="105.41" y="18.415" size="0.6604" layer="25" font="vector" ratio="15" rot="R270" align="center">AUX1</text>
@@ -1662,8 +1662,6 @@ with power supply</text>
 <wire x1="100.6475" y1="17.145" x2="100.0125" y2="17.145" width="0.6096" layer="22"/>
 <wire x1="100.6475" y1="24.765" x2="100.0125" y2="24.765" width="0.6096" layer="22"/>
 <wire x1="93.0275" y1="24.765" x2="92.3925" y2="24.765" width="0.6096" layer="22"/>
-<wire x1="91.567" y1="18.7325" x2="91.567" y2="18.0975" width="0.6096" layer="22"/>
-<wire x1="91.567" y1="16.1925" x2="91.567" y2="15.5575" width="0.6096" layer="22"/>
 <wire x1="53.34" y1="33.3375" x2="53.34" y2="32.7025" width="0.6096" layer="22"/>
 <wire x1="53.34" y1="25.7175" x2="53.34" y2="25.0825" width="0.6096" layer="22"/>
 <wire x1="23.5585" y1="18.415" x2="24.1935" y2="18.415" width="0.6096" layer="22"/>
@@ -11836,7 +11834,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="3,16,aa4357d0aa4457d7"/>
+<approved hash="3,16,d66f33fcce6a2bf9"/>
 </errors>
 </board>
 </drawing>
