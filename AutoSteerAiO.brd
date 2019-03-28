@@ -1784,7 +1784,8 @@ with power supply</text>
 <text x="31.75" y="53.975" size="0.8128" layer="22" font="vector" rot="MR0" align="center">Set the Diode and Capacitor to the bottom
 if you want to put the module 
 without headres directly on the PCB
-But make sure there is no contact on the top layer!!!</text>
+But make sure there is no contact on the top layer
+with Ethernet module!</text>
 <text x="45.72" y="24.13" size="0.8128" layer="26" font="vector" ratio="14" rot="MR180" align="center">MMA8452</text>
 <text x="60.96" y="24.13" size="0.8128" layer="26" font="vector" ratio="14" rot="MR180" align="center">MMA8452</text>
 <text x="77.47" y="35.2425" size="1.016" layer="26" font="vector" ratio="12" rot="MR90" align="center">ADS1115</text>
@@ -10611,8 +10612,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J4" library="Header and Connector" package="2600-05" value="CONNECTOR 1x5 PINS" x="109.855" y="48.26" smashed="yes" rot="R90">
 <attribute name="CYTRON-PC" value="CN-2600PS-05" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESC" value="2600 PCB Connector" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
+<attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
