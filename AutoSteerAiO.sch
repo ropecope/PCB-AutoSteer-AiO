@@ -25162,13 +25162,18 @@ NANO</text>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DOCFIELD" device=""/>
+<part name="1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="CONNECTOR 1x2 PINS">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<wire x1="147.32" y1="274.32" x2="147.32" y2="259.08" width="0.1524" layer="97"/>
-<wire x1="198.12" y1="274.32" x2="198.12" y2="259.08" width="0.1524" layer="97"/>
-<wire x1="198.12" y1="274.32" x2="147.32" y2="274.32" width="0.1524" layer="97"/>
+<wire x1="147.32" y1="284.48" x2="147.32" y2="259.08" width="0.1524" layer="97"/>
+<wire x1="198.12" y1="284.48" x2="198.12" y2="259.08" width="0.1524" layer="97"/>
+<wire x1="198.12" y1="284.48" x2="147.32" y2="284.48" width="0.1524" layer="97"/>
 <wire x1="198.12" y1="259.08" x2="147.32" y2="259.08" width="0.1524" layer="97"/>
 <wire x1="205.74" y1="114.3" x2="132.08" y2="114.3" width="0.1524" layer="97"/>
 <wire x1="132.08" y1="195.58" x2="132.08" y2="114.3" width="0.1524" layer="97"/>
@@ -25821,6 +25826,12 @@ NANO</text>
 <attribute name="LAST_DATE_TIME" x="121.92" y="64.77" size="2.54" layer="94"/>
 <attribute name="SHEET" x="195.58" y="64.77" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="127" y="82.55" size="2.54" layer="94"/>
+</instance>
+<instance part="1" gate="G$1" x="170.18" y="276.86" smashed="yes">
+<attribute name="NAME" x="167.64" y="282.448" size="1.778" layer="95" font="vector"/>
+<attribute name="OC_NEWARK" x="170.18" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="170.18" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="170.18" y="276.86" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -26628,26 +26639,50 @@ NANO</text>
 </net>
 <net name="A1" class="0">
 <segment>
-<pinref part="0" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="266.7" x2="180.34" y2="266.7" width="0.1524" layer="91"/>
-<label x="177.8" y="266.7" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="PCB1" gate="G$1" pin="A1"/>
 <wire x1="190.5" y1="213.36" x2="195.58" y2="213.36" width="0.1524" layer="91"/>
 <label x="193.04" y="213.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="1" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="276.86" x2="180.34" y2="276.86" width="0.1524" layer="91"/>
+<label x="177.8" y="276.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="A2" class="0">
+<segment>
+<pinref part="PCB1" gate="G$1" pin="A2"/>
+<wire x1="190.5" y1="215.9" x2="195.58" y2="215.9" width="0.1524" layer="91"/>
+<label x="193.04" y="215.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="0" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="266.7" x2="180.34" y2="266.7" width="0.1524" layer="91"/>
+<label x="177.8" y="266.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A0" class="0">
+<segment>
+<pinref part="1" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="279.4" x2="180.34" y2="279.4" width="0.1524" layer="91"/>
+<label x="177.8" y="279.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PCB1" gate="G$1" pin="A0"/>
+<wire x1="190.5" y1="210.82" x2="195.58" y2="210.82" width="0.1524" layer="91"/>
+<label x="193.04" y="210.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A3" class="0">
 <segment>
 <pinref part="0" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="264.16" x2="180.34" y2="264.16" width="0.1524" layer="91"/>
 <label x="177.8" y="264.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="A2"/>
-<wire x1="190.5" y1="215.9" x2="195.58" y2="215.9" width="0.1524" layer="91"/>
-<label x="193.04" y="215.9" size="1.778" layer="95"/>
+<pinref part="PCB1" gate="G$1" pin="A3"/>
+<wire x1="190.5" y1="218.44" x2="195.58" y2="218.44" width="0.1524" layer="91"/>
+<label x="193.04" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
