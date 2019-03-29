@@ -73,7 +73,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -25134,12 +25134,6 @@ NANO</text>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="47">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device=""/>
 <part name="D5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1" value="CONNECTOR 1x1 PIN">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -25786,16 +25780,6 @@ NANO</text>
 <attribute name="MF" x="35.56" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="35.56" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R15" gate="G$1" x="187.96" y="190.5" smashed="yes">
-<attribute name="NAME" x="187.96" y="191.9986" size="1.778" layer="95" rot="R180" align="top-center"/>
-<attribute name="VALUE" x="187.96" y="189.23" size="1.778" layer="95" rot="R180" align="bottom-center"/>
-<attribute name="OC_NEWARK" x="187.96" y="190.5" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="187.96" y="190.5" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="187.96" y="190.5" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="P+3" gate="1" x="198.12" y="187.96" smashed="yes" rot="R180">
-<attribute name="VALUE" x="200.66" y="190.5" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="D5" gate="G$1" x="10.16" y="81.28" smashed="yes">
 <attribute name="VALUE" x="7.62" y="76.454" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="7.62" y="84.328" size="1.778" layer="95" font="vector"/>
@@ -26341,21 +26325,28 @@ NANO</text>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="177.8" x2="157.48" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="1" pin="+15V"/>
+<pinref part="STEER-SWITCH" gate="J$1" pin="3"/>
+<wire x1="152.4" y1="172.72" x2="157.48" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="177.8" x2="157.48" y2="172.72" width="0.1524" layer="91"/>
+<junction x="157.48" y="177.8"/>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="132.08" x2="157.48" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+15V"/>
+<pinref part="AUTO-SWITCH" gate="J$1" pin="3"/>
+<wire x1="157.48" y1="127" x2="152.4" y2="127" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="132.08" x2="157.48" y2="127" width="0.1524" layer="91"/>
+<junction x="157.48" y="132.08"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="P+7" gate="1" pin="+15V"/>
 <wire x1="157.48" y1="154.94" x2="160.02" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="190.5" x2="198.12" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="P+3" gate="1" pin="+15V"/>
+<pinref part="IMP-SWITCH" gate="J$1" pin="3"/>
+<wire x1="157.48" y1="149.86" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="154.94" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
+<junction x="157.48" y="154.94"/>
 </segment>
 </net>
 <net name="HIGH" class="0">
@@ -26633,28 +26624,6 @@ NANO</text>
 <pinref part="OK3" gate="A" pin="C"/>
 <pinref part="AUTO-SWITCH" gate="J$1" pin="2"/>
 <wire x1="170.18" y1="124.46" x2="152.4" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PO" class="0">
-<segment>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="190.5" x2="177.8" y2="190.5" width="0.1524" layer="91"/>
-<label x="177.8" y="190.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="STEER-SWITCH" gate="J$1" pin="3"/>
-<wire x1="152.4" y1="172.72" x2="157.48" y2="172.72" width="0.1524" layer="91"/>
-<label x="152.4" y="172.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IMP-SWITCH" gate="J$1" pin="3"/>
-<wire x1="157.48" y1="149.86" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
-<label x="152.4" y="149.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="AUTO-SWITCH" gate="J$1" pin="3"/>
-<wire x1="157.48" y1="127" x2="152.4" y2="127" width="0.1524" layer="91"/>
-<label x="152.4" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A1" class="0">

@@ -14,8 +14,7 @@
 2x 1N5400	    DO-201
 1x 10uH	            0207/10
 9x 330	            0207/7						
-9x 1k	            0207/7
-1x 47R	            0207/7											
+9x 1k	            0207/7											
 1x CB1A-P-12V	    CB1											
 1x LED	            LED5MM-Red
 1x LED	            LED5MM-Blue										
