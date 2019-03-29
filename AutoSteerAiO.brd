@@ -3,7 +3,7 @@
 <eagle version="9.3.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -193,15 +193,15 @@
 <text x="105.41" y="34.29" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">5V</text>
 <text x="105.41" y="26.67" size="0.7112" layer="25" font="vector" ratio="15" rot="R270" align="center">LOW</text>
 <text x="105.41" y="29.21" size="0.7112" layer="25" font="vector" ratio="15" rot="R90" align="center">HIGH</text>
-<text x="55.245" y="11.43" size="0.7112" layer="25" font="vector" ratio="10" rot="R90" align="center">SDA</text>
-<text x="55.245" y="13.97" size="0.7112" layer="25" font="vector" ratio="10" rot="R90" align="center">SCL</text>
+<text x="55.245" y="12.065" size="0.7112" layer="25" font="vector" ratio="10" rot="R90" align="center">SDA</text>
+<text x="55.245" y="14.605" size="0.7112" layer="25" font="vector" ratio="10" rot="R90" align="center">SCL</text>
 <text x="105.41" y="48.26" size="0.6604" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
 <text x="105.41" y="50.8" size="0.6604" layer="25" font="vector" ratio="15" rot="R270" align="center">PWM2</text>
 <text x="105.41" y="58.42" size="0.6604" layer="25" font="vector" ratio="15" rot="R270" align="center">DIR1</text>
 <text x="33.02" y="93.98" size="2.54" layer="25" font="vector" ratio="14" rot="R180" align="center">AGOpenGPS</text>
 <text x="33.655" y="41.275" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center">.1uF</text>
-<text x="55.245" y="8.89" size="0.7112" layer="25" font="vector" ratio="10" rot="R90" align="center">3V</text>
-<text x="55.245" y="21.59" size="0.7112" layer="25" font="vector" ratio="10" rot="R90" align="center">GND</text>
+<text x="55.245" y="9.525" size="0.7112" layer="25" font="vector" ratio="10" rot="R90" align="center">3V</text>
+<text x="55.245" y="22.225" size="0.7112" layer="25" font="vector" ratio="10" rot="R90" align="center">GND</text>
 <text x="52.07" y="29.21" size="1.016" layer="25" font="vector" ratio="12" rot="R270" align="center">330</text>
 <text x="54.61" y="29.21" size="1.016" layer="25" font="vector" ratio="12" rot="R270" align="center">330</text>
 <wire x1="47.625" y1="87.63" x2="52.705" y2="87.63" width="0.508" layer="21"/>
@@ -10612,8 +10612,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J4" library="Header and Connector" package="2600-05" value="CONNECTOR 1x5 PINS" x="109.855" y="48.26" smashed="yes" rot="R90">
 <attribute name="CYTRON-PC" value="CN-2600PS-05" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESC" value="2600 PCB Connector" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
+<attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
