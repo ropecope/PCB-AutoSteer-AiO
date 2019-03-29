@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1790,6 +1790,8 @@ with Ethernet module!</text>
 <text x="69.85" y="6.35" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0" align="center">A1</text>
 <text x="66.04" y="6.35" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0" align="center">A2</text>
 <text x="63.5" y="6.35" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0" align="center">A3</text>
+<text x="103.124" y="60.2615" size="0.8128" layer="22" font="vector" ratio="13" rot="MR0" align="center">D5</text>
+<text x="111.633" y="50.8" size="0.8128" layer="22" font="vector" ratio="13" rot="SMR270" align="center">D9</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
@@ -10612,8 +10614,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J4" library="Header and Connector" package="2600-05" value="CONNECTOR 1x5 PINS" x="109.855" y="48.26" smashed="yes" rot="R90">
 <attribute name="CYTRON-PC" value="CN-2600PS-05" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESC" value="2600 PCB Connector" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
+<attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
