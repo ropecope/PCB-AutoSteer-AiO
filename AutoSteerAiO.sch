@@ -24045,7 +24045,7 @@ Created by: Wai Weng</description>
 <package name="VX7805500">
 <description>&lt;b&gt;VX7805-500&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="-2.54" y="-1.275" drill="1" diameter="1.5"/>
+<pad name="1" x="-2.54" y="-1.275" drill="1" diameter="1.5" shape="square"/>
 <pad name="2" x="0" y="-1.275" drill="1" diameter="1.5"/>
 <pad name="3" x="2.54" y="-1.275" drill="1" diameter="1.5"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
@@ -24062,10 +24062,7 @@ Created by: Wai Weng</description>
 <wire x1="6.8" y1="5.125" x2="6.8" y2="-5.125" width="0.1" layer="51"/>
 <wire x1="6.8" y1="-5.125" x2="-6.8" y2="-5.125" width="0.1" layer="51"/>
 <wire x1="-6.8" y1="-5.125" x2="-6.8" y2="5.125" width="0.1" layer="51"/>
-<wire x1="-2.6" y1="-4.025" x2="-2.6" y2="-4.025" width="0.2" layer="21"/>
-<wire x1="-2.6" y1="-4.025" x2="-2.4" y2="-4.025" width="0.2" layer="21" curve="-180"/>
-<wire x1="-2.4" y1="-4.025" x2="-2.4" y2="-4.025" width="0.2" layer="21"/>
-<wire x1="-2.4" y1="-4.025" x2="-2.6" y2="-4.025" width="0.2" layer="21" curve="-180"/>
+<circle x="-2.54" y="-2.557" radius="0.1" width="0.35" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -24557,7 +24554,6 @@ NANO</text>
 <library name="#VX7805-1000">
 <packages>
 <package name="VX78012-1000_VX7805-1000">
-<circle x="-2.54" y="5.19" radius="0.1" width="0.35" layer="21"/>
 <text x="-5.62856875" y="5.688759375" size="1.504959375" layer="25">&gt;NAME</text>
 <text x="-5.348840625" y="-7.15181875" size="1.50248125" layer="27">&gt;VALUE</text>
 <wire x1="-5.75" y1="4.5" x2="5.75" y2="4.5" width="0.127" layer="51"/>
@@ -24572,8 +24568,7 @@ NANO</text>
 <wire x1="5.75" y1="4.5" x2="5.75" y2="-4.5" width="0.127" layer="21"/>
 <wire x1="5.75" y1="-4.5" x2="-5.75" y2="-4.5" width="0.127" layer="21"/>
 <wire x1="-5.75" y1="-4.5" x2="-5.75" y2="4.5" width="0.127" layer="21"/>
-<circle x="-2.54" y="5.19" radius="0.1" width="0.35" layer="21"/>
-<circle x="-2.54" y="2.396" radius="0.1" width="0.35" layer="51"/>
+<circle x="-2.54" y="3.793" radius="0.1" width="0.35" layer="21"/>
 <pad name="1" x="-2.54" y="2.35" drill="1" shape="square"/>
 <pad name="2" x="0" y="2.35" drill="1"/>
 <pad name="3" x="2.54" y="2.35" drill="1"/>
@@ -25182,11 +25177,6 @@ NANO</text>
 </part>
 <part name="U$13" library="#MMA8542Q" deviceset="MMA8542Q" device=""/>
 <part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="SAO" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="CONNECTOR 1x2 PINS">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -25858,12 +25848,6 @@ NANO</text>
 <attribute name="MF" x="27.94" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="27.94" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SAO" gate="G$1" x="10.16" y="127" smashed="yes">
-<attribute name="NAME" x="10.16" y="133.858" size="1.778" layer="95" font="vector" align="center"/>
-<attribute name="OC_NEWARK" x="10.16" y="127" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="10.16" y="127" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="10.16" y="127" size="1.778" layer="96" display="off"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -26293,12 +26277,6 @@ NANO</text>
 <pinref part="1" gate="J$1" pin="1"/>
 <wire x1="160.02" y1="274.32" x2="162.56" y2="274.32" width="0.1524" layer="91"/>
 <label x="160.02" y="274.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SAO" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="127" x2="17.78" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="119.38" x2="7.62" y2="119.38" width="0.1524" layer="91"/>
-<label x="7.62" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -26745,10 +26723,9 @@ NANO</text>
 <pinref part="R15" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="SAO" class="0">
 <segment>
 <pinref part="MMA8542" gate="G$1" pin="SAO"/>
-<pinref part="SAO" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="129.54" x2="22.86" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
