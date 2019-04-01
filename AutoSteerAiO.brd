@@ -3,11 +3,11 @@
 <eagle version="9.3.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -332,7 +332,7 @@ SWITCH</text>
 <wire x1="3.175" y1="14.605" x2="3.175" y2="13.97" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="12.065" x2="3.175" y2="12.7" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="12.7" x2="2.54" y2="13.335" width="0.1524" layer="21"/>
-<text x="60.0075" y="32.385" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center">MMA8542</text>
+<text x="60.0075" y="31.75" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center">MMA8542</text>
 <wire x1="91.744559375" y1="89.9426" x2="92.097159375" y2="89.9426" width="0.1524" layer="21"/>
 <wire x1="92.097159375" y1="89.9426" x2="92.185659375" y2="89.8541" width="0.1524" layer="21"/>
 <wire x1="92.185659375" y1="89.8541" x2="92.185659375" y2="89.8398" width="0.1524" layer="21"/>
@@ -10254,23 +10254,14 @@ NANO</text>
 <wire x1="0" y1="0" x2="0" y2="15.24" width="0.2032" layer="21"/>
 <wire x1="0" y1="15.24" x2="15.24" y2="15.24" width="0.2032" layer="21"/>
 <wire x1="15.24" y1="15.24" x2="15.24" y2="0" width="0.2032" layer="21"/>
-<wire x1="5.842" y1="14.224" x2="4.826" y2="14.224" width="0.254" layer="21"/>
-<wire x1="5.842" y1="14.224" x2="5.461" y2="14.605" width="0.254" layer="21"/>
-<wire x1="5.842" y1="14.224" x2="5.461" y2="13.843" width="0.254" layer="21"/>
-<wire x1="7.239" y1="14.732" x2="7.239" y2="13.716" width="0.254" layer="21"/>
-<wire x1="7.239" y1="14.732" x2="6.858" y2="14.351" width="0.254" layer="21"/>
-<wire x1="7.239" y1="14.732" x2="7.62" y2="14.351" width="0.254" layer="21"/>
-<circle x="8.89" y="14.351" radius="0.127" width="0.254" layer="21"/>
 <text x="11.43" y="1.27" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">3.3V</text>
 <text x="11.43" y="3.81" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">SDA</text>
 <text x="11.43" y="6.35" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">SCL</text>
 <text x="11.43" y="8.89" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">I2</text>
 <text x="11.43" y="11.43" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">I1</text>
 <text x="11.43" y="13.97" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">GND</text>
-<text x="1.27" y="7.62" size="0.8128" layer="21" font="vector" ratio="15" rot="SR90" align="center">MMA8452Q</text>
-<text x="5.842" y="12.827" size="1.016" layer="21" font="vector" ratio="15" rot="R90">X</text>
-<text x="7.62" y="12.827" size="1.016" layer="21" font="vector" ratio="15" rot="R90">Y</text>
-<text x="9.398" y="12.827" size="1.016" layer="21" font="vector" ratio="15" rot="R90">Z</text>
+<text x="6.985" y="7.62" size="1.016" layer="21" font="vector" ratio="14" rot="SR90" align="center">MMA8452Q
+SparkFun</text>
 <circle x="2.54" y="2.54" radius="1.79605" width="0.1524" layer="21"/>
 <circle x="2.54" y="12.7" radius="1.79605" width="0.1524" layer="21"/>
 </package>
@@ -10626,8 +10617,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J4" library="Header and Connector" package="2600-05" value="CONNECTOR 1x5 PINS" x="109.855" y="48.26" smashed="yes" rot="R90">
 <attribute name="CYTRON-PC" value="CN-2600PS-05" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESC" value="2600 PCB Connector" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
+<attribute name="LABEL" value="" x="112.776" y="46.863" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="109.855" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>

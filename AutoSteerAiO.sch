@@ -24681,23 +24681,14 @@ NANO</text>
 <wire x1="0" y1="0" x2="0" y2="15.24" width="0.2032" layer="21"/>
 <wire x1="0" y1="15.24" x2="15.24" y2="15.24" width="0.2032" layer="21"/>
 <wire x1="15.24" y1="15.24" x2="15.24" y2="0" width="0.2032" layer="21"/>
-<wire x1="5.842" y1="14.224" x2="4.826" y2="14.224" width="0.254" layer="21"/>
-<wire x1="5.842" y1="14.224" x2="5.461" y2="14.605" width="0.254" layer="21"/>
-<wire x1="5.842" y1="14.224" x2="5.461" y2="13.843" width="0.254" layer="21"/>
-<wire x1="7.239" y1="14.732" x2="7.239" y2="13.716" width="0.254" layer="21"/>
-<wire x1="7.239" y1="14.732" x2="6.858" y2="14.351" width="0.254" layer="21"/>
-<wire x1="7.239" y1="14.732" x2="7.62" y2="14.351" width="0.254" layer="21"/>
-<circle x="8.89" y="14.351" radius="0.127" width="0.254" layer="21"/>
 <text x="11.43" y="1.27" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">3.3V</text>
 <text x="11.43" y="3.81" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">SDA</text>
 <text x="11.43" y="6.35" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">SCL</text>
 <text x="11.43" y="8.89" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">I2</text>
 <text x="11.43" y="11.43" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">I1</text>
 <text x="11.43" y="13.97" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">GND</text>
-<text x="1.27" y="7.62" size="0.8128" layer="21" font="vector" ratio="15" rot="SR90" align="center">MMA8452Q</text>
-<text x="5.842" y="12.827" size="1.016" layer="21" font="vector" ratio="15" rot="R90">X</text>
-<text x="7.62" y="12.827" size="1.016" layer="21" font="vector" ratio="15" rot="R90">Y</text>
-<text x="9.398" y="12.827" size="1.016" layer="21" font="vector" ratio="15" rot="R90">Z</text>
+<text x="6.985" y="7.62" size="1.016" layer="21" font="vector" ratio="14" rot="SR90" align="center">MMA8452Q
+SparkFun</text>
 <circle x="2.54" y="2.54" radius="1.79605" width="0.1524" layer="21"/>
 <circle x="2.54" y="12.7" radius="1.79605" width="0.1524" layer="21"/>
 </package>
