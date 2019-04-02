@@ -1597,9 +1597,9 @@ SWITCH</text>
 <wire x1="5.3975" y1="28.575" x2="4.7625" y2="28.575" width="0.6096" layer="22"/>
 <wire x1="5.3975" y1="15.875" x2="4.7625" y2="15.875" width="0.6096" layer="22"/>
 <wire x1="5.3975" y1="13.335" x2="4.7625" y2="13.335" width="0.6096" layer="22"/>
-<wire x1="110.1725" y1="14.605" x2="109.5375" y2="14.605" width="0.6096" layer="22"/>
-<wire x1="110.1725" y1="17.145" x2="109.5375" y2="17.145" width="0.6096" layer="22"/>
-<wire x1="110.1725" y1="19.685" x2="109.5375" y2="19.685" width="0.6096" layer="22"/>
+<wire x1="110.1725" y1="13.97" x2="109.5375" y2="13.97" width="0.6096" layer="22"/>
+<wire x1="110.1725" y1="16.51" x2="109.5375" y2="16.51" width="0.6096" layer="22"/>
+<wire x1="110.1725" y1="19.05" x2="109.5375" y2="19.05" width="0.6096" layer="22"/>
 <wire x1="110.1725" y1="27.94" x2="109.5375" y2="27.94" width="0.6096" layer="22"/>
 <wire x1="110.1725" y1="30.48" x2="109.5375" y2="30.48" width="0.6096" layer="22"/>
 <wire x1="110.1725" y1="33.02" x2="109.5375" y2="33.02" width="0.6096" layer="22"/>
@@ -10618,8 +10618,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J4" library="Header and Connector" package="2600-05" value="CONNECTOR 1x5 PINS" x="109.855" y="49.53" smashed="yes" rot="R90">
 <attribute name="CYTRON-PC" value="CN-2600PS-05" x="109.855" y="49.53" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESC" value="2600 PCB Connector" x="109.855" y="49.53" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LABEL" value="" x="112.776" y="48.133" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="112.776" y="48.133" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
+<attribute name="LABEL" value="" x="112.776" y="48.133" size="0.762" layer="21" font="vector" ratio="15" rot="R90" align="top-left"/>
 <attribute name="LABEL" value="" x="109.855" y="49.53" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="109.855" y="49.53" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="109.855" y="49.53" size="1.778" layer="27" rot="R90" display="off"/>
