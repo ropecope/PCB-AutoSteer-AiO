@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
@@ -581,7 +581,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signals>
 <signal name="GND">
 <contactref element="J2" pad="3"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" thermals="no">
 <vertex x="50.165" y="15.24"/>
 <vertex x="24.765" y="15.24"/>
 <vertex x="22.86" y="17.145"/>
@@ -591,7 +591,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="52.07" y="48.895"/>
 <vertex x="52.07" y="17.145"/>
 </polygon>
-<polygon width="0.1524" layer="16">
+<polygon width="0.1524" layer="16" thermals="no">
 <vertex x="50.165" y="15.24"/>
 <vertex x="24.765" y="15.24"/>
 <vertex x="22.86" y="17.145"/>
