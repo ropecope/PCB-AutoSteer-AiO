@@ -3,7 +3,7 @@
 <eagle version="9.3.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -11485,6 +11485,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="67.31" y1="48.26" x2="71.755" y2="48.26" width="0.508" layer="16"/>
 <wire x1="71.755" y1="50.8" x2="71.755" y2="48.26" width="0.508" layer="16"/>
 <wire x1="71.755" y1="50.8" x2="71.755" y2="60.325" width="2.032" layer="16"/>
+<wire x1="71.755" y1="60.325" x2="66.675" y2="60.325" width="0.6096" layer="16"/>
+<wire x1="66.675" y1="60.325" x2="62.23" y2="64.77" width="0.6096" layer="16"/>
+<wire x1="62.23" y1="64.77" x2="59.69" y2="64.77" width="0.6096" layer="16"/>
 </signal>
 <signal name="D5">
 <contactref element="PCB1" pad="D5"/>
