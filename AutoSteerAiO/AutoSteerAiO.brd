@@ -1794,9 +1794,9 @@ with Ethernet module!</text>
 <wire x1="52.86375" y1="39.21125" x2="48.73625" y2="39.21125" width="0.254" layer="21"/>
 <wire x1="48.73625" y1="39.21125" x2="48.73625" y2="40.79875" width="0.254" layer="21"/>
 <wire x1="60.0075" y1="49.53" x2="59.3725" y2="49.53" width="0.6096" layer="22"/>
-<wire x1="68.8975" y1="50.4825" x2="67.945" y2="49.53" width="0.6096" layer="22"/>
-<wire x1="67.945" y1="49.53" x2="68.8975" y2="48.5775" width="0.6096" layer="22"/>
-<wire x1="67.945" y1="49.53" x2="67.31" y2="49.53" width="0.6096" layer="22"/>
+<wire x1="68.58" y1="50.4825" x2="67.6275" y2="49.53" width="0.6096" layer="22"/>
+<wire x1="67.6275" y1="49.53" x2="68.58" y2="48.5775" width="0.6096" layer="22"/>
+<wire x1="67.6275" y1="49.53" x2="66.9925" y2="49.53" width="0.6096" layer="22"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
