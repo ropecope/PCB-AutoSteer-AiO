@@ -3,7 +3,7 @@
 <eagle version="9.3.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -11104,8 +11104,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="6.731" y1="9.779" x2="3.7465" y2="9.779" width="0.6096" layer="1"/>
 <wire x1="3.7465" y1="9.779" x2="2.54" y2="10.9855" width="0.6096" layer="1"/>
 <wire x1="7.3025" y1="53.975" x2="2.54" y2="49.2125" width="0.6096" layer="1"/>
-<wire x1="43.4975" y1="57.15" x2="34.6075" y2="66.04" width="0.4064" layer="1"/>
-<wire x1="34.6075" y1="66.04" x2="11.43" y2="66.04" width="0.4064" layer="1"/>
+<wire x1="43.4975" y1="57.15" x2="34.925" y2="65.7225" width="0.4064" layer="1"/>
+<wire x1="34.925" y1="65.7225" x2="11.7475" y2="65.7225" width="0.4064" layer="1"/>
 <wire x1="54.2925" y1="57.15" x2="55.88" y2="58.7375" width="0.4064" layer="1"/>
 <wire x1="43.4975" y1="57.15" x2="54.2925" y2="57.15" width="0.4064" layer="1"/>
 <wire x1="5.08" y1="58.7375" x2="6.35" y2="58.7375" width="0.6096" layer="1"/>
@@ -11119,7 +11119,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="7.1247" y1="68.6054" x2="5.08" y2="66.5607" width="0.8128" layer="1"/>
 <wire x1="5.08" y1="66.5607" x2="5.08" y2="64.77" width="0.8128" layer="1"/>
 <wire x1="8.7122" y1="68.6054" x2="8.8646" y2="68.6054" width="0.4064" layer="1"/>
-<wire x1="8.8646" y1="68.6054" x2="11.43" y2="66.04" width="0.4064" layer="1"/>
+<wire x1="8.8646" y1="68.6054" x2="11.7475" y2="65.7225" width="0.4064" layer="1"/>
 <contactref element="C9" pad="2"/>
 <wire x1="62.23" y1="36.83" x2="62.23" y2="40.005" width="0.508" layer="1"/>
 <wire x1="63.5522" y1="30.4278" x2="62.23" y2="31.75" width="0.508" layer="16"/>
@@ -11876,14 +11876,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="D3" pad="C"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C5" pad="+"/>
-<contactref element="R16" pad="1"/>
 <contactref element="PS1" pad="1"/>
 <contactref element="C6" pad="2"/>
 <wire x1="15.5575" y1="86.36" x2="15.5575" y2="80.01" width="0.8128" layer="1"/>
 <wire x1="15.5575" y1="80.01" x2="15.555" y2="80.0125" width="0.8128" layer="1"/>
 <wire x1="15.555" y1="80.0125" x2="15.5525" y2="80.01" width="0.8128" layer="1"/>
-<wire x1="34.925" y1="74.93" x2="34.925" y2="68.8975" width="0.4064" layer="1"/>
-<wire x1="45.085" y1="58.7375" x2="34.925" y2="68.8975" width="0.4064" layer="1"/>
 <wire x1="15.5575" y1="90.5275" x2="15.5575" y2="86.36" width="0.8128" layer="1"/>
 <contactref element="U1" pad="1"/>
 <wire x1="15.5575" y1="90.5275" x2="10.5175" y2="90.5275" width="0.8128" layer="1"/>
@@ -11932,6 +11929,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="37.18175" y1="64.73575" x2="41.24075" y2="60.67675" width="0.6096" layer="16"/>
 <wire x1="41.24075" y1="60.67675" x2="41.24075" y2="56.16325" width="0.6096" layer="16"/>
 <wire x1="19.40175" y1="64.73575" x2="37.18175" y2="64.73575" width="0.6096" layer="16"/>
+<contactref element="R16" pad="1"/>
+<wire x1="45.085" y1="58.7375" x2="36.83" y2="66.9925" width="0.4064" layer="1"/>
+<wire x1="36.83" y1="66.9925" x2="17.145" y2="66.9925" width="0.4064" layer="1"/>
+<wire x1="17.145" y1="66.9925" x2="15.5525" y2="68.585" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="OK1" pad="2"/>

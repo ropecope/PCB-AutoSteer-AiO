@@ -25651,22 +25651,22 @@ NANO</text>
 <attribute name="MPN" x="53.34" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+4" gate="1" x="38.1" y="175.26" smashed="yes" rot="R180"/>
-<instance part="LED1" gate="G$1" x="63.5" y="228.6" smashed="yes">
-<attribute name="NAME" x="67.056" y="224.028" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="69.215" y="224.028" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_NEWARK" x="63.5" y="228.6" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="63.5" y="228.6" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="63.5" y="228.6" size="1.778" layer="96" display="off"/>
+<instance part="LED1" gate="G$1" x="124.46" y="127" smashed="yes">
+<attribute name="NAME" x="128.016" y="122.428" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="130.175" y="122.428" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_NEWARK" x="124.46" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="124.46" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="124.46" y="127" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R16" gate="G$1" x="63.5" y="236.22" smashed="yes" rot="R270">
-<attribute name="NAME" x="64.9986" y="236.22" size="1.778" layer="95" rot="R90" align="top-center"/>
-<attribute name="VALUE" x="62.23" y="236.22" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="OC_NEWARK" x="63.5" y="236.22" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="63.5" y="236.22" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="63.5" y="236.22" size="1.778" layer="96" display="off"/>
+<instance part="R16" gate="G$1" x="124.46" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="125.9586" y="137.16" size="1.778" layer="95" rot="R90" align="top-center"/>
+<attribute name="VALUE" x="123.19" y="137.16" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="OC_NEWARK" x="124.46" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="124.46" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="124.46" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND14" gate="1" x="63.5" y="220.98" smashed="yes">
-<attribute name="VALUE" x="60.96" y="218.44" size="1.778" layer="96"/>
+<instance part="GND14" gate="1" x="124.46" y="119.38" smashed="yes">
+<attribute name="VALUE" x="121.92" y="116.84" size="1.778" layer="96"/>
 </instance>
 <instance part="GND23" gate="1" x="83.82" y="220.98" smashed="yes">
 <attribute name="VALUE" x="81.28" y="218.44" size="1.778" layer="96"/>
@@ -25817,12 +25817,12 @@ NANO</text>
 <instance part="GND31" gate="1" x="86.36" y="119.38" smashed="yes">
 <attribute name="VALUE" x="83.82" y="116.84" size="1.778" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="114.3" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="118.11" y="135.6614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="118.11" y="140.462" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="114.3" y="137.16" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="114.3" y="137.16" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="114.3" y="137.16" size="1.778" layer="96" display="off"/>
+<instance part="L1" gate="G$1" x="111.76" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="115.57" y="135.6614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="115.57" y="140.462" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_NEWARK" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="111.76" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND1" gate="1" x="68.58" y="180.594" smashed="yes">
 <attribute name="VALUE" x="72.39" y="179.578" size="1.778" layer="96" rot="R180"/>
@@ -25833,32 +25833,32 @@ NANO</text>
 <instance part="AGND3" gate="1" x="60.96" y="157.734" smashed="yes">
 <attribute name="VALUE" x="64.77" y="156.718" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="PS1" gate="G$1" x="73.66" y="137.16" smashed="yes">
-<attribute name="VALUE" x="82.55" y="129.54" size="1.778" layer="96" align="center-left"/>
-<attribute name="OC_NEWARK" x="73.66" y="137.16" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="73.66" y="137.16" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="73.66" y="137.16" size="1.778" layer="96" display="off"/>
+<instance part="PS1" gate="G$1" x="71.12" y="137.16" smashed="yes">
+<attribute name="VALUE" x="80.01" y="129.54" size="1.778" layer="96" align="center-left"/>
+<attribute name="OC_NEWARK" x="71.12" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="71.12" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="71.12" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C7" gate="G$1" x="106.68" y="129.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="109.855" y="128.27" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="110.49" y="133.6675" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="106.68" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="106.68" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="106.68" y="129.54" size="1.778" layer="96" display="off"/>
+<instance part="C7" gate="G$1" x="104.14" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="107.315" y="128.27" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="107.95" y="133.6675" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_NEWARK" x="104.14" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="104.14" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="104.14" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C8" gate="G$1" x="121.92" y="129.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="120.015" y="128.27" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="125.73" y="133.6675" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="121.92" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="121.92" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="121.92" y="129.54" size="1.778" layer="96" display="off"/>
+<instance part="C8" gate="G$1" x="119.38" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="117.475" y="128.27" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="123.19" y="133.6675" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_NEWARK" x="119.38" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="119.38" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="119.38" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C6" gate="G$1" x="68.58" y="129.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="66.675" y="128.27" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="72.39" y="133.6675" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="68.58" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="68.58" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="68.58" y="129.54" size="1.778" layer="96" display="off"/>
+<instance part="C6" gate="G$1" x="66.04" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="64.135" y="128.27" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="69.85" y="133.6675" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_NEWARK" x="66.04" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="66.04" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="66.04" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="119.38" y="220.98" smashed="yes">
 <attribute name="VALUE" x="116.84" y="218.44" size="1.778" layer="96"/>
@@ -26276,19 +26276,19 @@ NANO</text>
 </segment>
 <segment>
 <pinref part="PS1" gate="G$1" pin="GND"/>
-<wire x1="73.66" y1="134.62" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="134.62" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="127" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="124.46" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
-<junction x="73.66" y="124.46"/>
+<wire x1="66.04" y1="127" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="124.46" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="124.46" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
+<junction x="71.12" y="124.46"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="124.46" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="124.46" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="124.46" x2="121.92" y2="127" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="124.46" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="124.46" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="124.46" x2="119.38" y2="127" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="127" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
-<junction x="106.68" y="124.46"/>
+<wire x1="104.14" y1="127" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
+<junction x="104.14" y="124.46"/>
 <pinref part="GND31" gate="1" pin="GND"/>
 <wire x1="86.36" y1="121.92" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
 <junction x="86.36" y="124.46"/>
@@ -26594,6 +26594,7 @@ NANO</text>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="124.46" y1="132.08" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -26691,14 +26692,10 @@ NANO</text>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="243.84" x2="53.34" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="+"/>
-<wire x1="53.34" y1="243.84" x2="63.5" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="243.84" x2="71.12" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="243.84" x2="71.12" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="243.84" x2="83.82" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="238.76" x2="71.12" y2="243.84" width="0.1524" layer="91"/>
 <junction x="71.12" y="243.84"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="241.3" x2="63.5" y2="243.84" width="0.1524" layer="91"/>
-<junction x="63.5" y="243.84"/>
 <pinref part="U1" gate="G$1" pin="+VIN"/>
 <junction x="83.82" y="243.84"/>
 <wire x1="83.82" y1="243.84" x2="83.82" y2="238.76" width="0.1524" layer="91"/>
@@ -26708,10 +26705,10 @@ NANO</text>
 <segment>
 <pinref part="PS1" gate="G$1" pin="+VIN"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="137.16" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="137.16" x2="63.5" y2="137.16" width="0.1524" layer="91"/>
-<junction x="68.58" y="137.16"/>
+<wire x1="71.12" y1="137.16" x2="66.04" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="137.16" x2="66.04" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="137.16" x2="63.5" y2="137.16" width="0.1524" layer="91"/>
+<junction x="66.04" y="137.16"/>
 <label x="63.5" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -26729,12 +26726,12 @@ NANO</text>
 </net>
 <net name="A+5V" class="0">
 <segment>
-<wire x1="121.92" y1="137.16" x2="121.92" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="137.16" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
-<junction x="121.92" y="137.16"/>
-<label x="121.92" y="139.7" size="1.778" layer="95"/>
+<wire x1="119.38" y1="137.16" x2="119.38" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="137.16" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
+<junction x="119.38" y="137.16"/>
+<label x="116.84" y="142.24" size="1.778" layer="95"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="137.16" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="137.16" x2="119.38" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -26752,12 +26749,15 @@ NANO</text>
 <net name="N$25" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="137.16" x2="106.68" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="137.16" x2="104.14" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="137.16" x2="101.6" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="PS1" gate="G$1" pin="+VOUT"/>
-<wire x1="106.68" y1="134.62" x2="106.68" y2="137.16" width="0.1524" layer="91"/>
-<junction x="106.68" y="137.16"/>
+<wire x1="104.14" y1="134.62" x2="104.14" y2="137.16" width="0.1524" layer="91"/>
+<junction x="104.14" y="137.16"/>
+<wire x1="104.14" y1="137.16" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="142.24" x2="124.46" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
