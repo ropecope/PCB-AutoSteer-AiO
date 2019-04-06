@@ -26245,22 +26245,22 @@ NANO</text>
 <attribute name="MPN" x="53.34" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+4" gate="1" x="38.1" y="175.26" smashed="yes" rot="R180"/>
-<instance part="LED1" gate="G$1" x="63.5" y="228.6" smashed="yes">
-<attribute name="NAME" x="67.056" y="224.028" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="69.215" y="224.028" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_NEWARK" x="63.5" y="228.6" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="63.5" y="228.6" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="63.5" y="228.6" size="1.778" layer="96" display="off"/>
+<instance part="LED1" gate="G$1" x="121.92" y="129.54" smashed="yes">
+<attribute name="NAME" x="125.476" y="124.968" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="127.635" y="124.968" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_NEWARK" x="121.92" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="121.92" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="121.92" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R16" gate="G$1" x="63.5" y="236.22" smashed="yes" rot="R270">
-<attribute name="NAME" x="64.9986" y="236.22" size="1.778" layer="95" rot="R90" align="top-center"/>
-<attribute name="VALUE" x="62.23" y="236.22" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="OC_NEWARK" x="63.5" y="236.22" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="63.5" y="236.22" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="63.5" y="236.22" size="1.778" layer="96" display="off"/>
+<instance part="R16" gate="G$1" x="121.92" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="123.4186" y="137.16" size="1.778" layer="95" rot="R90" align="top-center"/>
+<attribute name="VALUE" x="120.65" y="137.16" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="OC_NEWARK" x="121.92" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="121.92" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="121.92" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND14" gate="1" x="63.5" y="220.98" smashed="yes">
-<attribute name="VALUE" x="60.96" y="218.44" size="1.778" layer="96"/>
+<instance part="GND14" gate="1" x="121.92" y="121.92" smashed="yes">
+<attribute name="VALUE" x="119.38" y="119.38" size="1.778" layer="96"/>
 </instance>
 <instance part="GND23" gate="1" x="83.82" y="220.98" smashed="yes">
 <attribute name="VALUE" x="81.28" y="218.44" size="1.778" layer="96"/>
@@ -27317,14 +27317,10 @@ NANO</text>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="243.84" x2="53.34" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="+"/>
-<wire x1="53.34" y1="243.84" x2="63.5" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="243.84" x2="71.12" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="243.84" x2="71.12" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="243.84" x2="83.82" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="238.76" x2="71.12" y2="243.84" width="0.1524" layer="91"/>
 <junction x="71.12" y="243.84"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="241.3" x2="63.5" y2="243.84" width="0.1524" layer="91"/>
-<junction x="63.5" y="243.84"/>
 <pinref part="U1" gate="G$1" pin="+VIN"/>
 <junction x="83.82" y="243.84"/>
 <wire x1="83.82" y1="243.84" x2="83.82" y2="238.76" width="0.1524" layer="91"/>
@@ -27384,6 +27380,9 @@ NANO</text>
 <pinref part="PS1" gate="G$1" pin="+VOUT"/>
 <wire x1="96.52" y1="134.62" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
 <junction x="96.52" y="137.16"/>
+<wire x1="96.52" y1="137.16" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="142.24" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
