@@ -1,7 +1,7 @@
 1x  ARDUINO NANO v3  ARDUINO-NANO									
 1x  ADS1115	    ADC-4CH-ADS1115
 2x  CONNECTOR        1X01 PIN
-4x  CONNECTOR        1X02 PINS							
+5x  CONNECTOR        1X02 PINS							
 3x  CONNECTOR        1X03 PINS						
 2x  CONNECTOR        1X04 PINS										
 1x  CONNECTOR        1X04 PINS 2600-04 Cytron

@@ -25211,7 +25211,7 @@ SparkFun</text>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="D5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1" value="CONNECTOR 1x1 PIN">
+<part name="D5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="CONNECTOR 1x1 PIN">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -25876,7 +25876,7 @@ NANO</text>
 <attribute name="MPN" x="40.64" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D5" gate="G$1" x="10.16" y="81.28" smashed="yes">
-<attribute name="NAME" x="7.62" y="84.328" size="1.778" layer="95" font="vector"/>
+<attribute name="NAME" x="7.62" y="76.708" size="1.778" layer="95" font="vector"/>
 <attribute name="OC_NEWARK" x="10.16" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="10.16" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="10.16" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
@@ -26082,6 +26082,11 @@ NANO</text>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <wire x1="33.02" y1="248.92" x2="33.02" y2="246.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D5" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="83.82" x2="22.86" y2="83.82" width="0.1524" layer="91"/>
+<label x="17.78" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
