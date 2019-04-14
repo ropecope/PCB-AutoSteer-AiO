@@ -10,7 +10,7 @@
 2x  10uF 35V         C050-024X044
 3x  22uF 10V	     C050-024X044						
 2x  1000uF 35V	     CPOL-RADIAL-Pitch:5MM-Ø10MM
-2x  1N4004	     DO41-10
+3x  1N4004	     DO41-10
 2x  1N5400	     DO-201
 1x  10uH	     0207/10						
 9x  1k	             0207/7
