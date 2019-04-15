@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24048,8 +24048,8 @@ Created by: Wai Weng</description>
 <pad name="1" x="-2.54" y="-1.275" drill="1" diameter="1.5" shape="square"/>
 <pad name="2" x="0" y="-1.275" drill="1" diameter="1.5"/>
 <pad name="3" x="2.54" y="-1.275" drill="1" diameter="1.5"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="-3.81" y="6.35" size="1.016" layer="25" align="center">&gt;NAME</text>
+<text x="3.81" y="6.35" size="1.016" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-5.8" y1="4.125" x2="5.8" y2="4.125" width="0.2" layer="51"/>
 <wire x1="5.8" y1="4.125" x2="5.8" y2="-3.425" width="0.2" layer="51"/>
 <wire x1="5.8" y1="-3.425" x2="-5.8" y2="-3.425" width="0.2" layer="51"/>
@@ -24062,7 +24062,10 @@ Created by: Wai Weng</description>
 <wire x1="6.8" y1="5.125" x2="6.8" y2="-5.125" width="0.1" layer="51"/>
 <wire x1="6.8" y1="-5.125" x2="-6.8" y2="-5.125" width="0.1" layer="51"/>
 <wire x1="-6.8" y1="-5.125" x2="-6.8" y2="5.125" width="0.1" layer="51"/>
-<circle x="-2.54" y="-2.557" radius="0.1" width="0.35" layer="21"/>
+<circle x="-4.445" y="-1.287" radius="0.1" width="0.35" layer="21"/>
+<text x="-2.54" y="0.635" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center">1</text>
+<text x="0" y="0.635" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center">2</text>
+<text x="2.54" y="0.635" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center">3</text>
 </package>
 </packages>
 <symbols>
@@ -24554,8 +24557,8 @@ NANO</text>
 <library name="#VX7805-1000">
 <packages>
 <package name="VX78012-1000_VX7805-1000">
-<text x="-5.62856875" y="5.688759375" size="1.504959375" layer="25">&gt;NAME</text>
-<text x="-5.348840625" y="-7.15181875" size="1.50248125" layer="27">&gt;VALUE</text>
+<text x="-3.08856875" y="5.688759375" size="1.016" layer="25" align="center">&gt;NAME</text>
+<text x="3.175" y="5.715" size="1.016" layer="25" align="center">&gt;VALUE</text>
 <wire x1="-5.75" y1="4.5" x2="5.75" y2="4.5" width="0.127" layer="51"/>
 <wire x1="5.75" y1="4.5" x2="5.75" y2="-4.5" width="0.127" layer="51"/>
 <wire x1="5.75" y1="-4.5" x2="-5.75" y2="-4.5" width="0.127" layer="51"/>
@@ -24568,10 +24571,13 @@ NANO</text>
 <wire x1="5.75" y1="4.5" x2="5.75" y2="-4.5" width="0.127" layer="21"/>
 <wire x1="5.75" y1="-4.5" x2="-5.75" y2="-4.5" width="0.127" layer="21"/>
 <wire x1="-5.75" y1="-4.5" x2="-5.75" y2="4.5" width="0.127" layer="21"/>
-<circle x="-2.54" y="3.793" radius="0.1" width="0.35" layer="21"/>
+<circle x="-4.445" y="2.3452" radius="0.1" width="0.35" layer="21"/>
 <pad name="1" x="-2.54" y="2.35" drill="1" shape="square"/>
 <pad name="2" x="0" y="2.35" drill="1"/>
 <pad name="3" x="2.54" y="2.35" drill="1"/>
+<text x="-2.54" y="0.635" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center">1</text>
+<text x="0" y="0.635" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center">2</text>
+<text x="2.54" y="0.635" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="center">3</text>
 </package>
 </packages>
 <symbols>
