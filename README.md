@@ -8,4 +8,5 @@ And set in the setup zone PinMapping 1 <br>
 (#define PinMapping 1 = PCB Basic Autostee) <br>
 
 оr
-...
+AutoSteerArduinoCode From farmerbriantee
+https://github.com/farmerbriantee/BasicAutoSteerPCB/blob/master/AutoSteerPCB/AutoSteerArduinoCode.zip
