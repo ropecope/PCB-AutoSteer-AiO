@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -189,13 +189,13 @@
 <plain>
 <text x="106.66" y="8.15" size="1.6764" layer="25" font="vector" ratio="10" rot="R180"></text>
 <text x="73.66" y="93.98" size="1.9304" layer="25" font="vector" ratio="14" rot="R180" align="center">AutoSteer With Power Supply</text>
-<text x="105.41" y="31.75" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">GND</text>
-<text x="105.41" y="34.29" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">5V</text>
-<text x="105.41" y="26.67" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">LOW</text>
-<text x="105.41" y="29.21" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">HIGH</text>
-<text x="105.41" y="59.69" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">GND</text>
-<text x="105.41" y="49.53" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">PWM2</text>
-<text x="105.41" y="57.15" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">DIR1</text>
+<text x="105.41" y="31.75" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
+<text x="105.41" y="34.29" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">5V</text>
+<text x="105.41" y="26.67" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">LO</text>
+<text x="105.41" y="29.21" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">HI</text>
+<text x="105.41" y="59.69" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
+<text x="105.41" y="49.53" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">PWM</text>
+<text x="105.41" y="57.15" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">DIR</text>
 <text x="32.385" y="93.98" size="2.54" layer="25" font="vector" ratio="14" rot="R180" align="center">AGOpenGPS</text>
 <text x="33.02" y="41.275" size="0.8128" layer="25" font="vector" ratio="12" rot="R180" align="center">.1uF</text>
 <text x="55.245" y="27.6225" size="1.016" layer="25" font="vector" ratio="12" align="center">330</text>
@@ -232,7 +232,7 @@ SWITCH</text>
 IMP
 SWITCH</text>
 <wire x1="80.9625" y1="87.9475" x2="80.9625" y2="82.2325" width="0.508" layer="21"/>
-<text x="105.41" y="54.61" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">PWM1</text>
+<text x="105.41" y="54.61" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">PWM</text>
 <wire x1="6.3373" y1="66.0273" x2="3.7973" y2="66.0273" width="0.2032" layer="21"/>
 <wire x1="6.3373" y1="54.5973" x2="3.7973" y2="54.5973" width="0.2032" layer="21"/>
 <wire x1="3.7973" y1="66.0273" x2="3.7973" y2="60.6552" width="0.2032" layer="21"/>
@@ -245,12 +245,12 @@ SWITCH</text>
 <wire x1="3.7973" y1="59.9948" x2="6.3373" y2="59.9948" width="0.2032" layer="21"/>
 <text x="63.1825" y="2.2225" locked="yes" size="0.8128" layer="16" font="vector" rot="MR0" align="center">pcb layout Petar Starcev Serbia, Novi Sad</text>
 <text x="109.22" y="65.405" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center">MDD10A</text>
-<text x="105.41" y="15.24" size="0.6858" layer="25" font="vector" ratio="17" rot="R270" align="center">AUX2</text>
-<text x="105.41" y="17.78" size="0.6858" layer="25" font="vector" ratio="17" distance="49" rot="R270" align="center">AUX1</text>
-<text x="105.41" y="20.32" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">GND</text>
-<text x="105.41" y="12.7" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">GND</text>
-<text x="105.41" y="43.18" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">SCL</text>
-<text x="105.41" y="40.64" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">SDA</text>
+<text x="105.41" y="15.24" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">AUX</text>
+<text x="105.41" y="17.78" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">AUX</text>
+<text x="105.41" y="20.32" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
+<text x="105.41" y="12.7" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
+<text x="105.41" y="43.18" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">SCL</text>
+<text x="105.41" y="40.64" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">SDA</text>
 <text x="60.0075" y="80.645" size="1.27" layer="25" font="vector" ratio="15" align="center">MOTOR DRIVER</text>
 <text x="1.27" y="47.625" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+15V</text>
 <text x="1.27" y="42.545" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">GND</text>
@@ -1749,11 +1749,11 @@ instead of resistors</text>
 <wire x1="67.6275" y1="49.53" x2="68.58" y2="48.5775" width="0.6096" layer="22"/>
 <wire x1="68.58" y1="50.4825" x2="67.6275" y2="49.53" width="0.6096" layer="22"/>
 <text x="109.22" y="69.215" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center">IBT2</text>
-<text x="105.41" y="52.07" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">En</text>
+<text x="105.41" y="52.07" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">En</text>
 <text x="113.03" y="62.23" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">+5V</text>
 <wire x1="109.5375" y1="60.96" x2="108.9025" y2="60.96" width="0.6096" layer="22"/>
 <text x="109.22" y="67.945" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center">MD10C</text>
-<text x="105.41" y="62.23" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">+5V</text>
+<text x="105.41" y="62.23" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">+5V</text>
 <wire x1="66.3575" y1="82.2325" x2="66.3575" y2="87.9475" width="0.6096" layer="22"/>
 <wire x1="66.3575" y1="87.9475" x2="66.3575" y2="82.2325" width="0.508" layer="21"/>
 <wire x1="53.34" y1="87.9475" x2="53.34" y2="82.2325" width="0.508" layer="21"/>
@@ -1763,6 +1763,10 @@ instead of resistors</text>
 <text x="59.69" y="54.61" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center">AutoSteer</text>
 <text x="54.483" y="63.5" size="1.016" layer="25" font="vector" ratio="15" rot="R180" align="center">5V
 ok</text>
+<text x="104.14" y="54.61" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">1</text>
+<text x="104.14" y="49.53" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">2</text>
+<text x="104.14" y="17.78" size="0.8128" layer="25" font="vector" ratio="17" rot="R270" align="center">1</text>
+<text x="104.14" y="15.24" size="0.8128" layer="25" font="vector" ratio="17" rot="R270" align="center">2</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
@@ -10579,11 +10583,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-09538" x="48.26" y="86.995" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="60.42025" y="73.025" size="0.8128" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="ON/OFF" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="CONNECTOR 1x2 PINS" x="109.855" y="86.36" smashed="yes" rot="R270">
-<attribute name="MF" value="" x="109.855" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="109.855" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="106.68" y="85.09" size="1.016" layer="25" font="vector" ratio="14" rot="R270" align="center"/>
-<attribute name="OC_NEWARK" value="unknown" x="109.855" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="ON/OFF" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="CONNECTOR 1x2 PINS" x="109.22" y="86.36" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="109.22" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="109.22" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="113.03" y="85.09" size="1.016" layer="25" font="vector" ratio="14" rot="R270" align="center"/>
+<attribute name="OC_NEWARK" value="unknown" x="109.22" y="86.36" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X06" package3d_urn="urn:adsk.eagle:package:38009/1" value="CONNECTOR 1x5 PINS" x="109.22" y="49.53" smashed="yes" rot="R90">
 <attribute name="LABEL" value="" x="112.141" y="48.133" size="0.762" layer="51" font="vector" ratio="15" rot="R90" align="top-left"/>
@@ -11411,7 +11415,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="59.69" y1="64.77" x2="48.895" y2="64.77" width="0.508" layer="16"/>
 <wire x1="20.6375" y1="68.58" x2="45.085" y2="68.58" width="0.508" layer="16"/>
 <wire x1="45.085" y1="68.58" x2="48.895" y2="64.77" width="0.508" layer="16"/>
-<wire x1="109.855" y1="86.36" x2="98.1075" y2="86.36" width="0.6096" layer="16"/>
+<wire x1="109.22" y1="86.36" x2="98.1075" y2="86.36" width="0.6096" layer="16"/>
 <wire x1="98.1075" y1="86.36" x2="96.8375" y2="85.09" width="0.6096" layer="16"/>
 <contactref element="J1" pad="2"/>
 <contactref element="C15" pad="1"/>
@@ -11952,9 +11956,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$28">
 <contactref element="ON/OFF" pad="2"/>
 <contactref element="D6" pad="C"/>
-<wire x1="104.775" y1="76.835" x2="107.315" y2="76.835" width="0.6096" layer="1"/>
-<wire x1="107.315" y1="76.835" x2="109.855" y2="79.375" width="0.6096" layer="1"/>
-<wire x1="109.855" y1="79.375" x2="109.855" y2="83.82" width="0.6096" layer="1"/>
+<wire x1="104.775" y1="76.835" x2="106.68" y2="76.835" width="0.6096" layer="1"/>
+<wire x1="106.68" y1="76.835" x2="109.22" y2="79.375" width="0.6096" layer="1"/>
+<wire x1="109.22" y1="79.375" x2="109.22" y2="83.82" width="0.6096" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
