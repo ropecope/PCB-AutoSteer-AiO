@@ -239,8 +239,8 @@ SWITCH</text>
 <wire x1="3.7973" y1="59.9948" x2="3.7973" y2="54.5973" width="0.2032" layer="21"/>
 <wire x1="6.3373" y1="66.0273" x2="6.3373" y2="60.6552" width="0.2032" layer="21"/>
 <wire x1="6.3373" y1="59.9948" x2="6.3373" y2="54.5973" width="0.2032" layer="21"/>
-<text x="1.27" y="62.23" size="0.8128" layer="25" font="vector" ratio="14" rot="SR270" align="center">GND</text>
-<text x="1.27" y="64.77" size="0.8128" layer="25" font="vector" ratio="14" rot="SR270" align="center">+5V</text>
+<text x="1.27" y="62.23" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">GND</text>
+<text x="1.27" y="64.77" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+5V</text>
 <wire x1="3.7973" y1="60.6552" x2="6.3373" y2="60.6552" width="0.2032" layer="21"/>
 <wire x1="3.7973" y1="59.9948" x2="6.3373" y2="59.9948" width="0.2032" layer="21"/>
 <text x="63.1825" y="2.2225" locked="yes" size="0.8128" layer="16" font="vector" rot="MR0" align="center">pcb layout Petar Starcev Serbia, Novi Sad</text>
@@ -252,42 +252,42 @@ SWITCH</text>
 <text x="105.41" y="43.18" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">SCL</text>
 <text x="105.41" y="40.64" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">SDA</text>
 <text x="60.0075" y="80.645" size="1.27" layer="25" font="vector" ratio="15" align="center">MOTOR DRIVER</text>
-<text x="1.27" y="47.625" size="0.8128" layer="25" font="vector" ratio="14" rot="SR270" align="center">+15V</text>
-<text x="1.27" y="42.545" size="0.8128" layer="25" font="vector" ratio="14" rot="SR270" align="center">GND</text>
-<text x="1.27" y="45.085" size="0.8128" layer="25" font="vector" ratio="14" rot="SR270" align="center">D6</text>
-<text x="1.27" y="29.845" size="0.8128" layer="25" font="vector" ratio="14" rot="SR270" align="center">D7</text>
-<text x="1.27" y="27.305" size="0.8128" layer="25" font="vector" ratio="14" rot="SR270" align="center">GND</text>
-<text x="1.27" y="12.065" size="0.8128" layer="25" font="vector" ratio="14" rot="SR270" align="center">GND</text>
-<text x="1.27" y="14.605" size="0.8128" layer="25" font="vector" ratio="14" rot="SR270" align="center">D8</text>
-<text x="113.03" y="49.53" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">D9</text>
-<text x="113.03" y="52.07" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">D5</text>
-<text x="113.03" y="57.15" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">D4</text>
-<text x="113.03" y="54.61" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">D3</text>
-<text x="113.03" y="59.69" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
-<text x="113.03" y="43.18" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">A5</text>
-<text x="113.03" y="40.64" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">A4</text>
-<text x="113.03" y="29.21" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">A0</text>
-<text x="113.03" y="26.67" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">A1</text>
-<text x="113.03" y="31.75" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
-<text x="113.03" y="34.29" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">5V</text>
-<text x="113.03" y="20.32" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
-<text x="113.03" y="12.7" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
+<text x="1.27" y="47.625" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+15V</text>
+<text x="1.27" y="42.545" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">GND</text>
+<text x="1.27" y="45.085" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">D6</text>
+<text x="1.27" y="29.845" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">D7</text>
+<text x="1.27" y="27.305" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">GND</text>
+<text x="1.27" y="12.065" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">GND</text>
+<text x="1.27" y="14.605" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">D8</text>
+<text x="113.03" y="49.53" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">D9</text>
+<text x="113.03" y="52.07" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">D5</text>
+<text x="113.03" y="57.15" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">D4</text>
+<text x="113.03" y="54.61" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">D3</text>
+<text x="113.03" y="59.69" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
+<text x="113.03" y="43.18" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">A5</text>
+<text x="113.03" y="40.64" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">A4</text>
+<text x="113.03" y="29.21" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">A0</text>
+<text x="113.03" y="26.67" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">A1</text>
+<text x="113.03" y="31.75" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
+<text x="113.03" y="34.29" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">5V</text>
+<text x="113.03" y="20.32" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
+<text x="113.03" y="12.7" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">GND</text>
 <text x="97.155" y="2.54" size="0.8128" layer="25" font="vector" ratio="14" rot="R180" align="center">MD13S</text>
 <text x="44.7675" y="39.6875" size="0.8128" layer="25" font="vector" ratio="14" rot="R270" align="center">IBT2</text>
 <text x="44.45" y="77.47" size="0.8128" layer="25" font="vector" ratio="14" rot="R90" align="center">MDD10A</text>
-<text x="1.27" y="58.42" size="0.8128" layer="25" font="vector" ratio="14" rot="SR270" align="center">+5V</text>
-<text x="1.27" y="55.88" size="0.8128" layer="25" font="vector" ratio="14" rot="SR270" align="center">GND</text>
+<text x="1.27" y="58.42" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+5V</text>
+<text x="1.27" y="55.88" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">GND</text>
 <wire x1="0" y1="2.54" x2="0" y2="96.52" width="0" layer="20"/>
 <wire x1="2.54" y1="0" x2="111.76" y2="0" width="0" layer="20"/>
 <wire x1="2.54" y1="0" x2="0" y2="2.54" width="0" layer="20"/>
 <wire x1="111.76" y1="0" x2="114.3" y2="2.54" width="0" layer="20"/>
 <text x="109.22" y="66.675" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center">MD13S</text>
-<text x="1.27" y="32.385" size="0.8128" layer="25" font="vector" ratio="14" rot="SR270" align="center">+15V</text>
-<text x="1.27" y="17.145" size="0.8128" layer="25" font="vector" ratio="14" rot="SR270" align="center">+15V</text>
+<text x="1.27" y="32.385" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+15V</text>
+<text x="1.27" y="17.145" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+15V</text>
 <text x="69.85" y="6.985" size="0.8128" layer="21" font="vector" ratio="13" align="center">A1</text>
 <text x="56.515" y="6.985" size="0.8128" layer="21" font="vector" ratio="13" align="center">A2</text>
-<text x="113.03" y="15.24" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">A3</text>
-<text x="113.03" y="17.78" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">A2</text>
+<text x="113.03" y="15.24" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">A3</text>
+<text x="113.03" y="17.78" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">A2</text>
 <wire x1="2.54" y1="99.06" x2="111.76" y2="99.06" width="0" layer="20"/>
 <wire x1="0" y1="96.52" x2="2.54" y2="99.06" width="0" layer="20"/>
 <wire x1="111.76" y1="99.06" x2="114.3" y2="96.52" width="0" layer="20"/>
@@ -1750,7 +1750,7 @@ instead of resistors</text>
 <wire x1="68.58" y1="50.4825" x2="67.6275" y2="49.53" width="0.6096" layer="22"/>
 <text x="109.22" y="69.215" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center">IBT2</text>
 <text x="105.41" y="52.07" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">En</text>
-<text x="113.03" y="62.23" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center">+5V</text>
+<text x="113.03" y="62.23" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">+5V</text>
 <wire x1="109.5375" y1="60.96" x2="108.9025" y2="60.96" width="0.6096" layer="22"/>
 <text x="109.22" y="67.945" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center">MD10C</text>
 <text x="105.41" y="62.23" size="0.7112" layer="25" font="vector" ratio="17" rot="R270" align="center">+5V</text>
