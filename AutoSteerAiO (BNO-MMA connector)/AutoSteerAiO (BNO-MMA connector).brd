@@ -3,7 +3,7 @@
 <eagle version="9.4.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -11483,8 +11483,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="111.76" y1="59.69" x2="111.76" y2="64.4525" width="0.508" layer="16"/>
 <via x="56.1975" y="85.09" extent="1-16" drill="2.8" diameter="5" shape="square"/>
 <via x="50.4825" y="85.09" extent="1-16" drill="2.8" diameter="5" shape="square"/>
-<via x="101.9175" y="96.52" extent="1-16" drill="0.508"/>
-<via x="101.9175" y="91.44" extent="1-16" drill="0.508"/>
+<via x="102.235" y="96.52" extent="1-16" drill="0.508"/>
+<via x="102.235" y="91.44" extent="1-16" drill="0.508"/>
 <via x="48.5775" y="82.2325" extent="1-16" drill="0.508"/>
 <via x="58.1025" y="82.2325" extent="1-16" drill="0.508"/>
 <via x="89.2175" y="82.2325" extent="1-16" drill="0.508"/>
