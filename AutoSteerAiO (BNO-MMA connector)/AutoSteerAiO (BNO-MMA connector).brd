@@ -239,7 +239,7 @@ SWITCH</text>
 <wire x1="3.7973" y1="59.9948" x2="3.7973" y2="54.5973" width="0.2032" layer="21"/>
 <wire x1="6.3373" y1="66.0273" x2="6.3373" y2="60.6552" width="0.2032" layer="21"/>
 <wire x1="6.3373" y1="59.9948" x2="6.3373" y2="54.5973" width="0.2032" layer="21"/>
-<text x="1.27" y="62.23" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">GND</text>
+<text x="1.27" y="61.9125" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">GND</text>
 <text x="1.27" y="64.77" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+5V</text>
 <wire x1="3.7973" y1="60.6552" x2="6.3373" y2="60.6552" width="0.2032" layer="21"/>
 <wire x1="3.7973" y1="59.9948" x2="6.3373" y2="59.9948" width="0.2032" layer="21"/>
@@ -252,7 +252,7 @@ SWITCH</text>
 <text x="105.41" y="43.18" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">SCL</text>
 <text x="105.41" y="40.64" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">SDA</text>
 <text x="60.0075" y="80.645" size="1.27" layer="25" font="vector" ratio="15" align="center">MOTOR DRIVER</text>
-<text x="1.27" y="47.625" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+15V</text>
+<text x="1.27" y="47.9425" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+15V</text>
 <text x="1.27" y="42.545" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">GND</text>
 <text x="1.27" y="45.085" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">D6</text>
 <text x="1.27" y="29.845" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">D7</text>
@@ -275,15 +275,15 @@ SWITCH</text>
 <text x="97.155" y="2.54" size="0.8128" layer="25" font="vector" ratio="14" rot="R180" align="center">MD13S</text>
 <text x="44.7675" y="39.6875" size="0.8128" layer="25" font="vector" ratio="14" rot="R270" align="center">IBT2</text>
 <text x="44.45" y="77.47" size="0.8128" layer="25" font="vector" ratio="14" rot="R90" align="center">MDD10A</text>
-<text x="1.27" y="58.42" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+5V</text>
+<text x="1.27" y="58.7375" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+5V</text>
 <text x="1.27" y="55.88" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">GND</text>
 <wire x1="0" y1="2.54" x2="0" y2="96.52" width="0" layer="20"/>
 <wire x1="2.54" y1="0" x2="111.76" y2="0" width="0" layer="20"/>
 <wire x1="2.54" y1="0" x2="0" y2="2.54" width="0" layer="20"/>
 <wire x1="111.76" y1="0" x2="114.3" y2="2.54" width="0" layer="20"/>
 <text x="109.22" y="66.675" size="1.016" layer="25" font="vector" ratio="14" rot="R180" align="center">MD13S</text>
-<text x="1.27" y="32.385" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+15V</text>
-<text x="1.27" y="17.145" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+15V</text>
+<text x="1.27" y="32.7025" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+15V</text>
+<text x="1.27" y="17.4625" size="0.8636" layer="25" font="vector" ratio="15" rot="SR270" align="center">+15V</text>
 <text x="69.85" y="6.985" size="0.8128" layer="21" font="vector" ratio="13" align="center">A1</text>
 <text x="56.515" y="6.985" size="0.8128" layer="21" font="vector" ratio="13" align="center">A2</text>
 <text x="113.03" y="15.24" size="0.8636" layer="25" font="vector" ratio="15" rot="R270" align="center">A3</text>
@@ -1560,7 +1560,6 @@ ok</text>
 <wire x1="89.8525" y1="90.1065" x2="89.8525" y2="90.2589" width="0.1524" layer="21"/>
 <wire x1="89.8525" y1="90.2589" x2="89.8525" y2="90.4113" width="0.1524" layer="21"/>
 <wire x1="89.8525" y1="90.4113" x2="89.8525" y2="90.4875" width="0.1524" layer="21"/>
-<wire x1="96.8492" y1="90.1071" x2="96.846659375" y2="90.1071" width="0.1524" layer="21"/>
 <wire x1="96.5235" y1="90.1071" x2="96.5235" y2="90.2589" width="0.1524" layer="21"/>
 <wire x1="96.5235" y1="90.2589" x2="96.5235" y2="90.4113" width="0.1524" layer="21"/>
 <wire x1="96.5235" y1="90.4113" x2="96.5235" y2="90.4329" width="0.1524" layer="21"/>
@@ -1790,7 +1789,7 @@ ok</text>
 <wire x1="95.687159375" y1="89.5991" x2="96.846659375" y2="89.5991" width="0.1524" layer="21"/>
 <wire x1="94.909159375" y1="89.4461" x2="98.104959375" y2="89.4461" width="0.1524" layer="21"/>
 <wire x1="94.934559375" y1="90.2081" x2="98.104959375" y2="90.2081" width="0.1524" layer="21"/>
-<wire x1="96.846659375" y1="90.1071" x2="95.687159375" y2="90.1071" width="0.1524" layer="21"/>
+<wire x1="96.8492" y1="90.1071" x2="95.687159375" y2="90.1071" width="0.1524" layer="21"/>
 <wire x1="96.846659375" y1="90.3611" x2="95.687159375" y2="90.3611" width="0.1524" layer="21"/>
 <wire x1="96.846659375" y1="90.4881" x2="95.687159375" y2="90.4881" width="0.1524" layer="21"/>
 <wire x1="95.687159375" y1="89.2943" x2="96.846659375" y2="89.2943" width="0.1524" layer="21"/>
