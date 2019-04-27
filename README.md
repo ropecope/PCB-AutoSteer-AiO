@@ -5,8 +5,8 @@ Home: https://agopengps.jimdosite.com/ <br>
 Wiki: http://agopengps.gh-ortner.com/doku.php <br>
 Аrduino sketch <br>
 You can use arduino sketch From Coffeetrac <br>
-https://github.com/Coffeetrac/Autosteer_Switch <br>
-https://github.com/Coffeetrac/AutoSteer_Button <br>
+Switch: https://github.com/Coffeetrac/Autosteer_Switch <br>
+Button: https://github.com/Coffeetrac/AutoSteer_Button <br>
 And set in the setup zone PinMapping 1 <br>
 (#define PinMapping 1 = PCB Basic Autostee) <br>
 оr <br>
