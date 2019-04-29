@@ -24861,7 +24861,7 @@ Source: www.kingbright.com</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="ENCODER" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1" value="CONNECTOR 1x3 PINS">
+<part name="ENCODER" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1" value="CONNECTOR 1x3 PINS">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -25550,11 +25550,11 @@ NANO</text>
 <attribute name="MF" x="195.58" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="195.58" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="ENCODER" gate="G$1" x="147.32" y="177.8" smashed="yes">
-<attribute name="NAME" x="147.32" y="187.198" size="1.778" layer="95" font="vector" align="center"/>
-<attribute name="OC_NEWARK" x="147.32" y="177.8" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="147.32" y="177.8" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="147.32" y="177.8" size="1.778" layer="96" display="off"/>
+<instance part="ENCODER" gate="J$1" x="144.78" y="180.34" smashed="yes">
+<attribute name="NAME" x="144.78" y="189.738" size="1.778" layer="95" font="vector" align="center"/>
+<attribute name="OC_NEWARK" x="144.78" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="144.78" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="144.78" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R22" gate="G$1" x="195.58" y="185.42" smashed="yes">
 <attribute name="NAME" x="195.58" y="186.9186" size="1.778" layer="95" rot="R180" align="top-center"/>
@@ -26058,11 +26058,6 @@ NANO</text>
 <wire x1="187.96" y1="180.34" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ENCODER" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="177.8" x2="165.1" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="GND22" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="GND25" gate="1" pin="GND"/>
 <pinref part="5V" gate="G$1" pin="1"/>
 <wire x1="85.09" y1="270.51" x2="81.28" y2="270.51" width="0.1524" layer="91"/>
@@ -26076,6 +26071,11 @@ NANO</text>
 <pinref part="J3" gate="J$1" pin="3"/>
 <wire x1="45.72" y1="83.82" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
 <label x="38.1" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="GND22" gate="1" pin="GND"/>
+<pinref part="ENCODER" gate="J$1" pin="1"/>
+<wire x1="165.1" y1="177.8" x2="152.4" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -26176,9 +26176,6 @@ NANO</text>
 <wire x1="152.4" y1="160.02" x2="157.48" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="165.1" x2="157.48" y2="160.02" width="0.1524" layer="91"/>
 <junction x="157.48" y="165.1"/>
-<pinref part="ENCODER" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="160.02" x2="152.4" y2="175.26" width="0.1524" layer="91"/>
-<junction x="152.4" y="160.02"/>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
@@ -26565,20 +26562,6 @@ NANO</text>
 <pinref part="R23" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="OK4" gate="A" pin="C"/>
-<pinref part="ENCODER" gate="G$1" pin="3"/>
-<wire x1="170.18" y1="180.34" x2="152.4" y2="180.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="ENCODER" gate="G$1" pin="4"/>
-<wire x1="154.94" y1="182.88" x2="152.4" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="D5" gate="1" pin="C"/>
-</segment>
-</net>
 <net name="PWM2" class="0">
 <segment>
 <pinref part="IBT2" gate="G$1" pin="1"/>
@@ -26601,6 +26584,20 @@ NANO</text>
 <pinref part="J3" gate="J$1" pin="1"/>
 <wire x1="45.72" y1="88.9" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
 <label x="38.1" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="D5" gate="1" pin="C"/>
+<pinref part="ENCODER" gate="J$1" pin="3"/>
+<wire x1="154.94" y1="182.88" x2="152.4" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="ENCODER" gate="J$1" pin="2"/>
+<pinref part="OK4" gate="A" pin="C"/>
+<wire x1="152.4" y1="180.34" x2="170.18" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

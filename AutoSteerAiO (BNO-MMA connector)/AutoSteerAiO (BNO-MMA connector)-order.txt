@@ -1,9 +1,9 @@
 1x  ARDUINO NANO v3  ARDUINO-NANO									
 1x  ADS1115	    ADC-4CH-ADS1115
 4x  CONNECTOR        1X02 PINS							
-6x  CONNECTOR        1X03 PINS						
-4x  CONNECTOR        1X04 PINS										
-5x  CONNECTOR        2X04 PINS
+7x  CONNECTOR        1X03 PINS						
+3x  CONNECTOR        1X04 PINS										
+1x  CONNECTOR        2X04 PINS
 1x  CONNECTOR        1X05 PINS									
 7x  0.1uF 10V        C050-024X044						
 2x  10uF 35V         C050-024X044
