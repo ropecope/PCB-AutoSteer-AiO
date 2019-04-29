@@ -9785,51 +9785,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 </library>
-<library name="relay" urn="urn:adsk.eagle:library:339">
-<description>&lt;b&gt;Relays&lt;/b&gt;&lt;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Eichhoff
-&lt;li&gt;Finder
-&lt;li&gt;Fujitsu
-&lt;li&gt;HAMLIN
-&lt;li&gt;OMRON
-&lt;li&gt;Matsushita
-&lt;li&gt;NAiS
-&lt;li&gt;Siemens
-&lt;li&gt;Schrack
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="CB1" urn="urn:adsk.eagle:footprint:24128/1" library_version="4">
-<description>&lt;b&gt;HIGH POWER AUTOMOTIVE RELAY&lt;/b&gt; NAiS&lt;p&gt;
-Source: http://www.mew-europe.com/..  en_ds_61202_0000.pdf</description>
-<wire x1="-12.4" y1="10.15" x2="-12.4" y2="-10.15" width="0.2032" layer="21"/>
-<wire x1="-11.65" y1="-10.9" x2="11.65" y2="-10.9" width="0.2032" layer="21"/>
-<wire x1="12.4" y1="-10.15" x2="12.4" y2="10.15" width="0.2032" layer="21"/>
-<wire x1="11.65" y1="10.9" x2="-11.65" y2="10.9" width="0.2032" layer="21"/>
-<wire x1="-12.4" y1="10.15" x2="-11.65" y2="10.9" width="0.2032" layer="21" curve="-90"/>
-<wire x1="11.65" y1="10.9" x2="12.4" y2="10.15" width="0.2032" layer="21" curve="-90"/>
-<wire x1="12.4" y1="-10.15" x2="11.65" y2="-10.9" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-11.65" y1="-10.9" x2="-12.4" y2="-10.15" width="0.2032" layer="21" curve="-90"/>
-<pad name="30" x="8.95" y="0" drill="2.3" rot="R180"/>
-<pad name="87" x="-8.95" y="0" drill="2.3" rot="R180"/>
-<pad name="87A" x="-0.95" y="0" drill="2.3" rot="R180"/>
-<pad name="86" x="-0.55" y="8.4" drill="2.3" rot="R180"/>
-<pad name="85" x="-0.55" y="-8.4" drill="2.3" rot="R180"/>
-<text x="-10.16" y="3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-10.16" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="CB1" urn="urn:adsk.eagle:package:24437/1" type="box" library_version="4">
-<description>HIGH POWER AUTOMOTIVE RELAY NAiS
-Source: http://www.mew-europe.com/..  en_ds_61202_0000.pdf</description>
-<packageinstances>
-<packageinstance name="CB1"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="#Motor Drivers">
 <packages>
 <package name="IBT2">
@@ -10270,6 +10225,42 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 </packageinstances>
 </package3d>
 </packages3d>
+</library>
+<library name="#relay">
+<description>&lt;b&gt;Relays&lt;/b&gt;&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eichhoff
+&lt;li&gt;Finder
+&lt;li&gt;Fujitsu
+&lt;li&gt;HAMLIN
+&lt;li&gt;OMRON
+&lt;li&gt;Matsushita
+&lt;li&gt;NAiS
+&lt;li&gt;Siemens
+&lt;li&gt;Schrack
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="CB1">
+<description>&lt;b&gt;HIGH POWER AUTOMOTIVE RELAY&lt;/b&gt; NAiS&lt;p&gt;
+Source: http://www.mew-europe.com/..  en_ds_61202_0000.pdf</description>
+<wire x1="-12.4" y1="10.15" x2="-12.4" y2="-10.15" width="0.2032" layer="21"/>
+<wire x1="-11.65" y1="-10.9" x2="12.45" y2="-10.9" width="0.2032" layer="21"/>
+<wire x1="13.2" y1="-10.15" x2="13.2" y2="10.15" width="0.2032" layer="21"/>
+<wire x1="12.55" y1="10.9" x2="-11.65" y2="10.9" width="0.2032" layer="21"/>
+<wire x1="-12.4" y1="10.15" x2="-11.65" y2="10.9" width="0.2032" layer="21" curve="-90"/>
+<wire x1="12.55" y1="10.9" x2="13.2" y2="10.15" width="0.2032" layer="21" curve="-90"/>
+<wire x1="13.2" y1="-10.15" x2="12.45" y2="-10.9" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-11.65" y1="-10.9" x2="-12.4" y2="-10.15" width="0.2032" layer="21" curve="-90"/>
+<pad name="30" x="8.95" y="0" drill="2.3" diameter="4.2" rot="R180"/>
+<pad name="87" x="-8.95" y="0" drill="2.3" diameter="4.2" rot="R180"/>
+<pad name="87A" x="-0.95" y="0" drill="2.3" rot="R180"/>
+<pad name="86" x="-0.55" y="8.4" drill="2.3" diameter="4.2" rot="R180"/>
+<pad name="85" x="-0.55" y="-8.4" drill="2.3" diameter="4.2" rot="R180"/>
+<text x="-10.16" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.16" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
 </library>
 </libraries>
 <attributes>
@@ -10732,11 +10723,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="OC_NEWARK" value="88K1390" x="27.94" y="29.845" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="16.51" y="42.545" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="K4" library="relay" library_urn="urn:adsk.eagle:library:339" package="CB1" package3d_urn="urn:adsk.eagle:package:24437/1" value="CB1A-P-12V" x="83.82" y="66.9925" smashed="yes" rot="R180">
-<attribute name="MF" value="" x="83.82" y="66.9925" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="83.82" y="66.9925" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1270582" x="83.82" y="66.9925" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="83.82" y="66.9925" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="K4" library="#relay" package="CB1" value="CB1A-P-12V" x="83.82" y="66.9925" smashed="yes" rot="R180">
 <attribute name="VALUE" x="83.82" y="62.865" size="1.27" layer="25" font="vector" ratio="14" align="center"/>
 </element>
 <element name="OK2" library="#optocoupler" package="DIL06" package3d_urn="urn:adsk.eagle:package:21942/1" value="4N33" x="16.51" y="29.21" smashed="yes" rot="R180">
@@ -11607,7 +11594,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="93.98" y="73.66" extent="1-16" drill="0.508"/>
 <via x="80.645" y="76.5175" extent="1-16" drill="0.508"/>
 <via x="89.2175" y="79.375" extent="1-16" drill="0.508"/>
-<via x="85.4075" y="73.66" extent="1-16" drill="0.508"/>
 <via x="85.4075" y="70.8025" extent="1-16" drill="0.508"/>
 <via x="89.2175" y="73.66" extent="1-16" drill="0.508"/>
 <via x="93.98" y="70.8025" extent="1-16" drill="0.508"/>
