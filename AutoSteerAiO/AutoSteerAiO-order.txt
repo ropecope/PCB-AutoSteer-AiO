@@ -1,10 +1,9 @@
 1x  ARDUINO NANO v3  ARDUINO-NANO									
 1x  ADS1115	    ADC-4CH-ADS1115
-2x  CONNECTOR        1X01 PIN
-5x  CONNECTOR        1X02 PINS							
-3x  CONNECTOR        1X03 PINS						
-2x  CONNECTOR        1X04 PINS										
-1x  CONNECTOR        1X06 PINS - motor driver								
+4x  CONNECTOR        1X02 PINS							
+6x  CONNECTOR        1X03 PINS						
+3x  CONNECTOR        1X04 PINS										
+1x  CONNECTOR        2X04 PINS									
 7x  0.1uF 10V        C050-024X044						
 2x  10uF 35V         C050-024X044
 3x  22uF 10V	     C050-024X044						
@@ -12,16 +11,16 @@
 3x  1N4004	     DO41-10
 2x  1N5400	     DO-201
 1x  10uH	     0207/10						
-9x  1k	             0207/7
+13x 1k	             0207/7
 10x 330	             0207/7
 1x  5k7	             0207/7
 1x  BC547	     TO-92 									
 1x  CB1A-P-12V	     CB1											
-1x  LED	             LED5MM-Red
-1x  LED	             LED5MM-Blue	
-1x  LED	             LED5MM-Green									
-3x  4N33	     DIL06 (OPTOCOUPLER, PHOTO DARLINGTON, 5300VRMS)
-1x  VX7805-500	     VX7805500						
+1x  LED	             LED3MM
+1x  LED	             LED3MM	
+1x  LED	             LED3MM									
+4x  4N33	     DIL06 (OPTOCOUPLER, PHOTO DARLINGTON, 5300VRMS)
+1x  VX7805-500	     VX7805-500						
 1x  VX7805-1000	     VX7805-1000
 1x  MMA8452Q	     BREAKOUT_6PIN - SparkFun-3v3						
 or
@@ -33,4 +32,5 @@ or
 1x MD10c	    MD13S
 or						
 1x IBT2	            IBT2						
-						
+1x Flat ribbon cable 8 pin
+   Headers...
