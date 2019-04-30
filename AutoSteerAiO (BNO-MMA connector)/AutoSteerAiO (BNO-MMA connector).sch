@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24339,14 +24339,14 @@ Source: www.kingbright.com</description>
 <package name="CB1">
 <description>&lt;b&gt;HIGH POWER AUTOMOTIVE RELAY&lt;/b&gt; NAiS&lt;p&gt;
 Source: http://www.mew-europe.com/..  en_ds_61202_0000.pdf</description>
-<wire x1="-12.4" y1="10.15" x2="-12.4" y2="-10.15" width="0.2032" layer="21"/>
-<wire x1="-11.65" y1="-10.9" x2="12.45" y2="-10.9" width="0.2032" layer="21"/>
-<wire x1="13.2" y1="-10.15" x2="13.2" y2="10.15" width="0.2032" layer="21"/>
-<wire x1="12.55" y1="10.9" x2="-11.65" y2="10.9" width="0.2032" layer="21"/>
-<wire x1="-12.4" y1="10.15" x2="-11.65" y2="10.9" width="0.2032" layer="21" curve="-90"/>
-<wire x1="12.55" y1="10.9" x2="13.2" y2="10.15" width="0.2032" layer="21" curve="-90"/>
-<wire x1="13.2" y1="-10.15" x2="12.45" y2="-10.9" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-11.65" y1="-10.9" x2="-12.4" y2="-10.15" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-12.2" y1="10.15" x2="-12.2" y2="-10.15" width="0.2032" layer="21"/>
+<wire x1="-11.55" y1="-10.9" x2="13.45" y2="-10.9" width="0.2032" layer="21"/>
+<wire x1="14.282040625" y1="-10.16778125" x2="14.282040625" y2="10.13221875" width="0.2032" layer="21"/>
+<wire x1="13.55" y1="10.9" x2="-11.55" y2="10.9" width="0.2032" layer="21"/>
+<wire x1="-12.2" y1="10.15" x2="-11.55" y2="10.9" width="0.2032" layer="21" curve="-90"/>
+<wire x1="13.55" y1="10.9" x2="14.282040625" y2="10.13221875" width="0.2032" layer="21" curve="-90"/>
+<wire x1="14.282040625" y1="-10.16778125" x2="13.45" y2="-10.9" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-11.55" y1="-10.9" x2="-12.2" y2="-10.15" width="0.2032" layer="21" curve="-90"/>
 <pad name="30" x="8.95" y="0" drill="2.3" diameter="4.2" rot="R180"/>
 <pad name="87" x="-8.95" y="0" drill="2.3" diameter="4.2" rot="R180"/>
 <pad name="87A" x="-0.95" y="0" drill="2.3" rot="R180"/>
