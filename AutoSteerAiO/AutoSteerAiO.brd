@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -10257,14 +10257,14 @@ SparkFun</text>
 <package name="CB1">
 <description>&lt;b&gt;HIGH POWER AUTOMOTIVE RELAY&lt;/b&gt; NAiS&lt;p&gt;
 Source: http://www.mew-europe.com/..  en_ds_61202_0000.pdf</description>
-<wire x1="-12.4" y1="10.15" x2="-12.4" y2="-10.15" width="0.2032" layer="21"/>
-<wire x1="-11.65" y1="-10.9" x2="12.45" y2="-10.9" width="0.2032" layer="21"/>
-<wire x1="13.2" y1="-10.15" x2="13.2" y2="10.15" width="0.2032" layer="21"/>
-<wire x1="12.55" y1="10.9" x2="-11.65" y2="10.9" width="0.2032" layer="21"/>
-<wire x1="-12.4" y1="10.15" x2="-11.65" y2="10.9" width="0.2032" layer="21" curve="-90"/>
-<wire x1="12.55" y1="10.9" x2="13.2" y2="10.15" width="0.2032" layer="21" curve="-90"/>
-<wire x1="13.2" y1="-10.15" x2="12.45" y2="-10.9" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-11.65" y1="-10.9" x2="-12.4" y2="-10.15" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-12.2" y1="10.15" x2="-12.2" y2="-10.15" width="0.2032" layer="21"/>
+<wire x1="-11.55" y1="-10.9" x2="13.45" y2="-10.9" width="0.2032" layer="21"/>
+<wire x1="14.282040625" y1="-10.16778125" x2="14.282040625" y2="10.13221875" width="0.2032" layer="21"/>
+<wire x1="13.55" y1="10.9" x2="-11.55" y2="10.9" width="0.2032" layer="21"/>
+<wire x1="-12.2" y1="10.15" x2="-11.55" y2="10.9" width="0.2032" layer="21" curve="-90"/>
+<wire x1="13.55" y1="10.9" x2="14.282040625" y2="10.13221875" width="0.2032" layer="21" curve="-90"/>
+<wire x1="14.282040625" y1="-10.16778125" x2="13.45" y2="-10.9" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-11.55" y1="-10.9" x2="-12.2" y2="-10.15" width="0.2032" layer="21" curve="-90"/>
 <pad name="30" x="8.95" y="0" drill="2.3" diameter="4.2" rot="R180"/>
 <pad name="87" x="-8.95" y="0" drill="2.3" diameter="4.2" rot="R180"/>
 <pad name="87A" x="-0.95" y="0" drill="2.3" rot="R180"/>
@@ -11647,12 +11647,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="61.595" y="76.5175" extent="1-16" drill="0.508"/>
 <via x="75.8825" y="73.66" extent="1-16" drill="0.508"/>
 <via x="66.3575" y="67.945" extent="1-16" drill="0.508"/>
-<wire x1="64.77" y1="56.515" x2="36.83" y2="56.515" width="1.27" layer="1"/>
+<wire x1="64.135" y1="56.515" x2="36.83" y2="56.515" width="1.27" layer="1"/>
 <wire x1="34.925" y1="59.69" x2="34.925" y2="58.42" width="1.27" layer="1"/>
 <wire x1="36.83" y1="56.515" x2="34.925" y2="58.42" width="1.27" layer="1"/>
-<wire x1="74.87" y1="66.9925" x2="69.79" y2="66.9925" width="1.27" layer="1"/>
-<wire x1="69.79" y1="66.9925" x2="69.79" y2="61.535" width="1.27" layer="1"/>
-<wire x1="69.79" y1="61.535" x2="64.77" y2="56.515" width="1.27" layer="1"/>
+<wire x1="74.87" y1="66.9925" x2="68.58" y2="66.9925" width="1.27" layer="1"/>
+<wire x1="68.58" y1="66.9925" x2="68.58" y2="60.96" width="1.27" layer="1"/>
+<wire x1="68.58" y1="60.96" x2="64.135" y2="56.515" width="1.27" layer="1"/>
 <wire x1="33.3375" y1="62.865" x2="12.7" y2="62.865" width="0.8128" layer="1"/>
 <wire x1="12.7" y1="62.865" x2="10.795" y2="60.96" width="0.8128" layer="1"/>
 <wire x1="10.795" y1="59.69" x2="10.795" y2="60.96" width="0.8128" layer="1"/>
