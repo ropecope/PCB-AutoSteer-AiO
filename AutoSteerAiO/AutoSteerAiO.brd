@@ -3,7 +3,7 @@
 <eagle version="9.4.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -1820,7 +1820,7 @@ the resistor</text>
 <wire x1="53.3527" y1="25.7175" x2="53.3527" y2="26.3525" width="0.6096" layer="22"/>
 <wire x1="58.42" y1="24.13" x2="60.96" y2="24.13" width="0.127" layer="21"/>
 <wire x1="60.96" y1="24.13" x2="60.96" y2="21.59" width="0.127" layer="21"/>
-<text x="64.77" y="22.86" size="0.8636" layer="25" font="vector" ratio="15" rot="SR0" align="center">+5V</text>
+<text x="62.5475" y="22.86" size="0.8636" layer="25" font="vector" ratio="15" rot="SR0" align="center">+5V</text>
 <wire x1="55.88" y1="24.13" x2="55.88" y2="21.59" width="0.127" layer="21"/>
 <wire x1="60.96" y1="21.59" x2="55.88" y2="21.59" width="0.127" layer="21"/>
 <wire x1="58.42" y1="22.5425" x2="58.42" y2="23.1775" width="0.6096" layer="22"/>
