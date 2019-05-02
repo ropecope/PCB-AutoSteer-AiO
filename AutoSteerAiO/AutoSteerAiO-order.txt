@@ -11,16 +11,14 @@
 3x  1N4004	     DO41-10
 2x  1N5400	     DO-201
 1x  10uH	     0207/10						
-13x 1k	             0207/7
-10x 330	             0207/7
-1x  5k7	             0207/7
-1x  BC547	     TO-92 									
+16x 1k	             0207/7
+10x 330	             0207/7									
 1x  CB1A-P-12V	     CB1											
-1x  LED	             LED3MM
-1x  LED	             LED3MM	
-1x  LED	             LED3MM									
+5x  LED	             LED3MM									
 4x  4N33	     DIL06 (OPTOCOUPLER, PHOTO DARLINGTON, 5300VRMS)
-1x  VX7805-500	     VX7805-500						
+1x  VX7805-500 	     VX7805-500
+or 
+1x  LM7805	     TO-220			
 1x  VX7805-1000	     VX7805-1000
 1x  MMA8452Q	     BREAKOUT_6PIN - SparkFun-3v3						
 or
