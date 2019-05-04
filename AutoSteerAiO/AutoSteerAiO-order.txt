@@ -16,8 +16,6 @@
 1x  CB1A-P-12V	     CB1											
 5x  LED	             LED3MM									
 4x  4N33	     DIL06 (OPTOCOUPLER, PHOTO DARLINGTON, 5300VRMS)
-1x  VX7805-500 	     VX7805-500
-or 
 1x  LM7805	     TO-220			
 1x  VX7805-1000	     VX7805-1000
 1x  MMA8452Q	     BREAKOUT_6PIN - SparkFun-3v3						
