@@ -1,4 +1,4 @@
-# PCB-AutoSteer-With-Power-Supply-AiO
+# PCB-AutoSteer with Arduino Nano AiO
 AutoSteer For AgOpenGPS <br> 
 AGOpenGPS <br> 
 Home: https://agopengps.jimdosite.com/ <br>
