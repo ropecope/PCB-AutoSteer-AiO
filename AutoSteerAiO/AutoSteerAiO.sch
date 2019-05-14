@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -23796,11 +23796,6 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="RESET" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="CONNECTOR 1x2 PINS">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="U$8" library="#Logo" deviceset="SATELIT-MALI" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -23880,7 +23875,6 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -24234,6 +24228,11 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
+<part name="C16" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37412/1" value="1000uF 35V">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -24290,12 +24289,6 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <attribute name="OC_NEWARK" x="-5.08" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-5.08" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-5.08" y="157.48" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="RESET" gate="G$1" x="165.1" y="200.66" smashed="yes">
-<attribute name="NAME" x="162.56" y="206.248" size="1.778" layer="95" font="vector"/>
-<attribute name="OC_NEWARK" x="165.1" y="200.66" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="165.1" y="200.66" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="165.1" y="200.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$8" gate="G$1" x="250.19" y="118.11" smashed="yes">
 <attribute name="OC_NEWARK" x="250.19" y="118.11" size="1.778" layer="96" display="off"/>
@@ -24400,9 +24393,6 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 </instance>
 <instance part="GND8" gate="1" x="152.4" y="106.68" smashed="yes">
 <attribute name="VALUE" x="149.86" y="104.14" size="1.778" layer="96"/>
-</instance>
-<instance part="GND9" gate="1" x="175.26" y="198.12" smashed="yes">
-<attribute name="VALUE" x="172.72" y="195.58" size="1.778" layer="96"/>
 </instance>
 <instance part="GND15" gate="1" x="15.24" y="129.54" smashed="yes">
 <attribute name="VALUE" x="12.7" y="127" size="1.778" layer="96"/>
@@ -24564,22 +24554,22 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <attribute name="MF" x="106.68" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="106.68" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED2" gate="G$1" x="106.68" y="252.73" smashed="yes">
-<attribute name="NAME" x="110.236" y="248.158" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="112.395" y="248.158" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_NEWARK" x="106.68" y="252.73" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="106.68" y="252.73" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="106.68" y="252.73" size="1.778" layer="96" display="off"/>
+<instance part="LED2" gate="G$1" x="111.76" y="252.73" smashed="yes">
+<attribute name="NAME" x="115.316" y="248.158" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="117.475" y="248.158" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_NEWARK" x="111.76" y="252.73" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="111.76" y="252.73" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="111.76" y="252.73" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R16" gate="G$1" x="106.68" y="261.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="108.1786" y="261.62" size="1.778" layer="95" rot="R90" align="top-center"/>
-<attribute name="VALUE" x="105.41" y="261.62" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="OC_NEWARK" x="106.68" y="261.62" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="106.68" y="261.62" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="106.68" y="261.62" size="1.778" layer="96" display="off"/>
+<instance part="R16" gate="G$1" x="111.76" y="261.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="113.2586" y="261.62" size="1.778" layer="95" rot="R90" align="top-center"/>
+<attribute name="VALUE" x="110.49" y="261.62" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="OC_NEWARK" x="111.76" y="261.62" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="111.76" y="261.62" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="111.76" y="261.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND14" gate="1" x="106.68" y="243.84" smashed="yes">
-<attribute name="VALUE" x="104.14" y="241.3" size="1.778" layer="96"/>
+<instance part="GND14" gate="1" x="111.76" y="241.3" smashed="yes">
+<attribute name="VALUE" x="109.22" y="238.76" size="1.778" layer="96"/>
 </instance>
 <instance part="GND23" gate="1" x="53.34" y="205.74" smashed="yes">
 <attribute name="VALUE" x="50.8" y="203.2" size="1.778" layer="96"/>
@@ -24683,36 +24673,36 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <attribute name="MF" x="273.05" y="118.11" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="273.05" y="118.11" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND31" gate="1" x="63.5" y="243.84" smashed="yes">
-<attribute name="VALUE" x="60.96" y="241.3" size="1.778" layer="96"/>
+<instance part="GND31" gate="1" x="55.88" y="243.84" smashed="yes">
+<attribute name="VALUE" x="53.34" y="241.3" size="1.778" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="86.36" y="261.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="90.17" y="260.1214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="90.17" y="264.922" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="86.36" y="261.62" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="86.36" y="261.62" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="86.36" y="261.62" size="1.778" layer="96" display="off"/>
+<instance part="L1" gate="G$1" x="91.44" y="261.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="95.25" y="260.1214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="95.25" y="264.922" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_NEWARK" x="91.44" y="261.62" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="91.44" y="261.62" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="91.44" y="261.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C7" gate="G$1" x="72.39" y="254" smashed="yes" rot="R180">
-<attribute name="NAME" x="73.66" y="252.73" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="74.295" y="258.1275" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="72.39" y="254" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="72.39" y="254" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="72.39" y="254" size="1.778" layer="96" display="off"/>
+<instance part="C7" gate="G$1" x="64.77" y="254" smashed="yes" rot="R180">
+<attribute name="NAME" x="66.04" y="252.73" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="66.675" y="258.1275" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_NEWARK" x="64.77" y="254" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="64.77" y="254" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="64.77" y="254" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C8" gate="G$1" x="93.98" y="254" smashed="yes" rot="R180">
-<attribute name="NAME" x="92.075" y="252.73" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="97.79" y="258.1275" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="93.98" y="254" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="93.98" y="254" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="93.98" y="254" size="1.778" layer="96" display="off"/>
+<instance part="C8" gate="G$1" x="99.06" y="254" smashed="yes" rot="R180">
+<attribute name="NAME" x="97.155" y="252.73" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="102.87" y="258.1275" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_NEWARK" x="99.06" y="254" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="99.06" y="254" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="99.06" y="254" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C6" gate="G$1" x="53.34" y="254" smashed="yes" rot="R180">
-<attribute name="NAME" x="51.435" y="252.73" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="57.15" y="258.1275" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="53.34" y="254" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="53.34" y="254" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="53.34" y="254" size="1.778" layer="96" display="off"/>
+<instance part="C6" gate="G$1" x="45.72" y="254" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.815" y="252.73" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="49.53" y="258.1275" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_NEWARK" x="45.72" y="254" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="45.72" y="254" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="45.72" y="254" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="88.9" y="205.74" smashed="yes">
 <attribute name="VALUE" x="86.36" y="203.2" size="1.778" layer="96"/>
@@ -24909,9 +24899,9 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <attribute name="MF" x="185.42" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="185.42" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="7805" gate="1" x="63.5" y="261.62" smashed="yes">
-<attribute name="NAME" x="62.23" y="265.43" size="1.778" layer="95"/>
-<attribute name="VALUE" x="66.04" y="251.46" size="1.778" layer="96"/>
+<instance part="7805" gate="1" x="55.88" y="261.62" smashed="yes">
+<attribute name="NAME" x="54.61" y="265.43" size="1.778" layer="95"/>
+<attribute name="VALUE" x="58.42" y="251.46" size="1.778" layer="96"/>
 </instance>
 <instance part="GND7" gate="1" x="93.98" y="106.68" smashed="yes">
 <attribute name="VALUE" x="91.44" y="104.14" size="1.778" layer="96"/>
@@ -24935,8 +24925,8 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <instance part="GND29" gate="1" x="121.92" y="139.7" smashed="yes">
 <attribute name="VALUE" x="119.38" y="137.16" size="1.778" layer="96"/>
 </instance>
-<instance part="GND28" gate="1" x="175.26" y="213.36" smashed="yes">
-<attribute name="VALUE" x="172.72" y="210.82" size="1.778" layer="96"/>
+<instance part="GND28" gate="1" x="177.8" y="213.36" smashed="yes">
+<attribute name="VALUE" x="175.26" y="210.82" size="1.778" layer="96"/>
 </instance>
 <instance part="GND30" gate="1" x="195.58" y="213.36" smashed="yes">
 <attribute name="VALUE" x="193.04" y="210.82" size="1.778" layer="96"/>
@@ -24947,8 +24937,8 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <instance part="+3V2" gate="G$1" x="224.79" y="105.41" smashed="yes" rot="R180">
 <attribute name="VALUE" x="227.33" y="110.49" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="U$14" gate="G$1" x="100.33" y="243.84" smashed="yes" rot="R180">
-<attribute name="VALUE" x="96.52" y="248.92" size="1.778" layer="96" rot="R270"/>
+<instance part="U$14" gate="G$1" x="105.41" y="243.84" smashed="yes" rot="R180">
+<attribute name="VALUE" x="101.6" y="248.92" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="U$15" gate="G$1" x="101.6" y="137.16" smashed="yes" rot="R180">
 <attribute name="VALUE" x="102.87" y="137.16" size="1.778" layer="96"/>
@@ -24956,12 +24946,19 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <instance part="U$16" gate="G$1" x="91.44" y="162.56" smashed="yes" rot="R180">
 <attribute name="VALUE" x="92.71" y="162.56" size="1.778" layer="96"/>
 </instance>
-<instance part="C15" gate="G$1" x="78.74" y="254" smashed="yes" rot="R180">
-<attribute name="NAME" x="81.28" y="252.73" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="80.645" y="258.1275" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="78.74" y="254" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="78.74" y="254" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="78.74" y="254" size="1.778" layer="96" display="off"/>
+<instance part="C15" gate="G$1" x="83.82" y="254" smashed="yes" rot="R180">
+<attribute name="NAME" x="86.36" y="252.73" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="85.725" y="258.1275" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_NEWARK" x="83.82" y="254" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="83.82" y="254" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="83.82" y="254" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C16" gate="G$1" x="73.66" y="256.54" smashed="yes">
+<attribute name="NAME" x="74.676" y="257.175" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="80.899" y="244.094" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="OC_NEWARK" x="73.66" y="256.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="73.66" y="256.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="73.66" y="256.54" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -25035,18 +25032,6 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="173.99" x2="162.56" y2="173.99" width="0.1524" layer="91"/>
 <label x="162.56" y="173.99" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RST" class="0">
-<segment>
-<pinref part="RESET" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="203.2" x2="175.26" y2="203.2" width="0.1524" layer="91"/>
-<label x="172.72" y="203.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="PCB1" gate="G$1" pin="RST."/>
-<wire x1="210.82" y1="137.16" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
-<label x="219.71" y="137.16" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -25210,11 +25195,6 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <junction x="172.72" y="134.62"/>
 </segment>
 <segment>
-<pinref part="RESET" gate="G$1" pin="1"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="175.26" y1="200.66" x2="172.72" y2="200.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="224.79" y1="121.92" x2="224.79" y2="127" width="0.1524" layer="91"/>
@@ -25258,7 +25238,7 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="106.68" y1="246.38" x2="106.68" y2="247.65" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="243.84" x2="111.76" y2="247.65" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
@@ -25280,24 +25260,28 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="251.46" x2="53.34" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="248.92" x2="63.5" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="251.46" x2="45.72" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="248.92" x2="55.88" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="248.92" x2="72.39" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="72.39" y1="248.92" x2="78.74" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="248.92" x2="93.98" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="248.92" x2="93.98" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="248.92" x2="64.77" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="64.77" y1="248.92" x2="73.66" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="248.92" x2="83.82" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="248.92" x2="99.06" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="248.92" x2="99.06" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="72.39" y1="251.46" x2="72.39" y2="248.92" width="0.1524" layer="91"/>
-<junction x="72.39" y="248.92"/>
+<wire x1="64.77" y1="251.46" x2="64.77" y2="248.92" width="0.1524" layer="91"/>
+<junction x="64.77" y="248.92"/>
 <pinref part="GND31" gate="1" pin="GND"/>
-<wire x1="63.5" y1="246.38" x2="63.5" y2="248.92" width="0.1524" layer="91"/>
-<junction x="63.5" y="248.92"/>
+<wire x1="55.88" y1="246.38" x2="55.88" y2="248.92" width="0.1524" layer="91"/>
+<junction x="55.88" y="248.92"/>
 <pinref part="7805" gate="1" pin="GND"/>
-<wire x1="63.5" y1="254" x2="63.5" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="254" x2="55.88" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="251.46" x2="78.74" y2="248.92" width="0.1524" layer="91"/>
-<junction x="78.74" y="248.92"/>
+<wire x1="83.82" y1="251.46" x2="83.82" y2="248.92" width="0.1524" layer="91"/>
+<junction x="83.82" y="248.92"/>
+<pinref part="C16" gate="G$1" pin="-"/>
+<wire x1="73.66" y1="251.46" x2="73.66" y2="248.92" width="0.1524" layer="91"/>
+<junction x="73.66" y="248.92"/>
 </segment>
 <segment>
 <pinref part="WAS_D" gate="G$1" pin="2"/>
@@ -25378,9 +25362,10 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <pinref part="GND30" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="1" gate="J$1" pin="1"/>
-<wire x1="172.72" y1="215.9" x2="175.26" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="1" gate="J$1" pin="3"/>
 <pinref part="GND28" gate="1" pin="GND"/>
+<wire x1="172.72" y1="220.98" x2="177.8" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="220.98" x2="177.8" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
@@ -25619,7 +25604,7 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="106.68" y1="256.54" x2="106.68" y2="255.27" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="256.54" x2="111.76" y2="255.27" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -25699,10 +25684,10 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <net name="N$26" class="0">
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="261.62" x2="53.34" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="261.62" x2="53.34" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="261.62" x2="48.26" y2="261.62" width="0.1524" layer="91"/>
-<junction x="53.34" y="261.62"/>
+<wire x1="48.26" y1="261.62" x2="45.72" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="261.62" x2="45.72" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="261.62" x2="40.64" y2="261.62" width="0.1524" layer="91"/>
+<junction x="45.72" y="261.62"/>
 <pinref part="7805" gate="1" pin="IN"/>
 <pinref part="D3" gate="1" pin="C"/>
 <pinref part="D2" gate="1" pin="C"/>
@@ -25710,8 +25695,7 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <wire x1="27.94" y1="231.14" x2="30.48" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="+"/>
 <wire x1="30.48" y1="231.14" x2="40.64" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="231.14" x2="48.26" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="231.14" x2="53.34" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="231.14" x2="53.34" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="223.52" x2="40.64" y2="231.14" width="0.1524" layer="91"/>
 <junction x="40.64" y="231.14"/>
 <pinref part="U1" gate="G$1" pin="+VIN"/>
@@ -25719,8 +25703,8 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <wire x1="53.34" y1="231.14" x2="53.34" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="223.52" x2="30.48" y2="231.14" width="0.1524" layer="91"/>
 <junction x="30.48" y="231.14"/>
-<wire x1="48.26" y1="261.62" x2="48.26" y2="231.14" width="0.1524" layer="91"/>
-<junction x="48.26" y="231.14"/>
+<wire x1="40.64" y1="261.62" x2="40.64" y2="231.14" width="0.1524" layer="91"/>
+<junction x="40.64" y="231.14"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -25742,14 +25726,14 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 </net>
 <net name="A+5V" class="0">
 <segment>
-<wire x1="93.98" y1="261.62" x2="93.98" y2="259.08" width="0.1524" layer="91"/>
-<junction x="93.98" y="261.62"/>
+<wire x1="99.06" y1="261.62" x2="99.06" y2="259.08" width="0.1524" layer="91"/>
+<junction x="99.06" y="261.62"/>
 <label x="105.41" y="236.22" size="1.778" layer="95"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="261.62" x2="93.98" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="261.62" x2="99.06" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="261.62" x2="100.33" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="100.33" y1="261.62" x2="100.33" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="261.62" x2="105.41" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="105.41" y1="261.62" x2="105.41" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="U$14" gate="G$1" pin="A+5V"/>
 </segment>
 <segment>
@@ -25766,19 +25750,23 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <net name="N$25" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="261.62" x2="78.74" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="261.62" x2="83.82" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="261.62" x2="72.39" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="72.39" y1="261.62" x2="71.12" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="72.39" y1="259.08" x2="72.39" y2="261.62" width="0.1524" layer="91"/>
-<junction x="72.39" y="261.62"/>
-<wire x1="72.39" y1="261.62" x2="72.39" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="261.62" x2="73.66" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="261.62" x2="64.77" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="64.77" y1="261.62" x2="63.5" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="64.77" y1="259.08" x2="64.77" y2="261.62" width="0.1524" layer="91"/>
+<junction x="64.77" y="261.62"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="72.39" y1="266.7" x2="106.68" y2="266.7" width="0.1524" layer="91"/>
 <pinref part="7805" gate="1" pin="OUT"/>
 <pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="259.08" x2="78.74" y2="261.62" width="0.1524" layer="91"/>
-<junction x="78.74" y="261.62"/>
+<wire x1="83.82" y1="266.7" x2="111.76" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="259.08" x2="83.82" y2="261.62" width="0.1524" layer="91"/>
+<junction x="83.82" y="261.62"/>
+<wire x1="83.82" y1="261.62" x2="83.82" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="+"/>
+<wire x1="73.66" y1="259.08" x2="73.66" y2="261.62" width="0.1524" layer="91"/>
+<junction x="73.66" y="261.62"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -25809,9 +25797,9 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <label x="219.71" y="116.84" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="1" gate="J$1" pin="2"/>
-<wire x1="172.72" y1="218.44" x2="175.26" y2="218.44" width="0.1524" layer="91"/>
-<label x="172.72" y="218.44" size="1.778" layer="95"/>
+<pinref part="1" gate="J$1" pin="1"/>
+<wire x1="172.72" y1="215.9" x2="175.26" y2="215.9" width="0.1524" layer="91"/>
+<label x="172.72" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -25828,9 +25816,9 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 </net>
 <net name="A0" class="0">
 <segment>
-<pinref part="1" gate="J$1" pin="3"/>
-<wire x1="172.72" y1="220.98" x2="175.26" y2="220.98" width="0.1524" layer="91"/>
-<label x="172.72" y="220.98" size="1.778" layer="95"/>
+<pinref part="1" gate="J$1" pin="2"/>
+<wire x1="172.72" y1="218.44" x2="175.26" y2="218.44" width="0.1524" layer="91"/>
+<label x="172.72" y="218.44" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="A0"/>
