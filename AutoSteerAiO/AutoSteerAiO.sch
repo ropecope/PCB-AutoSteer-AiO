@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24233,6 +24233,13 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
+<part name="15V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="CONNECTOR 1x2 PINS">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device=""/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24960,6 +24967,18 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <attribute name="MF" x="73.66" y="256.54" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="73.66" y="256.54" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="15V" gate="G$1" x="7.62" y="209.55" smashed="yes">
+<attribute name="NAME" x="5.08" y="215.138" size="1.778" layer="95" font="vector"/>
+<attribute name="OC_NEWARK" x="7.62" y="209.55" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="7.62" y="209.55" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="7.62" y="209.55" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="P+4" gate="1" x="21.59" y="212.09" smashed="yes" rot="R270">
+<attribute name="VALUE" x="16.51" y="214.63" size="1.778" layer="96"/>
+</instance>
+<instance part="GND9" gate="1" x="19.05" y="207.01" smashed="yes">
+<attribute name="VALUE" x="16.51" y="204.47" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -25403,6 +25422,11 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <pinref part="ENCODER" gate="J$1" pin="1"/>
 <wire x1="15.24" y1="177.8" x2="2.54" y2="177.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="15V" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="209.55" x2="19.05" y2="209.55" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="D5" class="0">
 <segment>
@@ -25506,6 +25530,11 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="187.96" x2="7.62" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="P+12" gate="1" pin="+15V"/>
+</segment>
+<segment>
+<pinref part="15V" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="212.09" x2="19.05" y2="212.09" width="0.1524" layer="91"/>
+<pinref part="P+4" gate="1" pin="+15V"/>
 </segment>
 </net>
 <net name="HIGH" class="0">
