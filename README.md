@@ -12,4 +12,4 @@ And set in the setup zone PinMapping 1 <br>
 (#define PinMapping 1 = PCB Basic Autostee) <br>
 оr <br>
 AutoSteerArduinoCode From farmerbriantee <br>
-https://github.com/farmerbriantee/AgOpenGPS/tree/master/AgOpenGPS/Arduino%20Code
+https://github.com/farmerbriantee/AgOpenGPS/tree/master/ArduinoCode/AutosteerPCBv2
