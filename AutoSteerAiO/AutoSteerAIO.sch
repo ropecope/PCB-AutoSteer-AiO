@@ -23700,7 +23700,7 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="78XXS" urn="urn:adsk.eagle:component:30381/1" prefix="IC" uservalue="yes" library_version="3">
+<deviceset name="78XXS" urn="urn:adsk.eagle:component:30381/2" prefix="IC" uservalue="yes" library_version="4">
 <description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="78XX" x="0" y="0"/>
@@ -23716,7 +23716,9 @@ standard rectifier, 3 A, 50 V (Motorola)</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30342/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="18" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -24295,22 +24297,27 @@ SparkFun</text>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$13" library="#MMA8542Q" deviceset="MMA8542Q" device=""/>
+<part name="OR" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1" value="CONNECTOR 1x3 PINS">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<wire x1="160.02" y1="228.6" x2="160.02" y2="191.77" width="0.1524" layer="97"/>
-<wire x1="200.66" y1="228.6" x2="200.66" y2="191.77" width="0.1524" layer="97"/>
+<wire x1="160.02" y1="228.6" x2="160.02" y2="209.55" width="0.1524" layer="97"/>
+<wire x1="200.66" y1="228.6" x2="200.66" y2="209.55" width="0.1524" layer="97"/>
 <wire x1="200.66" y1="228.6" x2="160.02" y2="228.6" width="0.1524" layer="97"/>
-<wire x1="200.66" y1="191.77" x2="160.02" y2="191.77" width="0.1524" layer="97"/>
+<wire x1="200.66" y1="209.55" x2="160.02" y2="209.55" width="0.1524" layer="97"/>
 <wire x1="55.88" y1="101.6" x2="-17.78" y2="101.6" width="0.1524" layer="97"/>
 <wire x1="-17.78" y1="198.12" x2="-17.78" y2="101.6" width="0.1524" layer="97"/>
 <wire x1="55.88" y1="101.6" x2="55.88" y2="198.12" width="0.1524" layer="97"/>
 <wire x1="55.88" y1="198.12" x2="-17.78" y2="198.12" width="0.1524" layer="97"/>
-<wire x1="219.71" y1="153.67" x2="160.02" y2="153.67" width="0.1524" layer="97"/>
-<wire x1="219.71" y1="189.23" x2="160.02" y2="189.23" width="0.1524" layer="97"/>
-<wire x1="219.71" y1="153.67" x2="219.71" y2="189.23" width="0.1524" layer="97"/>
-<wire x1="160.02" y1="153.67" x2="160.02" y2="189.23" width="0.1524" layer="97"/>
+<wire x1="242.57" y1="161.29" x2="160.02" y2="161.29" width="0.1524" layer="97"/>
+<wire x1="242.57" y1="194.31" x2="160.02" y2="194.31" width="0.1524" layer="97"/>
+<wire x1="242.57" y1="161.29" x2="242.57" y2="194.31" width="0.1524" layer="97"/>
+<wire x1="160.02" y1="161.29" x2="160.02" y2="194.31" width="0.1524" layer="97"/>
 <wire x1="58.42" y1="101.6" x2="58.42" y2="198.12" width="0.1524" layer="97"/>
 <wire x1="157.48" y1="101.6" x2="157.48" y2="198.12" width="0.1524" layer="97"/>
 <wire x1="157.48" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="97"/>
@@ -24323,10 +24330,10 @@ SparkFun</text>
 <wire x1="232.41" y1="101.6" x2="160.02" y2="101.6" width="0.1524" layer="97"/>
 <wire x1="232.41" y1="151.13" x2="160.02" y2="151.13" width="0.1524" layer="97"/>
 <wire x1="232.41" y1="101.6" x2="232.41" y2="151.13" width="0.1524" layer="97"/>
-<wire x1="198.12" y1="261.62" x2="160.02" y2="261.62" width="0.1524" layer="97"/>
-<wire x1="198.12" y1="231.14" x2="160.02" y2="231.14" width="0.1524" layer="97"/>
+<wire x1="195.58" y1="261.62" x2="160.02" y2="261.62" width="0.1524" layer="97"/>
+<wire x1="195.58" y1="231.14" x2="160.02" y2="231.14" width="0.1524" layer="97"/>
 <wire x1="160.02" y1="261.62" x2="160.02" y2="231.14" width="0.1524" layer="97"/>
-<wire x1="198.12" y1="261.62" x2="198.12" y2="231.14" width="0.1524" layer="97"/>
+<wire x1="195.58" y1="261.62" x2="195.58" y2="231.14" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="PCB1" gate="G$1" x="193.04" y="124.46" smashed="yes" rot="R90">
@@ -24396,12 +24403,12 @@ SparkFun</text>
 <attribute name="MF" x="152.4" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="152.4" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R8" gate="G$1" x="170.18" y="173.99" smashed="yes" rot="R180">
-<attribute name="NAME" x="170.18" y="175.26" size="1.778" layer="95" rot="R180" align="top-center"/>
-<attribute name="VALUE" x="171.45" y="172.212" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="170.18" y="173.99" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="170.18" y="173.99" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="170.18" y="173.99" size="1.778" layer="96" display="off"/>
+<instance part="R8" gate="G$1" x="170.18" y="181.61" smashed="yes" rot="R180">
+<attribute name="NAME" x="170.18" y="182.88" size="1.778" layer="95" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="171.45" y="179.832" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_NEWARK" x="170.18" y="181.61" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="170.18" y="181.61" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="170.18" y="181.61" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="109.22" y="157.48" smashed="yes">
 <attribute name="NAME" x="109.22" y="158.9786" size="1.778" layer="95" rot="R180" align="top-center"/>
@@ -24417,12 +24424,12 @@ SparkFun</text>
 <attribute name="MF" x="109.22" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="109.22" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R9" gate="G$1" x="170.18" y="166.37" smashed="yes" rot="R180">
-<attribute name="NAME" x="170.18" y="167.64" size="1.778" layer="95" rot="R180" align="top-center"/>
-<attribute name="VALUE" x="171.45" y="164.592" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="170.18" y="166.37" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="170.18" y="166.37" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="170.18" y="166.37" size="1.778" layer="96" display="off"/>
+<instance part="R9" gate="G$1" x="170.18" y="173.99" smashed="yes" rot="R180">
+<attribute name="NAME" x="170.18" y="175.26" size="1.778" layer="95" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="171.45" y="172.212" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_NEWARK" x="170.18" y="173.99" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="170.18" y="173.99" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="170.18" y="173.99" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IMP-SWITCH" gate="J$1" x="-5.08" y="134.62" smashed="yes">
 <attribute name="NAME" x="-5.08" y="141.478" size="1.778" layer="95" font="vector" align="center"/>
@@ -24494,12 +24501,12 @@ SparkFun</text>
 <attribute name="MF" x="-12.7" y="227.33" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-12.7" y="227.33" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R19" gate="G$1" x="170.18" y="181.61" smashed="yes" rot="R180">
-<attribute name="NAME" x="170.18" y="182.88" size="1.778" layer="95" rot="R180" align="top-center"/>
-<attribute name="VALUE" x="171.45" y="179.832" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="170.18" y="181.61" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="170.18" y="181.61" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="170.18" y="181.61" size="1.778" layer="96" display="off"/>
+<instance part="R19" gate="G$1" x="170.18" y="189.23" smashed="yes" rot="R180">
+<attribute name="NAME" x="170.18" y="190.5" size="1.778" layer="95" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="171.45" y="187.452" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_NEWARK" x="170.18" y="189.23" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="170.18" y="189.23" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="170.18" y="189.23" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C13" gate="G$1" x="137.16" y="147.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="135.255" y="144.78" size="1.778" layer="95" rot="R180" align="top-center"/>
@@ -24871,19 +24878,19 @@ SparkFun</text>
 <attribute name="MF" x="-12.7" y="209.55" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-12.7" y="209.55" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="IBT2" gate="A" x="200.66" y="176.53" smashed="yes">
-<attribute name="VALUE" x="196.85" y="169.164" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="196.596" y="184.658" size="1.778" layer="95" font="vector"/>
-<attribute name="OC_NEWARK" x="200.66" y="176.53" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="200.66" y="176.53" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="200.66" y="176.53" size="1.778" layer="96" display="off"/>
+<instance part="IBT2" gate="A" x="200.66" y="184.15" smashed="yes">
+<attribute name="VALUE" x="196.85" y="176.784" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="196.596" y="192.278" size="1.778" layer="95" font="vector"/>
+<attribute name="OC_NEWARK" x="200.66" y="184.15" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="200.66" y="184.15" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="200.66" y="184.15" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J3" gate="J$1" x="203.2" y="163.83" smashed="yes" rot="R180">
-<attribute name="VALUE" x="205.74" y="171.196" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="205.74" y="158.242" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="OC_NEWARK" x="203.2" y="163.83" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="203.2" y="163.83" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="203.2" y="163.83" size="1.778" layer="96" display="off"/>
+<instance part="J3" gate="J$1" x="236.22" y="186.69" smashed="yes" rot="R180">
+<attribute name="VALUE" x="238.76" y="194.056" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="238.76" y="181.102" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="OC_NEWARK" x="236.22" y="186.69" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="236.22" y="186.69" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="236.22" y="186.69" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R24" gate="G$1" x="45.72" y="193.04" smashed="yes">
 <attribute name="NAME" x="45.72" y="194.5386" size="1.778" layer="95" rot="R180" align="top-center"/>
@@ -24936,13 +24943,13 @@ SparkFun</text>
 <instance part="GND11" gate="1" x="102.87" y="162.56" smashed="yes">
 <attribute name="VALUE" x="100.33" y="160.02" size="1.778" layer="96"/>
 </instance>
-<instance part="GND12" gate="1" x="214.63" y="171.45" smashed="yes">
-<attribute name="VALUE" x="212.09" y="168.91" size="1.778" layer="96"/>
+<instance part="GND12" gate="1" x="212.09" y="179.07" smashed="yes">
+<attribute name="VALUE" x="209.55" y="176.53" size="1.778" layer="96"/>
 </instance>
-<instance part="GND26" gate="1" x="189.23" y="158.75" smashed="yes">
-<attribute name="VALUE" x="186.69" y="156.21" size="1.778" layer="96"/>
+<instance part="GND26" gate="1" x="224.79" y="181.61" smashed="yes">
+<attribute name="VALUE" x="222.25" y="179.07" size="1.778" layer="96"/>
 </instance>
-<instance part="P+14" gate="1" x="187.96" y="171.45" smashed="yes" rot="R180"/>
+<instance part="P+14" gate="1" x="190.5" y="179.07" smashed="yes" rot="R180"/>
 <instance part="GND27" gate="1" x="101.6" y="147.955" smashed="yes">
 <attribute name="VALUE" x="99.06" y="145.415" size="1.778" layer="96"/>
 </instance>
@@ -25038,6 +25045,12 @@ SparkFun</text>
 <attribute name="VALUE" x="127" y="106.68" size="1.778" layer="96"/>
 </instance>
 <instance part="U$13" gate="G$1" x="106.68" y="111.76" smashed="yes"/>
+<instance part="OR" gate="J$1" x="236.22" y="172.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="233.68" y="165.862" size="1.778" layer="95" font="vector" rot="R180" align="center"/>
+<attribute name="OC_NEWARK" x="236.22" y="172.72" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MF" x="236.22" y="172.72" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="236.22" y="172.72" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -25067,8 +25080,8 @@ SparkFun</text>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="181.61" x2="162.56" y2="181.61" width="0.1524" layer="91"/>
-<label x="162.56" y="181.61" size="1.778" layer="95"/>
+<wire x1="165.1" y1="189.23" x2="162.56" y2="189.23" width="0.1524" layer="91"/>
+<label x="162.56" y="189.23" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -25096,8 +25109,8 @@ SparkFun</text>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="166.37" x2="162.56" y2="166.37" width="0.1524" layer="91"/>
-<label x="162.56" y="166.37" size="1.778" layer="95"/>
+<wire x1="165.1" y1="173.99" x2="162.56" y2="173.99" width="0.1524" layer="91"/>
+<label x="162.56" y="173.99" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -25108,8 +25121,8 @@ SparkFun</text>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="173.99" x2="162.56" y2="173.99" width="0.1524" layer="91"/>
-<label x="162.56" y="173.99" size="1.778" layer="95"/>
+<wire x1="165.1" y1="181.61" x2="162.56" y2="181.61" width="0.1524" layer="91"/>
+<label x="162.56" y="181.61" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -25168,8 +25181,8 @@ SparkFun</text>
 </segment>
 <segment>
 <pinref part="IBT2" gate="A" pin="7"/>
-<wire x1="198.12" y1="173.99" x2="187.96" y2="173.99" width="0.1524" layer="91"/>
-<label x="187.96" y="173.99" size="1.778" layer="95"/>
+<wire x1="198.12" y1="181.61" x2="190.5" y2="181.61" width="0.1524" layer="91"/>
+<label x="187.96" y="181.61" size="1.778" layer="95"/>
 <pinref part="P+14" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -25462,12 +25475,12 @@ SparkFun</text>
 </segment>
 <segment>
 <pinref part="IBT2" gate="A" pin="8"/>
-<wire x1="205.74" y1="173.99" x2="214.63" y2="173.99" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="181.61" x2="212.09" y2="181.61" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J3" gate="J$1" pin="3"/>
-<wire x1="195.58" y1="161.29" x2="189.23" y2="161.29" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="184.15" x2="224.79" y2="184.15" width="0.1524" layer="91"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -25510,14 +25523,9 @@ SparkFun</text>
 <label x="168.91" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IBT2" gate="A" pin="3"/>
-<wire x1="198.12" y1="179.07" x2="189.23" y2="179.07" width="0.1524" layer="91"/>
-<label x="185.42" y="179.07" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IBT2" gate="A" pin="4"/>
-<wire x1="205.74" y1="179.07" x2="214.63" y2="179.07" width="0.1524" layer="91"/>
-<label x="215.265" y="179.07" size="1.778" layer="95"/>
+<pinref part="OR" gate="J$1" pin="1"/>
+<wire x1="228.6" y1="175.26" x2="226.06" y2="175.26" width="0.1524" layer="91"/>
+<label x="223.52" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -25776,18 +25784,18 @@ SparkFun</text>
 <net name="PWM1" class="0">
 <segment>
 <pinref part="IBT2" gate="A" pin="2"/>
-<wire x1="205.74" y1="181.61" x2="214.63" y2="181.61" width="0.1524" layer="91"/>
-<label x="210.82" y="181.61" size="1.778" layer="95"/>
+<wire x1="205.74" y1="189.23" x2="212.09" y2="189.23" width="0.1524" layer="91"/>
+<label x="210.82" y="189.23" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="173.99" x2="180.34" y2="173.99" width="0.1524" layer="91"/>
-<label x="175.26" y="173.99" size="1.778" layer="95"/>
+<wire x1="175.26" y1="181.61" x2="177.8" y2="181.61" width="0.1524" layer="91"/>
+<label x="175.26" y="181.61" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J3" gate="J$1" pin="2"/>
-<wire x1="195.58" y1="163.83" x2="189.23" y2="163.83" width="0.1524" layer="91"/>
-<label x="185.42" y="163.83" size="1.778" layer="95"/>
+<wire x1="228.6" y1="186.69" x2="224.79" y2="186.69" width="0.1524" layer="91"/>
+<label x="220.98" y="186.69" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -25972,25 +25980,30 @@ SparkFun</text>
 <net name="PWM2" class="0">
 <segment>
 <pinref part="IBT2" gate="A" pin="1"/>
-<wire x1="198.12" y1="181.61" x2="189.23" y2="181.61" width="0.1524" layer="91"/>
-<label x="185.42" y="181.61" size="1.778" layer="95"/>
+<wire x1="198.12" y1="189.23" x2="191.77" y2="189.23" width="0.1524" layer="91"/>
+<label x="185.42" y="189.23" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="181.61" x2="180.34" y2="181.61" width="0.1524" layer="91"/>
-<label x="175.26" y="181.61" size="1.778" layer="95"/>
+<wire x1="175.26" y1="189.23" x2="177.8" y2="189.23" width="0.1524" layer="91"/>
+<label x="175.26" y="189.23" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIR" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="166.37" x2="180.34" y2="166.37" width="0.1524" layer="91"/>
-<label x="175.26" y="166.37" size="1.778" layer="95"/>
+<wire x1="175.26" y1="173.99" x2="177.8" y2="173.99" width="0.1524" layer="91"/>
+<label x="175.26" y="173.99" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J3" gate="J$1" pin="1"/>
-<wire x1="195.58" y1="166.37" x2="189.23" y2="166.37" width="0.1524" layer="91"/>
-<label x="185.42" y="166.37" size="1.778" layer="95"/>
+<wire x1="228.6" y1="189.23" x2="224.79" y2="189.23" width="0.1524" layer="91"/>
+<label x="223.52" y="189.23" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OR" gate="J$1" pin="3"/>
+<wire x1="228.6" y1="170.18" x2="226.06" y2="170.18" width="0.1524" layer="91"/>
+<label x="223.52" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SAO" class="0">
@@ -26056,6 +26069,21 @@ SparkFun</text>
 <net name="N$27" class="0">
 <segment>
 <wire x1="137.16" y1="209.55" x2="137.16" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EN" class="0">
+<segment>
+<pinref part="IBT2" gate="A" pin="3"/>
+<wire x1="198.12" y1="186.69" x2="187.96" y2="186.69" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="186.69" x2="187.96" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="OR" gate="J$1" pin="2"/>
+<wire x1="187.96" y1="172.72" x2="228.6" y2="172.72" width="0.1524" layer="91"/>
+<label x="200.66" y="172.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IBT2" gate="A" pin="4"/>
+<wire x1="205.74" y1="186.69" x2="212.09" y2="186.69" width="0.1524" layer="91"/>
+<label x="210.185" y="186.69" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
