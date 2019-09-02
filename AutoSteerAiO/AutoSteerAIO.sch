@@ -24309,6 +24309,13 @@ SparkFun</text>
 </part>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device=""/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="5V2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="CONNECTOR 1x2 PINS">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25070,6 +25077,18 @@ SparkFun</text>
 <instance part="GND32" gate="1" x="135.89" y="219.71" smashed="yes">
 <attribute name="VALUE" x="133.35" y="217.17" size="1.778" layer="96"/>
 </instance>
+<instance part="5V2" gate="G$1" x="7.62" y="222.25" smashed="yes">
+<attribute name="NAME" x="5.08" y="227.838" size="1.778" layer="95" font="vector"/>
+<attribute name="OC_NEWARK" x="7.62" y="222.25" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="7.62" y="222.25" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="7.62" y="222.25" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="P+18" gate="1" x="21.59" y="224.79" smashed="yes" rot="R270">
+<attribute name="VALUE" x="16.51" y="227.33" size="1.778" layer="96"/>
+</instance>
+<instance part="GND35" gate="1" x="19.05" y="217.17" smashed="yes">
+<attribute name="VALUE" x="16.51" y="214.63" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -25218,6 +25237,11 @@ SparkFun</text>
 <pinref part="5V1" gate="G$1" pin="2"/>
 <pinref part="P+15" gate="1" pin="+5V"/>
 <wire x1="15.24" y1="212.09" x2="19.05" y2="212.09" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="5V2" gate="G$1" pin="2"/>
+<pinref part="P+18" gate="1" pin="+5V"/>
+<wire x1="15.24" y1="224.79" x2="19.05" y2="224.79" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -25538,6 +25562,12 @@ SparkFun</text>
 <pinref part="15V2" gate="G$1" pin="1"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="132.08" y1="222.25" x2="135.89" y2="222.25" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND35" gate="1" pin="GND"/>
+<pinref part="5V2" gate="G$1" pin="1"/>
+<wire x1="19.05" y1="219.71" x2="19.05" y2="222.25" width="0.1524" layer="91"/>
+<wire x1="19.05" y1="222.25" x2="15.24" y2="222.25" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D5" class="0">
