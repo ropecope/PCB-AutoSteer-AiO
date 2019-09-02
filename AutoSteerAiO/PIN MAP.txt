@@ -1,0 +1,25 @@
+***ARDUINO pinout***
+
+ENCODER       D2
+STEERSWITCH   D6  
+WORKSWITCH    D7  
+REMOTE        D8  
+PWM1          D3  // LPWM IBT2
+DIR           D4  // or Enable IBT2
+PWM2          D9  // RPWM IBT2
+LED      	  D5  // Autosteer LED or Enable IBT2
+//
+W_A_S         A0  
+Dogs2_Roll    A1  
+//
+RELAY1	   	  A2  
+RELAY2        A3  
+RELAY3        A0  
+RELAY4        A1  
+//
+ethercard 10,11,12,13  
+
+***ADC***
+W_A_S 		  A0 sense HIGH
+			  A1 sense LOW
+			  
