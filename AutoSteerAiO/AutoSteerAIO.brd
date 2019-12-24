@@ -11845,30 +11845,19 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="8.6995" y1="86.36" x2="8.7" y2="86.3595" width="0.8128" layer="1"/>
 <wire x1="8.7" y1="86.3595" x2="8.7" y2="80.645" width="0.8128" layer="1"/>
 <wire x1="28.575" y1="76.835" x2="28.575" y2="84.7725" width="1.016" layer="1"/>
-<wire x1="28.575" y1="84.7725" x2="23.1375" y2="90.21" width="1.016" layer="1"/>
+<wire x1="28.575" y1="84.7725" x2="24.4075" y2="88.94" width="1.016" layer="1"/>
 <wire x1="15.24" y1="85.725" x2="15.24" y2="80.645" width="0.8128" layer="1"/>
 <contactref element="7805" pad="IN"/>
-<wire x1="15.24" y1="85.725" x2="15.24" y2="86.4" width="0.8128" layer="1"/>
-<polygon width="0.1524" layer="1" thermals="no">
-<vertex x="5.08" y="91.44"/>
-<vertex x="19.05" y="91.44"/>
-<vertex x="19.05" y="88.9"/>
-<vertex x="16.8275" y="86.6775"/>
-<vertex x="16.8275" y="79.6925"/>
-<vertex x="6.985" y="79.6925"/>
-<vertex x="6.985" y="86.995"/>
-<vertex x="5.08" y="88.9"/>
-</polygon>
 <wire x1="34.925" y1="76.835" x2="28.575" y2="76.835" width="1.016" layer="1"/>
 <contactref element="C5" pad="2"/>
 <contactref element="C15" pad="+"/>
-<wire x1="15.24" y1="88.9" x2="15.24" y2="85.725" width="0.8128" layer="1"/>
-<wire x1="23.1375" y1="90.21" x2="16.55" y2="90.21" width="1.016" layer="1"/>
+<wire x1="24.4075" y1="88.94" x2="15.28" y2="88.94" width="1.016" layer="1"/>
 <wire x1="8.6995" y1="86.36" x2="8.6995" y2="89.9795" width="1.016" layer="1"/>
 <wire x1="8.89" y1="90.17" x2="8.6995" y2="89.9795" width="1.016" layer="1"/>
-<wire x1="15.24" y1="88.9" x2="10.16" y2="88.9" width="1.016" layer="1"/>
-<wire x1="8.89" y1="90.17" x2="10.16" y2="88.9" width="1.016" layer="1"/>
-<wire x1="15.24" y1="88.9" x2="16.55" y2="90.21" width="1.016" layer="1"/>
+<wire x1="8.89" y1="90.17" x2="13.97" y2="90.17" width="1.016" layer="1"/>
+<wire x1="15.24" y1="88.9" x2="13.97" y2="90.17" width="1.016" layer="1"/>
+<wire x1="15.24" y1="88.9" x2="15.28" y2="88.94" width="1.016" layer="1"/>
+<wire x1="15.24" y1="88.9" x2="15.24" y2="85.725" width="0.8128" layer="1"/>
 </signal>
 <signal name="D2">
 <contactref element="PCB1" pad="D2"/>
