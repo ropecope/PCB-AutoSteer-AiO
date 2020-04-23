@@ -31020,6 +31020,11 @@ Created by: Wai Weng</description>
 </part>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="RST" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="CONNECTOR 1x2 PINS">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -31766,6 +31771,12 @@ Created by: Wai Weng</description>
 <instance part="GND24" gate="1" x="60.96" y="116.84" smashed="yes">
 <attribute name="VALUE" x="58.42" y="114.3" size="1.778" layer="96"/>
 </instance>
+<instance part="RST" gate="G$1" x="195.58" y="167.64" smashed="yes">
+<attribute name="NAME" x="195.58" y="174.498" size="1.778" layer="95" font="vector" align="center"/>
+<attribute name="OC_NEWARK" x="195.58" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="195.58" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="195.58" y="167.64" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -32004,12 +32015,12 @@ Created by: Wai Weng</description>
 <wire x1="210.82" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="139.7" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="PCB1" gate="G$1" pin="GND"/>
-<wire x1="177.8" y1="134.62" x2="172.72" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="134.62" x2="163.83" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="134.62" x2="163.83" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="GND33" gate="1" pin="GND"/>
-<wire x1="215.9" y1="147.32" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="134.62" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
-<junction x="172.72" y="134.62"/>
+<wire x1="215.9" y1="147.32" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="134.62" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
+<junction x="167.64" y="134.62"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
@@ -32230,6 +32241,11 @@ Created by: Wai Weng</description>
 <pinref part="MMA8542" gate="G$1" pin="SAO"/>
 <wire x1="68.58" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="RST" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="167.64" x2="210.82" y2="167.64" width="0.1524" layer="91"/>
+<label x="205.74" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -32801,6 +32817,18 @@ Created by: Wai Weng</description>
 <pinref part="PCB1" gate="G$1" pin="A7"/>
 <wire x1="210.82" y1="132.08" x2="215.9" y2="132.08" width="0.1524" layer="91"/>
 <label x="213.36" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RST" class="0">
+<segment>
+<pinref part="PCB1" gate="G$1" pin="RST."/>
+<wire x1="210.82" y1="137.16" x2="220.98" y2="137.16" width="0.1524" layer="91"/>
+<label x="215.9" y="137.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RST" gate="G$1" pin="2"/>
+<wire x1="203.2" y1="170.18" x2="210.82" y2="170.18" width="0.1524" layer="91"/>
+<label x="205.74" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
